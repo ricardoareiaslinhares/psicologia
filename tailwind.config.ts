@@ -13,8 +13,20 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      backgroundColor: {
+        whiteRose: "rgb(255, 250, 250)",
+        middleBackground: "rgb(246,241,228)"
+      },
+      height: {
+        cardHeight:"200px"
+      },
+      width:{
+        cardHeight:"300px"
+      }
     },
   },
   plugins: [],
 }
 export default config
+
+

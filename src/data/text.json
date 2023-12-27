@@ -1,0 +1,40 @@
+{
+  "pt": {
+    "section1Title": "Como são as consultas de Psicologia...",
+    "section1Desc1": "As consultas de psicologia são um espaço onde o(a) cliente e o psicólogo se sentam em igualdade. Há apenas uma diferença: enquanto o psicólogo é quem conhece a psicologia, o(a) cliente é quem conhece a sua vida. Partindo desta união de conhecimentos e do trabalho em equipa, tornam-se possíveis o autoconhecimento e a resolução dos problemas e dificuldades insuperáveis, que têm vindo a trazer angústia e sofrimento.",
+    "section1Desc2": "Neste encontro, exploram-se situações e momentos de dificuldade (quer pareçam ser muitos, poucos, pequenos ou grandes), visa-se expandir a capacidade de os reconhecer, conhecer e estar em contacto com o que está presente nessas alturas e, assim, conseguir tomar as decisões que lhe trazem maior satisfação e o(a) levam de encontro àquilo que valoriza.",
+    "section2Title": "",
+    "section2Desc1": "Há momentos em que os nossos próprios processos psicológicos (pensamentos, emoções, sentimentos, memórias, preocupações, sensações físicas e impulsos...) se parecem voltar contra nós. Sentimos uma esmagadora tristeza, ansiedade, preocupação, vergonha, pânico e muito mais.",
+    "section2Desc2": "Quando a experiência de alguma emoção ou pensamento se torna intolerável, há sempre um custo; e quem tem essas experiências sabe que esse custo torna-se cada vez maior e impede-nos de viver a vida que gostaríamos.",
+    "section2Desc3": "A psicologia oferece-nos o conhecimento e as ferramentas mais eficazes para mudar a experiência intolerável dos eventos psicológicos. Com trabalho e treino nestas ferramentas psicológicas o(a) cliente consegue ultrapassar as dificuldades, problemas e bloqueios que lhe estão a impedir de viver a vida que deseja.",
+    "card1Title": "Consulta no âmbito da Saúde Psicológica",
+    "card1Desc": "Consultas direcionadas a superar estados internos angustiantes como depressão, ansiedade, pânico, OCD, irritabilidade e outros.",
+    "card2Title": "Preparação para processos de Avaliações Psicológica",
+    "card2Desc": "Destaque-se em processos de recrutamento e seleção, e demonstre com confiança a sua aptidão psicológica para a função que pretende.",
+    "button1": "Marcar Consulta",
+    "c": {
+      "nome": "Nome",
+      "nomeplace": "O seu nome",
+      "mensagem": "Mensagem",
+      "menplace": "Escreva aqui a sua mensagem...",
+      "send": "Enviar",
+      "sending": "a enviar...",
+      "mailplace": "exemplo@dominio.com",
+      "feedback": "Mensagem enviada com sucesso"
+    },
+    "navbar": {
+      "home": "Home",
+      "sobre": {
+        "title": "Sobre",
+        "link1": "Sobre mim",
+        "link2": "Sobre a Psicologia"
+      },
+      "servicos": {
+        "title": "Serviços",
+        "link1": "Consultas Psicologia",
+        "link2": "Preparação R&S"
+      },
+      "blog": "Blog"
+    }
+  }
+}
