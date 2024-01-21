@@ -26,7 +26,7 @@ const Footer = ({}: Props) => {
   }, [buttonShow]);
 
   return (
-    <div className="w-full  flex flex-1 flex-col  h-[520px]   ">
+    <div className="w-full  flex flex-1 flex-col sm:h-[520px]   ">
       <h2 className="text-center sm:text-left text-xl font-bold">Contactos</h2>
 
       <div className="flex flex-1 flex-col lg:flex-row justify-between gap-8 flex-wrap mt-4 ">
