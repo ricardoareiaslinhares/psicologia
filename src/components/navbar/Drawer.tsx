@@ -87,7 +87,10 @@ export function Drawer({ myLinks }: Props) {
           } else {
             return (
               <Button key={indexLink} variant={"ghost"}>
+                  <SheetClose asChild>
+
                 <Link href={link.href ?? ""}>{link.name}</Link>
+                  </SheetClose>
               </Button>
             );
           }
