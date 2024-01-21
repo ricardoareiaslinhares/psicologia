@@ -36,6 +36,10 @@ const Blogs = async ({}) => {
 
           {blogPosts.map((post:any) => {
             const poster = post.fields as BlogPost;
+            const imageLink = poster.media.fields.file.url as string
+            const modifiedI = "https:" + imageLink
+            let ggg = "https://images.ctfassets.net/zf61hcfx2teh/4clkx8mnZwGDP1TuLLgMBS/123ca05f2a7c16a7ebb70dc1c8654ccc/consultaImage.png"
+            console.log(imageLink)
             return (
               <>
                 <CardMain
@@ -43,7 +47,7 @@ const Blogs = async ({}) => {
                   title={poster.titulo}
                   desc={poster.shortDesc}
                   link={`/blog/${post.sys.id}`}
-                  imageUrl={poster.media.fields.file.url}
+                  imageUrl={modifiedI}
                   imageName={poster.media.fields.title}
                   isVerticalOnly={true}
                 />

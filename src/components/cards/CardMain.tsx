@@ -34,7 +34,7 @@ const handleClick = () => {
         sizes='100vw'
           alt={`${imageName} || "imagem psicologia barcelos"`}
           src={imageUrl}
-        ></Image>
+        />
       </div>
       <div className="flex flex-1  sm:basis-3/5 px-4 py-2 flex-col justify-evenly self-start  ">
         <Link href={`${link}`}>
