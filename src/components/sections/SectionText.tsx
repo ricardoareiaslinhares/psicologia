@@ -3,27 +3,34 @@ import React from "react";
 
 type Props = {
   title?: string;
-  desc1: string;
-  desc2?: string;
-  desc3?: string;
-  desc4?: string;
-  desc5?: string;
+  titleSpace?:string;
+  desc1?: React.ReactNode;
+  desc2?: React.ReactNode;
+  desc2Small?:boolean;
+  desc3?: React.ReactNode;
+
+  desc4?: React.ReactNode;
+  desc5?: React.ReactNode;
+  desc6?: React.ReactNode;
+  desc7?: React.ReactNode;
 };
 
-const SectionText = ({ title, desc1, desc2, desc3, desc4, desc5 }: Props) => {
+const SectionText = ({ title, titleSpace, desc1, desc2, desc2Small, desc3, desc4, desc5, desc6, desc7 }: Props) => {
 
 
   return (
     <div className="flex flex-col flex-1 w-full">
       <div className="flex flex-1 flex-col">
-        {title? <h1 className="text-lg font-bold mb-4 text-center sm:text-left ">{title}</h1> : null}
+        {title? <h1 className={`text-xl font-bold text-center sm:text-left ${titleSpace ? titleSpace : "mb-4"} `}>{title}</h1> : null}
     
-        <p className="text-md">{desc1}</p>
-        <p className="text-md mt-2">{desc2}</p>
-
-        {desc3 ? <p className="text-md mt-2">{desc3}</p> : null}
-        {desc4 ? <p className="text-md mt-2">{desc4}</p> : null}
-        {desc5 ? <p className="text-md mt-2">{desc5}</p> : null}
+        <p className="text-md text-secondary leading-7">{desc1}</p>
+    
+        {desc2 ? <p className={` text-secondary leading-7 ${desc2Small ? "text-sm mt-1" : "text-md mt-2"} `}>{desc2}</p> : null}
+        {desc3 ? <p className="text-md mt-2 text-secondary leading-7">{desc3}</p> : null}
+        {desc4 ? <p className="text-md mt-2 text-secondary leading-7">{desc4}</p> : null}
+        {desc5 ? <p className="text-md mt-2 text-secondary leading-7">{desc5}</p> : null}
+        {desc6 ? <p className="text-md mt-2 text-secondary leading-7">{desc6}</p> : null}
+        {desc7 ? <p className="text-md mt-2 text-secondary leading-7">{desc7}</p> : null}
       </div>
     </div>
   );

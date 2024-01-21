@@ -1,0 +1,11 @@
+.labelText {
+    background-color: rgb(226, 223, 210, 0.95);
+    padding: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+    transform: translateY(-8px);
+    border-radius: 5px;
+    cursor: pointer;
+
+    
+}

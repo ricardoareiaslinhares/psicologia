@@ -1,0 +1,56 @@
+import React from "react";
+import text from "@/data/text.json";
+import { language } from "@/utils/language";
+import SectionText from "@/components/sections/SectionText";
+import TogetherAction from "@/components/actionCall/Together";
+
+type Props = {};
+
+const Preparacao = (props: Props) => {
+  return (
+    <main className="flex min-h-screen flex-col items-center justify-start  w-full z-0 overflow-hidden ">
+      <section className="flex  w-full max-w-screen-xl  px-8 md:px-24 pt-8 flex-wrap   ">
+  
+   
+      <div className="flex flex-1 flex-col md:flex-row gap-6 mb-6 ">
+      <SectionText
+          title={text[language].ServicosPreparacao.titulo}
+          desc1={text[language].ServicosPreparacao.desc1}
+          desc2={text[language].ServicosPreparacao.desc2}
+        />
+
+          <img
+            src={"/psicologiaTrabalhoAvaliacao.png"}
+            alt="Preparação para Avaliações Psicológicas imagem"
+            className=" w-[300px] h-[300px] bg-red-800 flex self-start"
+          />
+        </div>
+        </section>
+      <section className="flex  w-full  pt-8">
+        <div className="flex flex-1 bg-muted  py-6 items-center justify-center">
+          <h4 className="text-lg text-center font-bold px-8 md:px-24 max-w-screen-xl">
+            {text[language].ServicosPreparacao.desc3}
+          </h4>
+        </div>
+      </section>
+      <section className="flex  w-full max-w-screen-xl  px-8 md:px-24 pt-8 flex-wrap   ">
+        <SectionText
+          desc1={text[language].ServicosPreparacao.desc4}
+          desc2={text[language].ServicosPreparacao.desc5}
+        />
+      </section>
+      <section className="flex  w-full  pt-8">
+        <div className="flex flex-1 bg-muted  py-6 items-center justify-center">
+          <h4 className="text-lg text-center font-bold px-8 md:px-24 max-w-screen-xl">
+            {text[language].ServicosPreparacao.desc6}
+          </h4>
+        </div>
+      </section>
+      <section className="flex  w-full max-w-screen-xl  px-8 md:px-24 py-8 flex-wrap items-center justify-center   ">
+      <TogetherAction/>
+      </section>
+    </main>
+  );
+};
+
+export default Preparacao;

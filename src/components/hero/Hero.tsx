@@ -12,11 +12,11 @@ const Hero = ({}: Props) => {
         
         className='bg-cover bg-center bg-no-repeat absolute -z-1 object-cover w-full h-full opacity-40'
         />
-  <div className=" z-10 flex flex-1 flex-row items-center px-8 sm:px-24 flex-wrap sm:flex-nowrap justify-around">
-        <div className="flex basis-2/4 ">
-            <h1 className='text-lg font-bold'>Consultas de Psicologia</h1>
+  <div className=" z-10 flex flex-1 flex-col sm:flex-row items-center px-8 md:px-24 flex-wrap sm:flex-nowrap justify-center sm:justify-around max-w-screen-2xl  self-center">
+        <div className="flex flex-1  items-center ">
+            <h1 className='text-xl sm:text-7xl font-bold'>Consultas de Psicologia</h1>
         </div>
-        <div className="flex basis-1/4 flex-col gap-y-4">
+        <div className="flex flex-1 flex-col gap-y-4  w-full">
             <p 
             className='text-md font-bold'
             >● Psicoterapia / Terapia</p>

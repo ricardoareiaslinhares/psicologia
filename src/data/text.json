@@ -1,7 +1,7 @@
 {
   "pt": {
     "section1Title": "Como são as consultas de Psicologia...",
-    "section1Desc1": "As consultas de psicologia são um espaço onde o(a) cliente e o psicólogo se sentam em igualdade. Há apenas uma diferença: enquanto o psicólogo é quem conhece a psicologia, o(a) cliente é quem conhece a sua vida. Partindo desta união de conhecimentos e do trabalho em equipa, tornam-se possíveis o autoconhecimento e a resolução dos problemas e dificuldades insuperáveis, que têm vindo a trazer angústia e sofrimento.",
+    "section1Desc1": "As consultas de psicologia são um espaço onde duas pessoas sentam-se em igualdade. Há apenas uma diferença: enquanto o psicólogo é quem conhece a psicologia, o(a) cliente é quem conhece a sua vida. É desta união de conhecimentos e do trabalho em equipa, que se torna possível o autoconhecimento e a resolução dos problemas e dificuldades, que têm vindo a trazer angústia e sofrimento.",
     "section1Desc2": "Neste encontro, exploram-se situações e momentos de dificuldade (quer pareçam ser muitos, poucos, pequenos ou grandes), visa-se expandir a capacidade de os reconhecer, conhecer e estar em contacto com o que está presente nessas alturas e, assim, conseguir tomar as decisões que lhe trazem maior satisfação e o(a) levam de encontro àquilo que valoriza.",
     "section2Title": "",
     "section2Desc1": "Há momentos em que os nossos próprios processos psicológicos (pensamentos, emoções, sentimentos, memórias, preocupações, sensações físicas e impulsos...) se parecem voltar contra nós. Sentimos uma esmagadora tristeza, ansiedade, preocupação, vergonha, pânico e muito mais.",
@@ -17,16 +17,16 @@
       "nomeplace": "O seu nome",
       "mensagem": "Mensagem",
       "menplace": "Escreva aqui a sua mensagem...",
-      "send": "Enviar",
+      "send": "Enviar email",
       "sending": "a enviar...",
-      "mailplace": "exemplo@dominio.com",
-      "feedback": "Mensagem enviada com sucesso"
+      "mailplace": "O seu email",
+      "feedback": "Email enviada com sucesso"
     },
     "navbar": {
       "home": "Home",
       "sobre": {
         "title": "Sobre",
-        "link1": "Sobre mim",
+        "link1": "Sobre o Psicólogo",
         "link2": "Sobre a Psicologia"
       },
       "servicos": {
@@ -35,6 +35,69 @@
         "link2": "Preparação R&S"
       },
       "blog": "Blog"
+    },
+    "sobrePsicologo":{
+      "titulo": "Sobre o Psicólogo",
+      "desc1":"Olá. Chamo-me Ricardo Linhares, sou psicólogo e membro efetivo da Ordem dos Psicólogos Portugueses (CP: 27338).",
+      "desc2":"Sou licenciado em Psicologia e mestre em Psicologia do Trabalho e das Organizações pela Universidade Católica Portuguesa (Braga), com especialização em Psicologia Clínica e da Saúde pela Universidade da Maia. ",
+      "desc3":"Iniciei a minha carreira na área das Organizações, onde efetuei diversas entrevistas de recrutamento e seleção, análises de perfis profissionais e estudei o impacto de riscos psicossociais (como o burnout) na vida pessoal e profissional das pessoas. ",
+      "desc4":"Em 2020, tive interesse em explorar outras áreas da psicologia. Então, fundei 'Ricardo Linhares Consultas de Psicologia', como forma de poder atuar no desenvolvimento psicológico em geral e de poder contribuir nas áreas de investigação e publicação de conhecimento sobre psicologia.",
+      "desc5":"Ao nível das Consultas de Psicologia, foco o meu trabalho nas denominadas Perturbações Emocionais, isto é, estados em que as emoções se encontram perturbadas, tais como depressão, burnout, stresse, ansiedade, obsessões-compulsões e ataques de pânico.",
+      "desc6":"Como método de intervenção psicológica utilizo dois dos modelos psicológicos mais atuais e mais importantes nos últimos anos: Terapia de Aceitação e Compromisso e o Protocolo Unificado (a unificação de diferentes variantes da Terapia Cognitiva-Comportamental), tendo extensa formação específica nestas abordagens."
+    },
+    "sobrePsicologia":{
+      "titulo": "Sobre as Consultas de Psicologia",
+      "desc1":"As Consultas de Psicologia enquadram-se num modelo denominado Flexibilidade Psicológica:",
+      "desc2":"a habilidade para responder de formas que facilitam viver uma vida com propósito e de acordo com o que é importante para a pessoa, mesmo quando surgem desafios e dificuldades.",
+      "desc3":"Deste modo, psicólogo e cliente, trabalham no sentido de aumentar a Flexibilidade em pensamento, emoções e comportamento.",
+      "desc4":"Na data de dezembro de 2022, existiam 1014 ensaios clínicos controlados, sobre a aplicação deste modelo⁰. Sendo que em 2020 foi elaborada uma revisão dos estudos realizados a esse ponto, realçando a sua eficácia numa série de problemas, condições e dificuldades¹.",
+      "desc5":"Intervenções com o objetivo de aumentar Flexibilidade Psicológica, foram aplicadas com sucesso a uma série de contextos e problemas como saúde mental¹⋅⁴⁴, performance desportiva²⁻⁴, desenvolvimento empresarial (como performance e burnout)⁵⁻⁹, dor crónica¹⁰⁻¹¹, obesidade¹²⁻¹⁴, consumo de substâncias (como tabaco)¹⁵⁻¹⁶, gerir diabetes¹⁴⋅¹⁷ e outros.",
+      "desc6":"Nós sabemos que o seu oposto - Inflexibilidade Psicológica - é responsável por diversas formas de sofrimento emocional e mental³⁹. Está na base dos problemas a que chamamos depressão¹⁸⁻²¹ᵇ, nas diversas formas de ansiedade²²⁻²⁵ e outros. ",
+      "desc7":"Por outro lado, também sabemos que pessoas com maior Flexibilidade Psicológica têm relações interpessoais mais satisfatórias (incluindo parentalidade)²⁶⁻²⁸, estão mais contentes com os seus empregos²⁹⁻³³ e têm saúde mental, mesmo quando coisas muito más acontecem³⁴⁻³⁸.",
+      "desc8":"Flexibilidade Psicológica é acima de tudo um modelo de qualidade de vida³⁹⁻⁴¹ e portanto é aplicável a praticamente todo o tipo de problemas humanos. De facto, a Organização Mundial da Saúde (OMS; World Health Organization) utiliza intervenções psicológicas baseadas neste modelo, indicando que é útil 'para qualquer pessoa que experiencie stresse, independentemente de onde vive e das suas circunstâncias'⁴²⁻⁴³.",
+      "desc9":"Flexibilidade Psicológica pode ser promovida por diversos programas de intervenção. Aqui, utilizamos uma abordagem combinada entre as psicoterapias de Treino / Terapia de Aceitação e Compromisso e do Protocolo Unificado de Terapia Cognitiva-Comportamental para o Tratamento de Perturbações Emocionais.",
+      "pu":"A abordagem psicológica do Protocolo Unificado (originado pelos psicólogos David H. Barlow, Shannon Sauer-Zavala e muitos outros) foca em como as pessoas experienciam e respondem às suas emoções, revelando e atuando nos mecanismos psicológicos que estão em funcionamento nas experiências emocionais intensas e assoberbantes, como nos casos da depressão, ansiedade, irritabilidade, raiva, pânico...",
+      "act":"O Treino / Terapia de Aceitação e Compromisso (originado pelos psicólogos Steven Hayes, Kirk Strosahl e Kelly Wilson), proporciona valiosos insights sobre o sofrimento humano, sobre o funcionamento da mente e sobre como adotar uma postura de compreensão e equanimidade com o nosso passado e com os nossos pensamentos e emoções. Tudo isto, em prol de viver uma vida digna de um ser humano.",
+      "refs":"Ver referências"
+    },
+    "servicosConsultas":{
+      "titulo":"Sobre as Áreas trabalhadas nas Consultas de Psicologia para a Saúde",
+      "desc1":"Consultas de Psicologia no âmbito da Saúde Psicológica, para adultos e jovens a partir dos 16 anos.",
+      "desc2":"As dificuldades e problemas da vida têm várias caras e o modo como estas nos impactam, pode manifestar-se de diferentes formas.",
+      "desc3":"Muitas vezes é o próprio evento psicológico que é o problema: pensamentos, memórias, impulsos, sensações físicas, sentimentos e emoções que nos afastam da vida que gostaríamos. Outras vezes até são as formas que encontramos para gerir esses problemas que começam a deixar de funcionar e dão cada vez mais trabalho a manter.",
+      "desc4":"O trabalho deste consultório especializa-se na superação do tipo de dificuldades e problemas que se seguem:",
+      "sintomas":{
+        "s1Titulo":"Alguns problemas de vida, que já podemos conhecer o nome:",
+        "s1desc1":"Stresse;",
+        "s1desc2":"Depressão;",
+        "s1desc3":"Ansiedade:",
+        "s1desc4":"em relação a diversas coisas;",
+        "s1desc5":"em relação a coisas específicas;",
+        "s1desc6":"obsessões-compulsões;",
+        "s1desc7":"ataques de pânico;",
+        "s1desc8":"Burnout;",
+        "s1desc9":"Irritabilidade;",
+        "s1desc10":"Insónias.",
+        "s2Titulo":"Outros problemas, que são mais difíceis de detetar:",
+        "s2desc1":"Muita gente sofre constantemente de pensamentos de desvalorização pessoal, preocupação constante sobre passado, futuro, ou em relação a outras coisas;",
+        "s2desc2":"Pensamentos perturbadores que parecem surgir do nada, mas que deixam a sua marca;",
+        "s2desc3":"Outras dificuldade que podem surgir, como uma sensação de estado de stresse permanente ou como se sentisse 'preso' / 'sem saída' em diferentes áreas da vida (académica, profissional, relacional)."
+      },
+      "desc5":"Pretendemos prestar serviços de elevada qualidade, portanto em vez de fornecer uma ampla gama de serviços para muitas situações diferentes, optamos por fazer apenas aquilo que fazemos melhor e oferecer os serviços relacionados a essas áreas.",
+      "desc6":"Se não tem a certeza se aquilo que sente e está a passar se enquadra nessas descrições, exprimente realizar o breve questionário de avaliação de Depressão, Ansiedade e Stresse.",
+      "desc7":"",
+      "desc8":"",
+      "desc9":""
+    },
+    "ServicosPreparacao": {
+      "titulo":"Preparação para a Avaliação Psicológica em processos de Recrutamento e Seleção",
+      "desc1":"No atual mercado de trabalho, muitas empresas e organizações recorrem a Avaliações Psicológicas para selecionarem os(as) candidatos(as) que têm a resiliência psicológica, estabilidade emocional e os traços comportamentais necessários para a função em questão.",
+      "desc2":"Contudo, este tipo de avaliações podem ser intimidantes e difíceis para os(as) candidatos(as), levando a um aumento de stresse e ansiedade no momento da prova.",
+      "desc3":"Com Consultas de Preparação para provas de Avaliação Psicológica, pretendemos ajudá-lo(a) a mostrar o seu verdadeiro potencial e a alcançar as oportunidades de emprego que merece.",
+      "desc4":"Este serviço baseia-se em consultas individuais, nas quais identificamos as suas principais forças e potenciais desafios e, consoante a função a que se candidata, desenvolvemos uma estratégia personalizada para maximizar o seu desempenho na Avaliação Psicológica.",
+      "desc5":"Estas consultas preparam-no(a) para diversos aspetos da Avaliação Psicológica, incluindo avaliações cognitivas (psicotécnicos), inventários de personalidade e outros testes mais específicos. ",
+      "desc6":"Este é um serviço confidencial e adaptado às suas necessidades específicas. Baseia-se num ambiente de apoio e sem julgamentos, onde pode falar abertamente sobre as suas preocupações e trabalhar para ultrapassar quaisquer obstáculos que possam impedir o seu sucesso.",
+      "desc7":""
     }
   }
 }
