@@ -44,7 +44,7 @@ export function Drawer({ myLinks }: Props) {
               <div key={indexLink}>
                 <span className="flex flex-row items-center">
 
-                  <SheetClose asChild>
+                
                   
                   <Button
                     onClick={() => handleDropdownClick(indexLink)}
@@ -58,7 +58,7 @@ export function Drawer({ myLinks }: Props) {
                       aria-hidden="true"
                     />
                   </Button>
-                  </SheetClose>
+               
                 </span>
 
                 <span
