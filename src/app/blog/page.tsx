@@ -14,7 +14,7 @@ runtime = "nodejs",
 preferredRegion = "auto"
 
 
-export const get = cache(async () => {
+const get = cache(async () => {
   const res = await client.getEntries({ content_type: "blogPost" });
   const posts = res.items;
   return posts;
