@@ -49,7 +49,10 @@ const Psicologia = ({}: Props) => {
             desc2={text[language].sobrePsicologia.desc3}
           />
 
-          <img
+          <Image
+         width={0}
+        height={0}
+        sizes='100vw'
             src={"/psicologia.jpeg"}
             alt="Flexibilidade Psicologica imagem"
             className=" w-[300px] h-[300px] bg-red-800 flex self-start"

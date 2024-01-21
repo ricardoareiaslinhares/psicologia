@@ -3,6 +3,7 @@ import text from "@/data/text.json";
 import { language } from "@/utils/language";
 import SectionText from "@/components/sections/SectionText";
 import TogetherAction from "@/components/actionCall/Together";
+import Image from "next/image";
 
 type Props = {};
 
@@ -19,7 +20,10 @@ const Preparacao = (props: Props) => {
           desc2={text[language].ServicosPreparacao.desc2}
         />
 
-          <img
+          <Image
+         width={0}
+        height={0}
+        sizes='100vw'
             src={"/psicologiaTrabalhoAvaliacao.png"}
             alt="Preparação para Avaliações Psicológicas imagem"
             className=" w-[300px] h-[300px] bg-red-800 flex self-start"
