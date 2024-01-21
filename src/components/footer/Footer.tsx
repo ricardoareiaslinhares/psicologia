@@ -17,16 +17,16 @@ const Footer = ({}: Props) => {
 
   useEffect(() => {
     if (buttonShow === 1) {
-      setContainerHeight(400);
+      setContainerHeight(370);
     } else if (buttonShow === 2) {
-      setContainerHeight(270);
+      setContainerHeight(260);
     } else {
-      setContainerHeight(500);
+      setContainerHeight(470);
     }
   }, [buttonShow]);
 
   return (
-    <div className="w-full  flex flex-1 flex-col   ">
+    <div className="w-full  flex flex-1 flex-col  h-[520px]   ">
       <h2 className="text-center sm:text-left text-xl font-bold">Contactos</h2>
 
       <div className="flex flex-1 flex-col lg:flex-row justify-between gap-8 flex-wrap mt-4 ">
