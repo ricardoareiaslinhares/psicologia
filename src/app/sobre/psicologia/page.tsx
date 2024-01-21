@@ -55,7 +55,7 @@ const Psicologia = ({}: Props) => {
         sizes='100vw'
             src={"/psicologia.jpeg"}
             alt="Flexibilidade Psicologica imagem"
-            className=" w-[300px] h-[300px] bg-red-800 flex self-start"
+            className=" w-[300px] h-[300px]  flex self-center sm:self-start"
           />
         </div>
         <SectionText

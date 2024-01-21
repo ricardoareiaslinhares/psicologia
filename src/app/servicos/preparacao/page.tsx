@@ -26,7 +26,7 @@ const Preparacao = (props: Props) => {
         sizes='100vw'
             src={"/psicologiaTrabalhoAvaliacao.png"}
             alt="Preparação para Avaliações Psicológicas imagem"
-            className=" w-[300px] h-[300px] bg-red-800 flex self-center sm:self-start"
+            className=" w-[300px] h-[300px]  flex self-center sm:self-start"
           />
         </div>
         </section>
