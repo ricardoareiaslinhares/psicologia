@@ -53,7 +53,7 @@ const Footer = ({}: Props) => {
                 className={`w-36 ${
                   buttonShow === 1 ? "bg-primary/70" : "bg-primary"
                 }`}
-                onClick={() => setButtonShow(1)}
+                onClick={() => setButtonShow((prev) => prev = 1)}
               >
                 Localização
               </Button>
@@ -61,7 +61,7 @@ const Footer = ({}: Props) => {
                 className={`w-36 ${
                   buttonShow === 2 ? "bg-primary/70" : "bg-primary"
                 }`}
-                onClick={() => setButtonShow(2)}
+                onClick={() => setButtonShow((prev) => prev = 2)}
               >
                 Ver Consultório
               </Button>
@@ -69,7 +69,7 @@ const Footer = ({}: Props) => {
                 className={`w-36 ${
                   buttonShow === 3 ? "bg-primary/70" : "bg-primary"
                 }`}
-                onClick={() => setButtonShow(3)}
+                onClick={() => setButtonShow((prev) => prev = 3)}
               >
                 Horário e Preçário
               </Button>
