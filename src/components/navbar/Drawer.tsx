@@ -78,7 +78,7 @@ export function Drawer({ myLinks }: Props) {
             );
           } else {
             return (
-              <Button variant={"ghost"}>
+              <Button key={indexLink} variant={"ghost"}>
                 <Link href={link.href ?? ""}>{link.name}</Link>
               </Button>
             );
