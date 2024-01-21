@@ -57,8 +57,11 @@ const imagensCorrossel = ["/Ricardo_Linhares Psicologo_2.png", "/Ricardo_Linhare
             }
           />
         </div>
-        <div className="px-6 sm:ml-6 sm:mt-12 flex items-start justify-center">
+        <div className="  mx-10 sm:mx-0 sm:ml-6 sm:mt-12  flex items-start justify-center">
+          <div className="px-14" >
+
           <Carrosel listItens={imagensCorrossel} />
+          </div>
 
         </div>
       </section>

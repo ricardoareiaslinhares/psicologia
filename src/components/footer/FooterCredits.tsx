@@ -7,7 +7,7 @@ type Props = {};
 
 function FooterCredits({}: Props) {
   return (
-    <div className="w-full flex items-center justify-center flex-1 py-8 flex-wrap-reverse  lg:flex-nowrap gap-y-10  ">
+    <div className="w-full flex items-center justify-center flex-1 py-8 flex-wrap-reverse  lg:flex-nowrap gap-y-4  ">
       <div className="flex justify-center lg:justify-end  items-center w-full xl:w-auto  lg:min-w-[300px] ">
         <Link className="h-16 w-auto " href={"https://www.instagram.com/linharespsicologia/"} target="_blank" >
         <Image

@@ -19,7 +19,7 @@ const Hero = ({}: Props) => {
         <div className="flex flex-1  items-center ">
             <h1 className='text-xl sm:text-7xl font-bold'>Consultas de Psicologia</h1>
         </div>
-        <div className="flex flex-1 flex-col gap-y-4  w-full">
+        <div className="flex flex-1 flex-col gap-y-3 pb-3 sm:pb-3 w-full">
             <p 
             className='text-md font-bold'
             >● Psicoterapia / Terapia</p>

@@ -19,12 +19,12 @@ const Footer = ({}: Props) => {
       <h2 className="text-center sm:text-left text-xl font-bold">Contactos</h2>
 
       <div className="flex flex-1 flex-col lg:flex-row justify-between gap-8 flex-wrap mt-4 ">
-        <div className="flex flex-1  justify-center lg:justify-start w-auto flex-col">
+        <div className="flex flex-1  justify-center lg:justify-start w-auto flex-col px-4 sm:px-0" >
   <TogetherAction/>
           <div className="my-6 w-4/5 md:w-full flex self-center">
             <Separator className="bg-foreground/10" />
           </div>
-          <h4 className="text-md font-bold mb-3 italic">Deixar mensagem...</h4>
+          <h4 className="text-md font-bold mb-3 px-2 sm:px-0 italic">Deixar mensagem...</h4>
           <Form />
         </div>
         <div className="mt-6 flex md:hidden w-4/5 self-center">
@@ -33,7 +33,7 @@ const Footer = ({}: Props) => {
         <div className="flex items-center self-center justify-center flex-1 flex-row flex-wrap  xl:flex-nowrap  gap-4 w-full ">
           <div className="sm:pl-2 items-center flex md:basis-3/4">
             {/* <img alt="imagem card" src="https://picsum.photos/500/300"></img> */}
-            <div className="h-[450px] flex items-center ">
+            <div className="h-[490px] flex items-center ">
               {buttonShow === 1 ? (
                 <MapGoogle />
               ) : buttonShow === 2 ? (
