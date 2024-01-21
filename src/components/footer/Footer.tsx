@@ -7,6 +7,8 @@ import Player from "../videoPlayer/Player";
 import Info from "../info/Info";
 import { Separator } from "../ui/separator";
 
+import TogetherAction from "../actionCall/Together";
+
 type Props = {};
 
 const Footer = ({}: Props) => {
@@ -18,33 +20,16 @@ const Footer = ({}: Props) => {
 
       <div className="flex flex-1 flex-col lg:flex-row justify-between gap-8 flex-wrap mt-4 ">
         <div className="flex flex-1  justify-center lg:justify-start w-auto flex-col">
-          <div className="flex sm:items-start items-center justify-center sm:justify-start flex-col">
-          <h4 className="text-md font-bold mb-3 italic">
-                  Telefonar e Marcar Consulta...
-                </h4>
-            <Button variant={"outline"} className="sm:px-4  sm:py-6 py-10">
-              <a
-                href="tel:+351918562032"
-      
-              >
-              
-                <p className="text-lg font-medium ">918562032</p>
-              </a>
-            </Button>
-          </div>
+  <TogetherAction/>
           <div className="my-6 w-4/5 md:w-full flex self-center">
-
-          <Separator />
+            <Separator className="bg-foreground/10" />
           </div>
-          <h4 className="text-md font-bold mb-3 italic">
-            Deixar mensagem...
-          </h4>
+          <h4 className="text-md font-bold mb-3 italic">Deixar mensagem...</h4>
           <Form />
         </div>
         <div className="mt-6 flex md:hidden w-4/5 self-center">
-
-<Separator />
-</div>
+          <Separator className="bg-foreground/10" />
+        </div>
         <div className="flex items-center self-center justify-center flex-1 flex-row flex-wrap  xl:flex-nowrap  gap-4 w-full ">
           <div className="sm:pl-2 items-center flex md:basis-3/4">
             {/* <img alt="imagem card" src="https://picsum.photos/500/300"></img> */}
@@ -66,15 +51,15 @@ const Footer = ({}: Props) => {
             <div className="flex flex-col md:flex-row xl:flex-col gap-4 justify-center items-center ">
               <Button
                 className={`w-36 ${
-                  buttonShow === 1 ? "bg-primary/80" : "bg-primary"
+                  buttonShow === 1 ? "bg-primary/70" : "bg-primary"
                 }`}
                 onClick={() => setButtonShow(1)}
               >
-                Mapa
+                Localização
               </Button>
               <Button
                 className={`w-36 ${
-                  buttonShow === 2 ? "bg-primary/80" : "bg-primary"
+                  buttonShow === 2 ? "bg-primary/70" : "bg-primary"
                 }`}
                 onClick={() => setButtonShow(2)}
               >
@@ -82,7 +67,7 @@ const Footer = ({}: Props) => {
               </Button>
               <Button
                 className={`w-36 ${
-                  buttonShow === 3 ? "bg-primary/80" : "bg-primary"
+                  buttonShow === 3 ? "bg-primary/70" : "bg-primary"
                 }`}
                 onClick={() => setButtonShow(3)}
               >

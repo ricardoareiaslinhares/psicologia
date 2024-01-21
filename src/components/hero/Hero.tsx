@@ -14,7 +14,7 @@ const Hero = ({}: Props) => {
         />
   <div className=" z-10 flex flex-1 flex-col sm:flex-row items-center px-8 md:px-24 flex-wrap sm:flex-nowrap justify-center sm:justify-around max-w-screen-2xl  self-center">
         <div className="flex flex-1  items-center ">
-            <h1 className='text-lg font-bold'>Consultas de Psicologia</h1>
+            <h1 className='text-xl sm:text-7xl font-bold'>Consultas de Psicologia</h1>
         </div>
         <div className="flex flex-1 flex-col gap-y-4  w-full">
             <p 

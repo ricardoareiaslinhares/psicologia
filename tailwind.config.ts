@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["var(--font-inter)"]
+      },
       transitionProperty: {
         'height': 'height',
       },
@@ -45,6 +48,7 @@ const config = {
         muted: {
           DEFAULT: "hsl(var(--muted))",
           foreground: "hsl(var(--muted-foreground))",
+          mutedDois: "hsl(var(--mutedDois))",
         },
         accent: {
           DEFAULT: "hsl(var(--accent))",
