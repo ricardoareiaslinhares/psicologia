@@ -43,8 +43,8 @@ export function Drawer({ myLinks }: Props) {
             return (
               <div key={indexLink}>
                 <span className="flex flex-row items-center">
-                  <SheetClose asChild>
 
+                  <SheetClose asChild>
                   
                   <Button
                     onClick={() => handleDropdownClick(indexLink)}
@@ -69,15 +69,15 @@ export function Drawer({ myLinks }: Props) {
                   {link.link.map((subLink, indexSubLink) => {
                     return (
                       <span key={indexSubLink}>
-                             <SheetClose asChild>
 
                              
                         <Button  variant={"ghost"}>
+                             <SheetClose asChild>
                           <Link href={subLink.href ?? ""} className="italic">
                             {subLink.name}
                           </Link>
-                        </Button>
                         </SheetClose>
+                        </Button>
                       </span>
                     );
                   })}
