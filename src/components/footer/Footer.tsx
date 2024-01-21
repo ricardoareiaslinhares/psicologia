@@ -1,5 +1,5 @@
 "use client";
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import Form from "../contact/Form";
 import { Button } from "../ui/button";
 import MapGoogle from "../maps/MapGoogle";
@@ -13,6 +13,19 @@ type Props = {};
 
 const Footer = ({}: Props) => {
   const [buttonShow, setButtonShow] = useState<number>(1);
+  const [containerHeight, setContainerHeight] = useState(490);
+
+
+
+  useEffect(() => {
+    if (buttonShow === 1) {
+      setContainerHeight(400);
+    } else if (buttonShow === 2) {
+      setContainerHeight(300);
+    } else {
+      setContainerHeight(490);
+    }
+  }, [buttonShow]);
 
   return (
     <div className="w-full  flex flex-1 flex-col   ">
@@ -33,18 +46,15 @@ const Footer = ({}: Props) => {
         <div className="flex items-center self-center justify-center flex-1 flex-row flex-wrap  xl:flex-nowrap  gap-4 w-full ">
           <div className="sm:pl-2 items-center flex md:basis-3/4">
             {/* <img alt="imagem card" src="https://picsum.photos/500/300"></img> */}
-            <div className="h-[490px] flex items-center ">
-              {buttonShow === 1 ? (
-                <MapGoogle />
-              ) : buttonShow === 2 ? (
-                <Player
-                  playing={true}
-                  url={"https://www.youtube.com/watch?v=14QkzMWrEqE&t=4s"}
-                />
-              ) : (
-                <Info />
-              )}
-            </div>
+            <div className="flex items-center" style={{ height: `${containerHeight}px`, transition: 'height 0.3s ease-in-out' }}>
+      {buttonShow === 1 ? (
+        <MapGoogle />
+      ) : buttonShow === 2 ? (
+        <Player playing={true} url={'https://www.youtube.com/watch?v=14QkzMWrEqE&t=4s'} />
+      ) : (
+        <Info />
+      )}
+    </div>
           </div>
 
           <div className="flex flex-1 md:basis-1/4 justify-center">
