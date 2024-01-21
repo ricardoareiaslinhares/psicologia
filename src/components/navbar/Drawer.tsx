@@ -29,11 +29,11 @@ export function Drawer({ myLinks }: Props) {
 
   const { theme, setTheme } = useTheme();
 
-  useEffect(() => {}, [showDropDown]);
+
 
   const RenderNav = (): JSX.Element => {
     const handleDropdownClick = (index: number) => {
-      console.log(index);
+      //console.log(index);
       setShowDropDown((prev) => (prev === index ? null : index));
     };
     return (
@@ -43,6 +43,9 @@ export function Drawer({ myLinks }: Props) {
             return (
               <div key={indexLink}>
                 <span className="flex flex-row items-center">
+                  <SheetClose asChild>
+
+                  
                   <Button
                     onClick={() => handleDropdownClick(indexLink)}
                     variant={"ghost"}
@@ -55,6 +58,7 @@ export function Drawer({ myLinks }: Props) {
                       aria-hidden="true"
                     />
                   </Button>
+                  </SheetClose>
                 </span>
 
                 <span
@@ -65,11 +69,15 @@ export function Drawer({ myLinks }: Props) {
                   {link.link.map((subLink, indexSubLink) => {
                     return (
                       <span key={indexSubLink}>
+                             <SheetClose asChild>
+
+                             
                         <Button  variant={"ghost"}>
                           <Link href={subLink.href ?? ""} className="italic">
                             {subLink.name}
                           </Link>
                         </Button>
+                        </SheetClose>
                       </span>
                     );
                   })}
