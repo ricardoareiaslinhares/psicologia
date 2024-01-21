@@ -10,7 +10,7 @@ export const dynamic = "auto",
   runtime = "nodejs",
   preferredRegion = "auto";
 
-export const getPost = cache(async (id: string) => {
+const getPost = cache(async (id: string) => {
   const res = await client.getEntry(id);
   const posts = res.fields as BlogPost;
   return posts;

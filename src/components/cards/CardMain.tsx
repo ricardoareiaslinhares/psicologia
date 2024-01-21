@@ -28,7 +28,7 @@ const handleClick = () => {
       <div className="flex items-center sm:basis-2/5   ">
         <Image
        
-        className=" object-contain w-full h-cardHeight   "
+        className={`object-contain w-full h-cardHeight ${isVerticalOnly ? "pt-3" : "pt-0"}`}
         width={0}
         height={0}
         sizes='100vw'
