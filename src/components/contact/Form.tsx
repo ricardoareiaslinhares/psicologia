@@ -8,6 +8,7 @@ import { language } from "@/utils/language";
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { Button } from "../ui/button";
 
 
 
@@ -50,7 +51,7 @@ const router = useRouter()
   return (
     <>
    
-      <div className="flex flex-1 w-full flex-col ">
+      <div className="flex flex-col w-full ">
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className=" flex flex-col sm:flex-row sm:gap-4  ">
             <div className="mb-5 ">
@@ -97,17 +98,27 @@ const router = useRouter()
             ></textarea>
           </div>
           <div className="flex flex-1 items-center justify-center md:justify-start ">
-            <button
+{/*             <button
               className="hover:shadow-sm hover:bg-opacity-90 rounded-md bg-orange-500 py-3 px-8 text-base font-semibold text-white outline-none"
               type="submit"
               disabled={!nextSubmission}
             >
+          
               {!nextSubmission
                 ? text[language].c.sending
                 : text[language].c.send}
-            </button>
+            </button> */}
+            <Button
+               type="submit"
+               disabled={!nextSubmission}
+            >
+            {!nextSubmission
+                ? text[language].c.sending
+                : text[language].c.send}
+                </Button>
           </div>
         </form>
+       
       </div>
     </>
   );

@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/navbar/Navbar";
+
+import NavbarShad from "@/components/navbar/NavbarShad";
+import FullNavbar from "@/components/navbar/FullNavbar";
+import { ThemeProvider } from "@/components/ThemeProvider";
 
 
 
@@ -28,9 +31,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-         <Navbar />
+      <ThemeProvider
+            attribute="class"
+            defaultTheme="light"
+            enableSystem
+            disableTransitionOnChange
+          >
+            
+
+     <FullNavbar/>
         {children}
         <div id="overlays"></div>
+  
+        </ThemeProvider>
       </body>
     </html>
   );

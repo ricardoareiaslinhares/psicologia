@@ -16,18 +16,18 @@ const handleClick = () => {
 }
 
   return (
-    <div className="bg-middleBackground rounded-md shadow-md flex flex-row  w-full h-52 2xl:w-4/12 flex-wrap sm:flex-nowrap  ">
-      <div className="flex items-center sm:basis-2/5 2xl:basis-auto  ">
+    <div className="  rounded-md shadow-md  border-border border-2 flex flex-col sm:flex-row  w-full 2xl:w-4/12  items-center justify-center ">
+      <div className="flex items-center sm:basis-2/5   ">
         <img
         onClick={handleClick}
-        className=" object-contain w-full h-cardHeight 2xl:w-auto  cursor-pointer "
+        className=" object-contain w-full h-cardHeight   cursor-pointer "
           alt="Psicologia"
           src={imageUrl}
         ></img>
       </div>
-      <div className="flex  sm:basis-3/5 2xl:basis-auto px-4 py-2 flex-col">
+      <div className="flex flex-1  sm:basis-3/5 px-4 py-2 flex-col ">
         <h3 className="text-lg font-bold mb-4">{title}</h3>
-        <p>{desc}</p>
+        <p className='text-secondary'>{desc}</p>
       </div>
     </div>
   );
