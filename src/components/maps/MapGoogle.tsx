@@ -24,9 +24,7 @@ const MapGoogle: FC<MapProps> = ({}) => {
   const lng = consultotio.lng;
 
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey:
-
-      "AIzaSyDDt8v-PmUjYPDUXSkJ4xqtUNJamXcRxNo",
+    googleMapsApiKey:      "AIzaSyDDt8v-PmUjYPDUXSkJ4xqtUNJamXcRxNo",
   });
 
   const handleExternalLinkClick = () => {

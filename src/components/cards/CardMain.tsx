@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation'
 import React from "react";
@@ -25,12 +26,15 @@ const handleClick = () => {
     hover:bg-gradient-to-b hover:from-card hover:to-muted
     ${isVerticalOnly ? "flex-col max-w-sm h-[500px] " : "sm:flex-row  "} flex-col  sm:pl-2 w-full 2xl:w-6/12  items-center justify-center `}>
       <div className="flex items-center sm:basis-2/5   ">
-        <img
+        <Image
        
         className=" object-contain w-full h-cardHeight   "
+        width={0}
+        height={0}
+        sizes='100vw'
           alt={`${imageName} || "imagem psicologia barcelos"`}
           src={imageUrl}
-        ></img>
+        ></Image>
       </div>
       <div className="flex flex-1  sm:basis-3/5 px-4 py-2 flex-col justify-evenly self-start  ">
         <Link href={`${link}`}>

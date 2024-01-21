@@ -20,7 +20,9 @@ const Carrosel = ({ listItens }: Props) => {
       return  <CarouselItem key={index}>
 
 
-        <img src={item} alt={'imagem'} className='w-full h-full object-fill' />
+        <Image  width={0}
+        height={0}
+        sizes='100vw' src={item} alt={'imagem'} className='w-full h-full object-fill' />
 
 
       </CarouselItem>
