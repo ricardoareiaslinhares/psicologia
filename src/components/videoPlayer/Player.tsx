@@ -11,7 +11,7 @@ type Props = {
 
 const Player = ({url, playing}: Props) => {
   return (
-    <div className="w-[300px] h-[240px]    sm:w-[500px] sm:h-[400px] flex items-center justify-center overflow-hidden ">
+    <div className="w-[320px] h-[256px]    sm:w-[500px] sm:h-[400px] flex items-center justify-center overflow-hidden ">
 
 
 
