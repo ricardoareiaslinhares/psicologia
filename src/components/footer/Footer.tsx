@@ -44,7 +44,7 @@ const Footer = ({}: Props) => {
           <Separator className="bg-foreground/10" />
         </div>
         <div className="flex items-center self-center justify-center flex-1 flex-row flex-wrap  xl:flex-nowrap  gap-4 w-full ">
-          <div className="sm:pl-2 items-center flex md:basis-3/4">
+          <div className="sm:pl-2 items-center flex md:basis-3/4 sm:pb-0 pb-4">
             {/* <img alt="imagem card" src="https://picsum.photos/500/300"></img> */}
             <div
               className="flex items-center"
