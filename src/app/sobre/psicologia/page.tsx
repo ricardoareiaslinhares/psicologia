@@ -77,7 +77,7 @@ const Psicologia = ({}: Props) => {
             <ComponentVideoUP url={url[0]} />
     
         </div>
-        <div className="flex flex-col md:flex-row gap-x-11 gap-y-6 items-center justify-center ">
+        <div className="flex flex-col-reverse md:flex-row gap-x-11 gap-y-6 items-center justify-center ">
 
           <ComponentVideoACT url={url[1]} />
 

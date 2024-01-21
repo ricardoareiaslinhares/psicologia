@@ -31,8 +31,8 @@ const Carrosel = ({ listItens }: Props) => {
   };
 
   return (
-    <Carousel>
-      <CarouselContent className=" w-[400px] h-[400px] bg-foreground">
+    <Carousel className="  bg-blue-300 w-[240px] sm:w-[400px]">
+      <CarouselContent className="  bg-foreground">
       <RenderItem/>
       </CarouselContent>
       <CarouselPrevious />

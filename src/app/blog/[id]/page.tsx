@@ -39,6 +39,10 @@ const Blog = async ({ params }: Props) => {
          
           />
         </div>
+      <div className="flex self-start items-start flex-1 gap-x-2">
+        <p >Até à próxima,</p>
+        <p>Ricardo Linhares</p>
+      </div>
       </section>
     </main>
   );

@@ -29,8 +29,8 @@ const imagensCorrossel = ["/Ricardo_Linhares Psicologo_2.png", "/Ricardo_Linhare
     </Link>
   );
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between   w-fit z-0 overflow-hidden ">
-      <section className="flex flex-1 w-full max-w-screen-xl  px-8 md:px-24 pt-8 flex-row gap-6 flex-wrap lg:flex-nowrap py-10 items-center justify-center">
+    <main className="flex  min-h-screen flex-col items-center justify-between max-w-screen-xl   z-0 overflow-hidden  w-screen">
+      <section className="flex flex-1 w-full max-w-screen-xl  md:px-24 pt-8 flex-row gap-6 flex-wrap lg:flex-nowrap py-10 items-center justify-center">
         <div className="flex flex-col flex-wrap px-9">
           <SectionText
             title={text[language].sobrePsicologo.titulo}
@@ -57,11 +57,15 @@ const imagensCorrossel = ["/Ricardo_Linhares Psicologo_2.png", "/Ricardo_Linhare
             }
           />
         </div>
-        <div className="  mx-10 sm:mx-0 sm:ml-6 sm:mt-12  flex items-start justify-center">
-          <div className="px-14" >
+        <div className="sm:mx-0 sm:ml-6 sm:mt-12  flex items-start justify-center">
+ 
+
+
+
 
           <Carrosel listItens={imagensCorrossel} />
-          </div>
+
+
 
         </div>
       </section>
