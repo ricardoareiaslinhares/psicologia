@@ -24,10 +24,15 @@ export default function Home() {
         <Hero />
         <section className="flex flex-1 w-full max-w-screen-2xl  px-8 md:px-24 pt-8 flex-col">
           <SectionText title={text[language].section1Title} />
-          <div className="flex flex-1 gap-x-10 items-center justify-center flex-wrap gap-y-4 flex-row sm:flex-col ">
+          <div className="flex flex-1 gap-x-10 items-center justify-center gap-y-4 flex-row flex-wrap ">
+            <div>
+
             <SectionText desc1={text[language].section1Desc1} />
-        {/*     <img src="/consultaImage.png" className="w-auto h-[250px] " /> */}
+            </div>
+            <div>
+
             <SectionText desc1={text[language].section1Desc2} />
+            </div>
           </div>
         </section>
         <section className="flex flex-1 flex-row w-full pt-8 max-w-screen-2xl   ">
