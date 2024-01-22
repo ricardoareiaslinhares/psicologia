@@ -29,7 +29,7 @@ const Blogs = async ({}) => {
     <main className="flex min-h-screen flex-col items-center justify-center  w-full z-0 overflow-hidden py-12 bg-muted  ">
       <div className='flex flex-col gap-y-4 items-center justify-center mb-12'>
       <h1 className='text-2xl font-bold text-foreground'>Livro Aberto de Psicologia</h1>
-      <h3 className='text-lg font-bold text-primary px-4'>Artigos sobre psicologia, psicoterapia e saúde mental</h3>
+      <h3 className='text-lg font-bold text-primary px-6 text-center'>Artigos sobre psicologia, psicoterapia e saúde mental</h3>
 
       </div>
       <section className="flex flex-1 w-full max-w-screen-2xl  px-8 md:px-24  flex-wrap gap-6 justify-center items-center ">
