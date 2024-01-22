@@ -25,7 +25,7 @@ const config = {
         'height': 'height',
       },
       height: {
-        cardHeight:"208px",
+        cardHeight:"184px",
       },
       colors: {
         border: "hsl(var(--border))",

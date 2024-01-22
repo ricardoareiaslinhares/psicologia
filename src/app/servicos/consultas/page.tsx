@@ -10,6 +10,13 @@ type Props = {};
 const Consultas = ({}: Props) => {
   return (
     <main className="flex flex-col items-center justify-start  w-full z-0 overflow-hidden ">
+           <div className="flex  w-full  px-8 md:px-24 pt-8">
+        <p className="text-left leading-8 ">
+          <cite>
+          "É o seu caminho e apenas seu. Os outros podem acompanhá-lo(a), mas ninguém pode andar por si" </cite>
+          - Rumi.
+        </p>
+      </div>
       <section className="flex  w-full max-w-screen-2xl  px-8 md:px-24 pt-8 flex-wrap   ">
         <SectionText
           title={text[language].servicosConsultas.titulo}

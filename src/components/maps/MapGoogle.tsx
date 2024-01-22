@@ -47,13 +47,12 @@ return (
         >
           <div className="flex flex-row items-center justify-center gap-x-3">
           <TbLocationFilled size={24} color={"orange"}  />
-            <div 
-              className="flex flex-col "
-             
+            <address 
+              className="font-semibold text-sm text-primary"
             >
-              <p className="font-semibold text-sm text-primary">Rua S. João de Deus, 59,</p>
-              <p className="font-semibold text-sm text-primary">Vila Boa, Barcelos</p>
-            </div>
+              Rua S. João de Deus, 59,<br/>4750-787 Vila Boa, Barcelos
+         
+            </address>
           </div>
         </span>
       </div>

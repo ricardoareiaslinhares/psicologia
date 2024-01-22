@@ -22,6 +22,7 @@ const Hero = ({}: Props) => {
         </div>
         <div className="flex flex-1 flex-col gap-y-3 pb-3 sm:pb-3 w-full">
           <ul className='list-disc'>
+          <li className="text-lg font-bold mb-3">Psicologia Clínica</li>
             <li className="text-lg font-bold mb-3">Psicoterapia / Terapia</li>
             <li className="text-lg font-bold mb-3">Acompanhamento e Aconselhamento Psicológico</li>
             <li className="text-lg font-bold">Consultoria em Psicologia do Trabalho e Organizações</li>

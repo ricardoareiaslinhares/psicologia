@@ -12,7 +12,7 @@
     "card1Title": "Consulta no âmbito da Saúde Psicológica",
     "card1Desc": "Consultas direcionadas a superar estados internos angustiantes como depressão, ansiedade, pânico, OCD, irritabilidade e outros.",
     "card2Title": "Preparação para processos de Avaliações Psicológica",
-    "card2Desc": "Destaque-se em processos de recrutamento e seleção, e demonstre com confiança a sua aptidão psicológica para a função que pretende.",
+    "card2Desc": "Destaque-se em processos de recrutamento e demonstre com confiança a sua aptidão psicológica para a função que pretende.",
     "button1": "Marcar Consulta",
     "c": {
       "nome": "Nome",
@@ -40,15 +40,15 @@
     },
     "sobrePsicologo":{
       "titulo": "Sobre o Psicólogo",
-      "desc1":"Olá. Chamo-me Ricardo Linhares, sou psicólogo e membro efetivo da Ordem dos Psicólogos Portugueses (CP: 27338).",
-      "desc2":"Sou licenciado em Psicologia e mestre em Psicologia do Trabalho e das Organizações pela Universidade Católica Portuguesa (Braga), com especialização em Psicologia Clínica e da Saúde pela Universidade da Maia. ",
-      "desc3":"Iniciei a minha carreira na área das Organizações, onde efetuei diversas entrevistas de recrutamento e seleção, análises de perfis profissionais e estudei o impacto de riscos psicossociais (como o burnout) na vida pessoal e profissional das pessoas. ",
-      "desc4":"Em 2020, tive interesse em explorar outras áreas da psicologia. Então, fundei 'Ricardo Linhares Consultas de Psicologia', como forma de poder atuar no desenvolvimento psicológico em geral e de poder contribuir nas áreas de investigação e publicação de conhecimento sobre psicologia.",
-      "desc5":"Ao nível das Consultas de Psicologia, foco o meu trabalho nas denominadas Perturbações Emocionais, isto é, estados em que as emoções se encontram perturbadas, tais como depressão, burnout, stresse, ansiedade, obsessões-compulsões e ataques de pânico.",
+      "desc1":"Olá, chamo-me Ricardo Linhares, sou psicólogo e membro efetivo da Ordem dos Psicólogos Portugueses (nº: 27338).",
+      "desc2":"Tenho licenciatura em Psicologia, mestrado em Psicologia do Trabalho e das Organizações e especialização avançada em Psicologia Clínica e da Saúde.",
+      "desc3":"Iniciei a minha carreira na área das Organizações, onde efetuei diversas entrevistas de recrutamento e seleção, análises de perfis profissionais e estudei o impacto de riscos psicossociais (como o burnout) na vida pessoal e profissional das pessoas.",
+      "desc4":"Em 2020, tive interesse em explorar outras áreas da psicologia. Então, fundei 'Ricardo Linhares Consultas de Psicologia', como forma de poder atuar na saúde psicológica em geral e poder contribuir nas áreas de investigação e publicação de conhecimento sobre psicologia.",
+      "desc5":"Ao nível das Consultas de Psicologia, foco o meu trabalho nas denominadas perturbações emocionais, isto é, estados em que as emoções se encontram perturbadas, tais como depressão, burnout, stresse, ansiedade, obsessões-compulsões e ataques de pânico.",
       "desc6":"Como método de intervenção psicológica utilizo dois dos modelos psicológicos mais atuais e mais importantes nos últimos anos: Terapia de Aceitação e Compromisso e o Protocolo Unificado (a unificação de diferentes variantes da Terapia Cognitiva-Comportamental), tendo extensa formação específica nestas abordagens."
     },
     "sobrePsicologia":{
-      "titulo": "Sobre as Consultas de Psicologia",
+      "titulo":"Sobre as Consultas de Psicologia",
       "desc1":"As Consultas de Psicologia enquadram-se num modelo denominado Flexibilidade Psicológica:",
       "desc2":"a habilidade para responder de formas que facilitam viver uma vida com propósito e de acordo com o que é importante para a pessoa, mesmo quando surgem desafios e dificuldades.",
       "desc3":"Deste modo, psicólogo e cliente, trabalham no sentido de aumentar a Flexibilidade em pensamento, emoções e comportamento.",
