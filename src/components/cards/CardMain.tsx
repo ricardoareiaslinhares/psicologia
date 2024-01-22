@@ -22,7 +22,8 @@ const handleClick = () => {
   return (
     <div 
     onClick={handleClick}
-    className={` cursor-pointer  rounded-md shadow-md shadow-popover-foreground/5 flex bg-gradient-to-b ${isVerticalOnly ? "from-card" : "from-muted"}  to-card-cardb 
+
+    className={` cursor-pointer border-foreground/10 border-2 rounded-md shadow-md shadow-popover-foreground/5 flex bg-gradient-to-b ${isVerticalOnly ? "from-card" : "from-muted"}  to-card-cardb 
     hover:bg-gradient-to-b hover:from-card hover:to-muted
     active:bg-gradient-to-b active:from-card-cardb active:to-muted
     ${isVerticalOnly ? "flex-col max-w-sm h-[500px] " : "sm:flex-row  "} flex-col  sm:pl-2 w-full 2xl:w-6/12  items-center justify-center `}>

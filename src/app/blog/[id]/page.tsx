@@ -31,15 +31,19 @@ const Blog = async ({ params }: Props) => {
       className="flex min-h-screen flex-col items-center justify-center  w-full z-0 overflow-hidden bg-muted py-12 "
     >
       <section className="flex  w-full max-w-screen-xl  px-8 md:px-24  flex-wrap flex-1 gap-6 justify-center items-start  ">
-        <h1 className="text-xl font-bold">{post.titulo}</h1>
+        <div>
+
+
+        <h1 className="text-xl font-bold mb-4">{post.titulo}</h1>
         <p>{post.intro}</p>
-        <div className="flex text-left flex-1 flex-col ">
+        <div className="flex text-left flex-1 flex-col">
           <RichText
             content={post.desc}
          
           />
         </div>
-      <div className="flex self-start items-start flex-1 gap-x-2">
+        </div>
+      <div className="flex self-start items-start flex-1 gap-x-2 flex-col">
         <p >Até à próxima,</p>
         <p>Ricardo Linhares</p>
       </div>

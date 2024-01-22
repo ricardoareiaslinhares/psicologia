@@ -59,7 +59,7 @@ const NavbarShad = ({ className, myLinks }: Props) => {
             return (
               <NavigationMenuItem   key={link.name} className=""  >
                 <NavigationMenuTrigger  className="">{link.name}</NavigationMenuTrigger>
-                <NavigationMenuContent className="fixed overflow-y-auto ">
+                <NavigationMenuContent className="fixed overflow-y-auto  ">
                   <ul
                     className={
                       "flex flex-col gap-3 p-4 lg:w-[300px] 2xl:w-[400px]"

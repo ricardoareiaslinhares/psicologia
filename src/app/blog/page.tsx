@@ -29,7 +29,7 @@ const Blogs = async ({}) => {
     <main className="flex min-h-screen flex-col items-center justify-center  w-full z-0 overflow-hidden py-12 bg-muted  ">
       <div className='flex flex-col gap-y-4 items-center mb-12'>
       <h1 className='text-2xl font-bold text-foreground'>Livro Aberto de Psicologia</h1>
-      <h3 className='text-lg font-bold text-primary px-3'>Artigos sobre psicologia, psicoterapia e saúde mental</h3>
+      <h3 className='text-lg font-bold text-primary px-4'>Artigos sobre psicologia, psicoterapia e saúde mental</h3>
 
       </div>
       <section className="flex  w-full max-w-screen-xl  px-8 md:px-24  flex-wrap flex-1 gap-6 justify-center items-center  ">
@@ -41,9 +41,11 @@ const Blogs = async ({}) => {
           
             
             return (
-              
+            
+
+           
                 <CardMain
-                key={`${post.sys.id}-${index}`}
+         key={`${post.sys.id}-${index}`}
                   title={poster.titulo}
                   desc={poster.shortDesc}
                   link={`/blog/${post.sys.id}`}
@@ -51,6 +53,7 @@ const Blogs = async ({}) => {
                   imageName={poster.media.fields.title}
                   isVerticalOnly={true}
                 />
+             
               
             );
           })}
