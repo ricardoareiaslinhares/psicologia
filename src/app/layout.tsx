@@ -14,6 +14,19 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://ricardolinhares.pt"),
   
   title: "Ricardo Linhares Consultas de Psicologia Barcelos",
+  robots:{
+    index:true,
+    follow:true,
+   
+  },
+  keywords: [
+    'Psicologia',
+    'Psicologia Barcelos',
+    'Psicoterapia Barcelos',
+    "Psicologia Clínica",
+    "Tratamento ansiedade",
+    "Tratamento depressão"
+  ],
   description: "Psicologia Clínica / Psicoterapia em Barcelos. Não precisa de sofrer com depressão, ansiedade, pânico ou outros problemas. Há formas de lidar com eles, utilize a psicologia para viver com maiis vitalidade.",
 
 };
@@ -25,9 +38,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-      <meta name="robots" content="all" />
-      </Head>
+    
       <body className={inter.className}>
            <ThemeProvider
           attribute="class"

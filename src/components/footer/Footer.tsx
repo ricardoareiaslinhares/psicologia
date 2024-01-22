@@ -27,7 +27,7 @@ const Footer = ({}: Props) => {
 
   return (
     <div className="w-full  flex flex-1 flex-col sm:h-[520px]   ">
-      <h2 className="text-center sm:text-left text-xl font-bold">Contactos</h2>
+      <h3 className="text-center sm:text-left text-xl font-bold">Contactos</h3>
 
       <div className="flex flex-1 flex-col lg:flex-row justify-between gap-8 flex-wrap mt-4 ">
         <div className="flex flex-1  justify-center lg:justify-start w-auto flex-col px-4 sm:px-0">
@@ -69,6 +69,8 @@ const Footer = ({}: Props) => {
           <div className="flex flex-1 md:basis-1/4 justify-center">
             <div className="flex flex-col md:flex-row xl:flex-col gap-4 justify-center items-center ">
               <Button
+              id="ShowMap"
+              aria-label="Carregar para ver o mapa"
                 className={`w-36
              
                 ${
@@ -79,6 +81,8 @@ const Footer = ({}: Props) => {
                 Localização
               </Button>
               <Button
+                      id="ShowConsultorio"
+                      aria-label="Carregar para ver consultorio"
                 className={`w-36 ${
                   buttonShow === 2 ? "bg-primary/70" : "bg-primary"
                 }`}
@@ -87,6 +91,8 @@ const Footer = ({}: Props) => {
                 Ver Consultório
               </Button>
               <Button
+                 id="ShowInfo"
+                 aria-label="Carregar para ver informaçoes de horário e preço"
                 className={`w-36 ${
                   buttonShow === 3 ? "bg-primary/70" : "bg-primary"
                 }`}

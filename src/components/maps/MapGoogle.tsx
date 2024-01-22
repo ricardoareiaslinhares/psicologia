@@ -1,12 +1,9 @@
 "use client";
-import React, { FC, Suspense } from "react";
+import React, { FC } from "react";
 import {
   GoogleMap,
-  InfoWindowF,
-  LoadScript,
   MarkerF,
   useJsApiLoader,
-  useLoadScript,
 } from "@react-google-maps/api";
 import "@/components/maps/styles.css";
 import Loading from "./Loading";
