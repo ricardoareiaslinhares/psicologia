@@ -34,16 +34,16 @@ const Blogs = async ({}) => {
       </div>
       <section className="flex  w-full max-w-screen-xl  px-8 md:px-24  flex-wrap flex-1 gap-6 justify-center items-center  ">
 
-          {blogPosts.map((post:any) => {
+          {blogPosts.map((post:any, index:number) => {
             const poster = post.fields as BlogPost;
             const imageLink = poster.media.fields.file.url as string
             const modifiedI = "https:" + imageLink
-            let ggg = "https://images.ctfassets.net/zf61hcfx2teh/4clkx8mnZwGDP1TuLLgMBS/123ca05f2a7c16a7ebb70dc1c8654ccc/consultaImage.png"
-            console.log(imageLink)
+          
+            
             return (
-              <>
+              
                 <CardMain
-                  key={post.sys.id}
+                key={`${post.sys.id}-${index}`}
                   title={poster.titulo}
                   desc={poster.shortDesc}
                   link={`/blog/${post.sys.id}`}
@@ -51,7 +51,7 @@ const Blogs = async ({}) => {
                   imageName={poster.media.fields.title}
                   isVerticalOnly={true}
                 />
-              </>
+              
             );
           })}
 

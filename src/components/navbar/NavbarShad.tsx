@@ -16,6 +16,7 @@ import {
 import Link from "next/link";
 import { LinkType } from "@/types";
 import { ThemeToggle } from "../ThemeToggle";
+import { useRouter } from "next/router";
 
 type Props = {
   className?: string;
@@ -33,7 +34,7 @@ const NavbarShad = ({ className, myLinks }: Props) => {
           href={href ?? ""}
           legacyBehavior
           passHref
-          className=" flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
+          className=" text-lg flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
           {...props}
         >
           <NavigationMenuLink className={navigationMenuTriggerStyle()}>
@@ -46,17 +47,18 @@ const NavbarShad = ({ className, myLinks }: Props) => {
   ListItem.displayName = "ListItem";
 
   (myLinks[1].link ?? []).map((link: LinkType) => {
-    console.log(link);
+    //console.log(link);
   });
 
   const RenderNav: React.FC = () => {
     return (
+
       <>
         {myLinks.map((link, index) => {
           if (link.link) {
             return (
-              <NavigationMenuItem key={link.name}>
-                <NavigationMenuTrigger>{link.name}</NavigationMenuTrigger>
+              <NavigationMenuItem   key={link.name} >
+                <NavigationMenuTrigger  className="">{link.name}</NavigationMenuTrigger>
                 <NavigationMenuContent className="fixed overflow-y-auto">
                   <ul
                     className={
@@ -64,7 +66,7 @@ const NavbarShad = ({ className, myLinks }: Props) => {
                     }
                   >
                     {(link.link ?? []).map((subLink: LinkType, index) => (
-                      <ListItem key={subLink.href} href={subLink.href}>
+                      <ListItem key={subLink.href} href={subLink.href} className="text-lg ">
                         {subLink.name}
                       </ListItem>
                     ))}
@@ -75,8 +77,8 @@ const NavbarShad = ({ className, myLinks }: Props) => {
           } else {
             return (
               <NavigationMenuItem key={link.href}>
-                <Link href={link.href ?? ""} legacyBehavior passHref>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                <Link href={link.href ?? ""} legacyBehavior passHref className="text-lg">
+                  <NavigationMenuLink className={`${navigationMenuTriggerStyle()} `}>
                     {link.name}
                   </NavigationMenuLink>
                 </Link>

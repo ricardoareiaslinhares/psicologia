@@ -23,7 +23,7 @@ type Props = {
 const Blog = async ({ params }: Props) => {
   let id = params.id;
   const post = await getPost(id);
-  console.log(post);
+  //console.log(post);
 
   return (
     <main

@@ -13,7 +13,7 @@ export default function Home() {
 
   async function onClose() {
     "use server";
-    console.log("modal as closed");
+    //console.log("modal as closed");
   }
 
   return (

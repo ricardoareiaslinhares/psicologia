@@ -42,7 +42,7 @@ const Psicologia = ({}: Props) => {
   return (
     <main className="flex min-h-screen flex-col items-start justify-start  w-fit max-w-screen-xl z-0 ">
       <section className="flex  w-full max-w-screen-2xl  px-8 md:px-24 pt-8 flex-col gap-6  ">
-        <div className="flex flex-1 flex-col md:flex-row gap-6 mb-6 ">
+        <div className="flex flex-1 flex-col md:flex-row gap-6 mb-6">
           <SectionText
             title={text[language].sobrePsicologia.titulo}
             desc1={boldTag}

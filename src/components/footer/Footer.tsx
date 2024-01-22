@@ -45,7 +45,7 @@ const Footer = ({}: Props) => {
         </div>
         <div className="flex items-center self-center justify-center flex-1 flex-row flex-wrap  xl:flex-nowrap  gap-4 w-full ">
           <div className="sm:pl-2 items-center flex md:basis-3/4 sm:pb-0 pb-4">
-            {/* <img alt="imagem card" src="https://picsum.photos/500/300"></img> */}
+
             <div
               className="flex items-center"
               style={{
@@ -69,7 +69,9 @@ const Footer = ({}: Props) => {
           <div className="flex flex-1 md:basis-1/4 justify-center">
             <div className="flex flex-col md:flex-row xl:flex-col gap-4 justify-center items-center ">
               <Button
-                className={`w-36 ${
+                className={`w-36
+             
+                ${
                   buttonShow === 1 ? "bg-primary/70" : "bg-primary"
                 }`}
                 onClick={() => setButtonShow((prev) => (prev = 1))}

@@ -15,19 +15,19 @@ export default function Referencias({}: Props) {
     }
 
     return (
-      <div className="flex flex-col gap-y-3">
+      <div className="flex flex-col gap-y-3 px-4 ">
         {renderedReferences.map((item, index) => {
-          return <p className="text-md mt-2 text-secondary -indent-9" key={index}>{item}</p>;
+          return <p className="text-md mt-2 text-secondary -indent-9 whitespace-normal break-words" key={index}>{item}</p>;
         })}
       </div>
     );
   };
 
-  RenderReferences();
+
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between   w-fit z-0 ">
-      <section className="flex flex-1 w-full max-w-screen-xl  px-8 md:px-24 pt-8 flex-col gap-6">
+    <main className="flex min-h-screen flex-col items-center justify-between   w-screen z-0 overflow-hidden  ">
+      <section className="flex  w-full max-w-screen-xl px-8 md:px-24 pt-8 flex-col gap-6">
       <h1 className={`text-lg font-bold text-center sm:text-left `}>{refs.titulo}</h1> 
         <RenderReferences />
       </section>

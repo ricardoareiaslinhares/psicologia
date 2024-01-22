@@ -49,6 +49,7 @@ export function Drawer({ myLinks }: Props) {
                   <Button
                     onClick={() => handleDropdownClick(indexLink)}
                     variant={"ghost"}
+                    className="text-lg"
                   >
                     {link.name}
                     <ChevronDownIcon
@@ -73,7 +74,7 @@ export function Drawer({ myLinks }: Props) {
                              
                         <Button  variant={"ghost"}>
                              <SheetClose asChild>
-                          <Link href={subLink.href ?? ""} className="italic">
+                          <Link href={subLink.href ?? ""} className="italic text-lg">
                             {subLink.name}
                           </Link>
                         </SheetClose>
@@ -89,7 +90,7 @@ export function Drawer({ myLinks }: Props) {
               <Button key={indexLink} variant={"ghost"}>
                   <SheetClose asChild>
 
-                <Link href={link.href ?? ""}>{link.name}</Link>
+                <Link href={link.href ?? ""} className="text-lg" >{link.name}</Link>
                   </SheetClose>
               </Button>
             );

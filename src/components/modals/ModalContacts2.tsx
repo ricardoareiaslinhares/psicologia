@@ -36,16 +36,16 @@ function ModalContacts2({ handleModal, message, onClose }: Props) {
       <dialog
         ref={modalRef}
         onClick={closeModal}
-        className="flex flex-col  fixed   "
+        className="flex flex-col   "
       >
       
           <div
             onClick={(e) => {
               e.stopPropagation();
             }}
-            className=" fixed flex flex-1  flex-col border-solid border-2 border-b-orange-400 border-r-orange-400  bg-middleBackground shadow-xl rounded-tl-xl rounded-br-xl self-center"
+            className="  flex flex-1  flex-col border-solid border-2 border-b-slate-400 border-r-slate-400  bg-primary  rounded-tl-xl rounded-br-xl self-center"
           >
-            <div className="flex  bg-middleBackground justify-end">
+            <div className="flex pt-2  bg-primary justify-end">
               <button className="px-3 pt-0" onClick={closeModal}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,7 @@ function ModalContacts2({ handleModal, message, onClose }: Props) {
                 </svg>
               </button>
             </div>
-            <div className="mb-6 mt-2">
+            <div className="mb-10 mt-4 mx-8">
               <h2 className="px-5 font-bold  text-md">
                 {text[language].c.feedback}{" "}
               </h2>

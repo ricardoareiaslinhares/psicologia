@@ -60,6 +60,7 @@ const config = {
         },
         card: {
           DEFAULT: "hsl(var(--card))",
+          cardb:"hsl(var(--cardb))",
           foreground: "hsl(var(--card-foreground))",
         },
         middleBackground: "hsl(var(--middleBackground))"
