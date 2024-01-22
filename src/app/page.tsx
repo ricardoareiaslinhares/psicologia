@@ -20,7 +20,7 @@ export default function Home() {
     <>
       <ModalContacts2 onClose={onClose} />
 
-      <main className="flex min-h-screen flex-col items-center justify-between  w-fit z-0 ">
+      <main className="flex min-h-screen flex-col items-center justify-between  w-screen z-0 ">
         <Hero />
         <section className="flex flex-1 w-full max-w-screen-2xl  px-8 md:px-24 pt-8 flex-col">
           <SectionText title={text[language].section1Title} />
@@ -60,12 +60,16 @@ export default function Home() {
             <SectionText desc1={text[language].section2Part1} />
           </div>
           <div className="">
-            <SectionText  desc2={text[language].section2Part2} />
+            <SectionText desc2={text[language].section2Part2} />
           </div>
         </section>
-        <span className="max-w-screen-2xl w-full px-2  sm:px-8 md:px-24 bg-muted mt-8 py-8  ">
+        <div className="flex items-center justify-center w-full  bg-muted mt-8 py-8">
+
+        
+        <div className=" max-w-screen-2xl px-2  sm:px-8 md:px-24   ">
           <Footer />
-        </span>
+        </div>
+        </div>
 
         <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex"></div>
       </main>

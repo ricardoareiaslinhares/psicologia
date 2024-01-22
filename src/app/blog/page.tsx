@@ -32,7 +32,7 @@ const Blogs = async ({}) => {
       <h3 className='text-lg font-bold text-primary px-4'>Artigos sobre psicologia, psicoterapia e saúde mental</h3>
 
       </div>
-      <section className="flex  w-full max-w-screen-xl  px-8 md:px-24  flex-wrap flex-1 gap-6 justify-center items-center  ">
+      <section className="flex  w-full max-w-screen-2xl  px-8 md:px-24  flex-wrap flex-1 gap-6 justify-center md:justify-start items-center  ">
 
           {blogPosts.map((post:any, index:number) => {
             const poster = post.fields as BlogPost;

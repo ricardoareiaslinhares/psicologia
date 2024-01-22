@@ -10,7 +10,7 @@ type Props = {};
 const Consultas = ({}: Props) => {
   return (
     <main className="flex flex-col items-center justify-start  w-full z-0 overflow-hidden ">
-      <section className="flex  w-full max-w-screen-xl  px-8 md:px-24 pt-8 flex-wrap   ">
+      <section className="flex  w-full max-w-screen-2xl  px-8 md:px-24 pt-8 flex-wrap   ">
         <SectionText
           title={text[language].servicosConsultas.titulo}
           desc1={text[language].servicosConsultas.desc1}
@@ -20,12 +20,12 @@ const Consultas = ({}: Props) => {
       </section>
       <section className="flex  w-full  pt-8">
         <div className="flex flex-1 bg-muted  py-6 items-center justify-center">
-          <h4 className="text-lg text-center font-bold px-8 md:px-24 max-w-screen-xl">
+          <h4 className="text-lg text-center font-bold px-8 md:px-24 max-w-screen-2xl">
             {text[language].servicosConsultas.desc4}
           </h4>
         </div>
       </section>
-      <section className="flex  w-full max-w-screen-xl  px-8 md:px-24 pt-8   ">
+      <section className="flex  w-full max-w-screen-2xl  px-8 md:px-24 pt-8   ">
         <div className="flex flex-col sm:flex-row items-center justify-around flex-1 flex-wrap gap-y-6">
           <div className="flex flex-col flex-1">
             <h1 className="text-md font-bold italic">
@@ -114,7 +114,7 @@ const Consultas = ({}: Props) => {
         </div>
 
       </section>
-      <section className="flex  w-full max-w-screen-xl  px-8 md:px-24 py-8 flex-wrap items-center justify-center   ">
+      <section className="flex  w-full max-w-screen-2xl  px-8 md:px-24 py-8 flex-wrap items-center justify-center   ">
       <TogetherAction/>
       </section>
      
