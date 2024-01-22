@@ -10,8 +10,10 @@ import { Separator } from "@/components/ui/separator";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ricardolinhares.pt"),
   title: "Ricardo Linhares Consultas de Psicologia Barcelos",
-  description: "Psicologia",
+  description: "Psicologia Clínica / Psicoterapia em Barcelos",
+
 };
 
 export default function RootLayout({

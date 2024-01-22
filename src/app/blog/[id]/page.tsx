@@ -10,15 +10,63 @@ export const dynamic = "auto",
   runtime = "nodejs",
   preferredRegion = "auto";
 
-const getPost = cache(async (id: string) => {
+const getPost = async (id: string) => {
   const res = await client.getEntry(id);
   const posts = res.fields as BlogPost;
   return posts;
-});
+};
 
 type Props = {
   params: any;
 };
+
+export async function generateMetadata({ params }: Props) {
+  let id = params.id;
+
+  try {
+    const post = await getPost(id);
+    if (!post) {
+      return {
+        title: "Not found",
+        description: "Not found",
+        alternates: {
+          canonical: `/blog/${id}`,
+        },
+      };
+    }
+    else {
+      const imageLink = post.media.fields.file.url as string
+            const modifiedI = "https:" + imageLink
+           
+    
+    return {
+      title: post.titulo,
+      description: post.shortDesc,
+      alternates: {
+        canonical: `/blog/${id}`,
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: post.titulo,
+        description: post.shortDesc,
+        images: [
+          {
+            url: modifiedI,
+            type: "image/jpg",
+            width: 1200,
+            height: 630,
+            alt: post.titulo,
+          },
+        ],
+      },
+    }}
+  } catch (error) {
+    return {
+      title: "Not found",
+      description: "Not found",
+    };
+  }
+}
 
 const Blog = async ({ params }: Props) => {
   let id = params.id;
@@ -32,21 +80,16 @@ const Blog = async ({ params }: Props) => {
     >
       <section className="flex  w-full max-w-screen-xl  px-8 md:px-24  flex-wrap flex-1 gap-6 justify-center items-start  ">
         <div>
-
-
-        <h1 className="text-xl font-bold mb-4">{post.titulo}</h1>
-        <p>{post.intro}</p>
-        <div className="flex text-left flex-1 flex-col">
-          <RichText
-            content={post.desc}
-         
-          />
+          <h1 className="text-xl font-bold mb-4">{post.titulo}</h1>
+          <p>{post.intro}</p>
+          <div className="flex text-left flex-1 flex-col">
+            <RichText content={post.desc} />
+          </div>
         </div>
+        <div className="flex self-start items-start flex-1 gap-x-2 flex-col">
+          <p>Até à próxima,</p>
+          <p>Ricardo Linhares</p>
         </div>
-      <div className="flex self-start items-start flex-1 gap-x-2 flex-col">
-        <p >Até à próxima,</p>
-        <p>Ricardo Linhares</p>
-      </div>
       </section>
     </main>
   );

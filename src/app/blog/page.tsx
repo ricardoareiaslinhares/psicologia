@@ -14,11 +14,11 @@ runtime = "nodejs",
 preferredRegion = "auto"
 
 
-const get = cache(async () => {
+const get = async () => {
   const res = await client.getEntries({ content_type: "blogPost" });
   const posts = res.items;
   return posts;
-})
+}
 
 
 
