@@ -13,7 +13,7 @@ const Consultas = ({}: Props) => {
            <div className="flex  w-full  px-8 md:px-24 pt-8">
         <p className="text-left leading-8 ">
           <cite>
-          "É o seu caminho e apenas seu. Os outros podem acompanhá-lo(a), mas ninguém pode andar por si" </cite>
+          &ldquoÉ o seu caminho e apenas seu. Os outros podem acompanhá-lo(a), mas ninguém pode andar por si&ldquo </cite>
           - Rumi.
         </p>
       </div>

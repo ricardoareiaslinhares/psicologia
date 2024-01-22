@@ -13,7 +13,7 @@ const Preparacao = (props: Props) => {
               <div className="flex  w-full  px-8 md:px-24 pt-8">
         <p className="text-left leading-8 ">
           <cite>
-          "Não se pode parar as ondas do mar, mas pode-se aprender a surfar"
+          &ldquoNão se pode parar as ondas do mar, mas pode-se aprender a surfar&ldquo
           </cite>
           - Jon Kabat-Zinn.
         </p>

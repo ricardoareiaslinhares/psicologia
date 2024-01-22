@@ -36,7 +36,7 @@ const Psicologo = ({}: Props) => {
  <div className="flex  w-full  px-8 md:px-24 pt-8">
         <p className="text-left leading-8 ">
           <cite>
-            "As pequenas coisas? O pequenos momentos? - Não são pequenos" </cite>
+          &ldquoAs pequenas coisas? O pequenos momentos? - Não são pequenos&ldquo </cite>
           - Jon Kabat-Zinn.
         </p>
       </div>

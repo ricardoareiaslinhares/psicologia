@@ -43,7 +43,7 @@ const Psicologia = ({}: Props) => {
     <main className="flex min-h-screen flex-col items-start justify-start  w-fit max-w-screen-2xl z-0 ">
       <div className="flex  w-full  px-8 md:px-24 pt-8">
 
-      <p className="text-left leading-8  "><cite>"Recomeça… Se puderes. Sem angústia e sem pressa. E os passos que deres, nesse caminho duro do futuro, dá-os em liberdade. Enquanto não alcances, não descanses. De nenhum fruto queiras só metade." </cite>-  Miguel Torga.</p>
+      <p className="text-left leading-8  "><cite>&ldquoRecomeça… Se puderes. Sem angústia e sem pressa. E os passos que deres, nesse caminho duro do futuro, dá-os em liberdade. Enquanto não alcances, não descanses. De nenhum fruto queiras só metade.&ldquo </cite>-  Miguel Torga.</p>
       </div>
       <section className="flex  w-full  px-8 md:px-24 pt-8 flex-col gap-6  ">
         <div className="flex flex-1 flex-col md:flex-row gap-6 mb-6">
