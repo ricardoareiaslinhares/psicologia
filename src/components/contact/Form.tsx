@@ -55,12 +55,11 @@ const router = useRouter()
     <>
    
       <div className={`flex flex-col w-full `}>
-        <form onSubmit={handleSubmit(onSubmit)}>
+        <form id="contactos" onSubmit={handleSubmit(onSubmit)}>
           <div className=" flex flex-col sm:flex-row sm:gap-4  ">
             <div className="mb-5 ">
               <label
-              id="name"
-         
+            
                 htmlFor="name"
                 className="mb-3 block text-base font-medium text-foreground"
               >
@@ -79,7 +78,7 @@ const router = useRouter()
             </div>
             <div className="mb-5">
               <label
-              id="email"
+          
                 htmlFor="email"
                 className="mb-3 block text-base font-medium text-foreground"
               >
@@ -98,8 +97,8 @@ const router = useRouter()
           </div>
           <div className="mb-5">
             <label
-            id="textarea"
-              htmlFor="message"
+
+              htmlFor="textarea"
               className="mb-3 block text-base font-medium text-foreground"
             >
               {text[language].c.mensagem}
