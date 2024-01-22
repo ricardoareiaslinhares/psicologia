@@ -1,18 +1,28 @@
 import Hero from "@/components/hero/Hero";
 
 import SectionText from "@/components/sections/SectionText";
-import Image from "next/image";
 import text from "@/data/text.json";
 import CardMain from "@/components/cards/CardMain";
 import Footer from "@/components/footer/Footer";
-import FooterCredits from "@/components/footer/FooterCredits";
 import ModalContacts2 from "@/components/modals/ModalContacts2";
+import { Metadata } from "next";
+
+export const metadata:Metadata = {
+  robots:{
+    index:true,
+    follow:true,
+    
+
+  }
+}
 
 export default function Home() {
   let language = "pt" as keyof typeof text;
 
-  async function onClose() {
-    "use server";
+  
+
+   function onClose() {
+   
     //console.log("modal as closed");
   }
 

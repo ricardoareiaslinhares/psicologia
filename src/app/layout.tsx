@@ -6,7 +6,7 @@ import FullNavbar from "@/components/navbar/FullNavbar";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import FooterCredits from "@/components/footer/FooterCredits";
 import { Separator } from "@/components/ui/separator";
-import Head from "next/head";
+
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   robots:{
     index:true,
     follow:true,
+
    
   },
   keywords: [
