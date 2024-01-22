@@ -21,14 +21,11 @@ export default function Home() {
 
   
 
-   function onClose() {
-   
-    //console.log("modal as closed");
-  }
+
 
   return (
     <>
-      <ModalContacts2 onClose={onClose} />
+      <ModalContacts2  />
 
       <main className="flex min-h-screen flex-col items-center justify-between  w-screen z-0 ">
         <Hero />

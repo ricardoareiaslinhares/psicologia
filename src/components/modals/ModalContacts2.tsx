@@ -8,9 +8,9 @@ import { on } from "events";
 type Props = {
   handleModal?: () => void;
   message?: string;
-  onClose: () => void;
+
 };
-function ModalContacts2({ handleModal, message, onClose }: Props) {
+function ModalContacts2({ handleModal, message,  }: Props) {
   const router = useRouter();
   const searchParams = useSearchParams();
   const modalRef = useRef<HTMLDialogElement>(null);
@@ -26,7 +26,7 @@ function ModalContacts2({ handleModal, message, onClose }: Props) {
 
   const closeModal = () => {
     modalRef.current?.close();
-    onClose();
+ 
    router.push("/", {scroll: false});
 
   };
