@@ -16,13 +16,14 @@ const Hero = ({}: Props) => {
         className='bg-cover bg-center bg-no-repeat absolute -z-1 object-cover w-full h-full opacity-40'
         />
   <div className=" z-10 flex flex-1 flex-col sm:flex-row items-center px-8 md:px-24 flex-wrap sm:flex-nowrap justify-center sm:justify-around max-w-screen-2xl  self-center">
-        <div className="flex items-center  flex-1 sm:pr-12 2xl:pr-32 pb-4 sm:pb-0">
-            <h1 className="text-xl sm:text-4xl lg:text-4xl font-bold italic ">{'"Até uma jornada de mil km começa com um simples passo..."'}</h1>
+        <div className="flex gap-4  flex-1 sm:pr-12 2xl:pr-32 pb-4 sm:pb-0 flex-col" >
+        <h1 className="text-xl  sm:text-4xl lg:text-4xl  font-bold text-left ">Psicologia Clínica - Barcelos</h1>
+            <p className="text-xl font-bold italic ">&ldquo;Até uma jornada de mil km começa com um simples passo...&ldquo;</p>
            
         </div>
         <div className="flex flex-1 flex-col gap-y-3 pb-3 sm:pb-3 w-full">
           <ul className='list-disc'>
-          <li className="text-lg font-bold mb-3">Psicologia Clínica</li>
+    
             <li className="text-lg font-bold mb-3">Psicoterapia / Terapia</li>
             <li className="text-lg font-bold mb-3">Acompanhamento e Aconselhamento Psicológico</li>
             <li className="text-lg font-bold">Consultoria em Psicologia do Trabalho e Organizações</li>

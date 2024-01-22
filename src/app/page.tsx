@@ -23,7 +23,7 @@ export default function Home() {
       <main className="flex min-h-screen flex-col items-center justify-between  w-screen z-0 ">
         <Hero />
         <section className="flex flex-1 w-full max-w-screen-2xl  px-8 md:px-24 pt-8 flex-col">
-          <SectionText title={text[language].section1Title} />
+          <SectionText isH="h1" title={text[language].section1Title} />
           <div className="flex flex-1 gap-x-10 items-center justify-center gap-y-4 flex-row flex-wrap ">
             <div>
               <SectionText desc1={text[language].section1Desc1} />
@@ -36,7 +36,7 @@ export default function Home() {
         <section className="flex flex-1 flex-row w-full pt-8 max-w-screen-2xl   ">
           <div className="flex flex-1  py-8 pb-16 px-8 md:px-24 flex-col ">
             <div className="mb-8">
-              <SectionText title={"Serviços"} />
+              <SectionText isH="h2" title={"Serviços"} />
             </div>
             <span className="flex flex-1 flex-wrap lg:flex-nowrap gap-16 justify-center items-center px-3 sm:px-12  ">
               <CardMain
@@ -64,14 +64,12 @@ export default function Home() {
           </div>
         </section>
         <div className="flex items-center justify-center w-full  bg-muted mt-8 py-8">
-
-        
-        <div className=" max-w-screen-2xl px-2  sm:px-8 md:px-24   ">
-          <Footer />
-        </div>
+          <div className=" max-w-screen-2xl px-2  sm:px-8 md:px-24   ">
+            <Footer />
+          </div>
         </div>
 
-        <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex"></div>
+       
       </main>
     </>
   );
