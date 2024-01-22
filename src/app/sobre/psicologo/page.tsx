@@ -36,12 +36,12 @@ const Psicologo = ({}: Props) => {
  <div className="flex  w-full  px-8 md:px-24 pt-8">
         <p className="text-left leading-8 ">
           <cite>
-          &ldquoAs pequenas coisas? O pequenos momentos? - Não são pequenos&ldquo </cite>
+          &ldquo;As pequenas coisas? O pequenos momentos? - Não são pequenos&ldquo; </cite>
           - Jon Kabat-Zinn.
         </p>
       </div>
       <section className="flex items-center justify-center flex-col pt-8 ">
-        <div className="flex  w-full   md:px-24 flex-row gap-6 flex-wrap lg:flex-nowrap pb-10  items-center justify-center ">
+        <div className="flex  w-full px-8   md:px-24 flex-row gap-6 flex-wrap lg:flex-nowrap pb-10  items-center justify-center ">
           <div className="flex flex-col flex-wrap  ">
             <SectionText
               title={text[language].sobrePsicologo.titulo}
