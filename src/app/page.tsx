@@ -57,10 +57,10 @@ export default function Home() {
         </section>
         <section className="flex flex-1  max-w-screen-2xl  px-8 pb-4 md:px-24 gap-x-8 gap-y-2 items-start justify-start flex-col sm:flex-row">
           <div className="pt-2">
-            <SectionText isColum={true} desc1={text[language].section2Part1} />
+            <SectionText desc1={text[language].section2Part1} />
           </div>
           <div className="">
-            <SectionText isColum={true} desc2={text[language].section2Part2} />
+            <SectionText  desc2={text[language].section2Part2} />
           </div>
         </section>
         <span className="max-w-screen-2xl w-full px-2  sm:px-8 md:px-24 bg-muted mt-8 py-8  ">

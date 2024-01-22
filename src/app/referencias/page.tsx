@@ -26,7 +26,7 @@ export default function Referencias({}: Props) {
 
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between   w-screen z-0 overflow-hidden  ">
+    <main className="flex  flex-col items-center justify-between   w-screen max-w-screen-2xl z-0 overflow-hidden  ">
       <section className="flex  w-full max-w-screen-xl px-8 md:px-24 pt-8 flex-col gap-6">
       <h1 className={`text-lg font-bold text-center sm:text-left `}>{refs.titulo}</h1> 
         <RenderReferences />

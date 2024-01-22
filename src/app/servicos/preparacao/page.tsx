@@ -9,8 +9,8 @@ type Props = {};
 
 const Preparacao = (props: Props) => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-start  w-full z-0 overflow-hidden ">
-      <section className="flex  w-full max-w-screen-xl  px-8 md:px-24 pt-8 flex-wrap   ">
+    <main className="flex  flex-col items-center justify-start  w-full z-0 overflow-hidden ">
+      <section className="flex  w-full max-w-screen-2xl   px-8 md:px-24 pt-8 flex-wrap   ">
   
    
       <div className="flex flex-1 flex-col md:flex-row gap-6 mb-6 ">
@@ -32,12 +32,12 @@ const Preparacao = (props: Props) => {
         </section>
       <section className="flex  w-full  pt-8">
         <div className="flex flex-1 bg-muted  py-6 items-center justify-center">
-          <h4 className="text-lg text-center font-bold px-8 md:px-24 max-w-screen-xl">
+          <h4 className="text-lg text-center font-bold px-8 md:px-24 max-w-screen-2xl">
             {text[language].ServicosPreparacao.desc3}
           </h4>
         </div>
       </section>
-      <section className="flex  w-full max-w-screen-xl  px-8 md:px-24 pt-8 flex-wrap   ">
+      <section className="flex  w-full max-w-screen-2xl  px-8 md:px-24 pt-8 flex-wrap   ">
         <SectionText
           desc1={text[language].ServicosPreparacao.desc4}
           desc2={text[language].ServicosPreparacao.desc5}
@@ -45,12 +45,12 @@ const Preparacao = (props: Props) => {
       </section>
       <section className="flex  w-full  pt-8">
         <div className="flex flex-1 bg-muted  py-6 items-center justify-center">
-          <h4 className="text-lg text-center font-bold px-8 md:px-24 max-w-screen-xl">
+          <h4 className="text-lg text-center font-bold px-8 md:px-24 max-w-screen-2xl">
             {text[language].ServicosPreparacao.desc6}
           </h4>
         </div>
       </section>
-      <section className="flex  w-full max-w-screen-xl  px-8 md:px-24 py-8 flex-wrap items-center justify-center   ">
+      <section className="flex  w-full max-w-screen-2xl  px-8 md:px-24 py-8 flex-wrap items-center justify-center   ">
       <TogetherAction/>
       </section>
     </main>

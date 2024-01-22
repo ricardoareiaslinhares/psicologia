@@ -40,8 +40,8 @@ const Psicologia = ({}: Props) => {
     "https://www.youtube.com/watch?v=OMM5tVZ78OI",
   ];
   return (
-    <main className="flex min-h-screen flex-col items-start justify-start  w-fit max-w-screen-xl z-0 ">
-      <section className="flex  w-full max-w-screen-2xl  px-8 md:px-24 pt-8 flex-col gap-6  ">
+    <main className="flex min-h-screen flex-col items-start justify-start  w-fit max-w-screen-2xl z-0 ">
+      <section className="flex  w-full  px-8 md:px-24 pt-8 flex-col gap-6  ">
         <div className="flex flex-1 flex-col md:flex-row gap-6 mb-6">
           <SectionText
             title={text[language].sobrePsicologia.titulo}

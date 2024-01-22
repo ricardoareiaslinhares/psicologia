@@ -9,7 +9,7 @@ type Props = {};
 
 const Consultas = ({}: Props) => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-start  w-full z-0 overflow-hidden ">
+    <main className="flex flex-col items-center justify-start  w-full z-0 overflow-hidden ">
       <section className="flex  w-full max-w-screen-xl  px-8 md:px-24 pt-8 flex-wrap   ">
         <SectionText
           title={text[language].servicosConsultas.titulo}

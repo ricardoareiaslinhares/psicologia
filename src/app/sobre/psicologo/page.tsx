@@ -29,8 +29,8 @@ const imagensCorrossel = ["/Ricardo_Linhares Psicologo_2.png", "/Ricardo_Linhare
     </Link>
   );
   return (
-    <main className="flex  min-h-screen flex-col items-center justify-between max-w-screen-xl   z-0 overflow-hidden  w-screen">
-      <section className="flex flex-1 w-full max-w-screen-xl  md:px-24 pt-8 flex-row gap-6 flex-wrap lg:flex-nowrap py-10 items-center justify-center">
+    <main className="flex   flex-col items-sart justify-start max-w-screen-2xl  z-0 overflow-hidden  w-screen">
+      <section className="flex  w-full   md:px-24 pt-8 flex-row gap-6 flex-wrap lg:flex-nowrap py-10  items-start justify-between ">
         <div className="flex flex-col flex-wrap px-9">
           <SectionText
             title={text[language].sobrePsicologo.titulo}
