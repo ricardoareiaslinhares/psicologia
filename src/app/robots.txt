@@ -1,5 +1,5 @@
 User-Agent: *
 Allow: /
-Disallow: /private/
+
 
 Sitemap: https://ricardolinhares.pt/sitemap.xml
