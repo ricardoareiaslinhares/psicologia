@@ -36,27 +36,32 @@ export default function Home() {
           </div>
         </section>
         <section className="flex flex-1 flex-row w-full pt-8 max-w-screen-2xl   ">
-          <div className="flex flex-1  py-8 pb-16 px-8 md:px-28  flex-col bg-muted ">
-            <h1 className="text-lg font-bold mb-8 text-center sm:text-left ">
-              Serviços
-            </h1>
+          <div className="flex flex-1  py-8 pb-16 px-8 md:px-24 flex-col ">
+            <div className="mb-8">
+
+          <SectionText title={"Serviços"} />
+            </div>
             <span className="flex flex-1 flex-wrap lg:flex-nowrap gap-16 justify-center items-center px-3 sm:px-12  ">
+            <div className="shadow-md rounded-sm ">
+
               <CardMain
                 title={text[language].card1Title}
                 desc={text[language].card1Desc}
                 link="/servicos/consultas"
                 imageUrl="/saude.png"
-              />
+                />
+                </div>
+                <div className="shadow-md rounded-sm">
               <CardMain
                 title={text[language].card2Title}
                 desc={text[language].card2Desc}
                 link="servicos/preparacao"
                 imageUrl="/rh.png"
-              />
+              /> </div>
             </span>
           </div>
         </section>
-        <section className="flex flex-1 w-full md:w-3/4 max-w-screen-2xl  px-8 md:px-24 pt-8">
+        <section className="flex flex-1 w-full md:w-3/4 max-w-screen-2xl  px-8 pb-4 md:px-24 ">
           <SectionText
             desc1={text[language].section2Desc1}
             desc2={text[language].section2Desc2}

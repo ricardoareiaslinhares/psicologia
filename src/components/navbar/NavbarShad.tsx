@@ -57,9 +57,9 @@ const NavbarShad = ({ className, myLinks }: Props) => {
         {myLinks.map((link, index) => {
           if (link.link) {
             return (
-              <NavigationMenuItem   key={link.name} >
+              <NavigationMenuItem   key={link.name} className=""  >
                 <NavigationMenuTrigger  className="">{link.name}</NavigationMenuTrigger>
-                <NavigationMenuContent className="fixed overflow-y-auto">
+                <NavigationMenuContent className="fixed overflow-y-auto ">
                   <ul
                     className={
                       "flex flex-col gap-3 p-4 lg:w-[300px] 2xl:w-[400px]"
@@ -95,7 +95,7 @@ const NavbarShad = ({ className, myLinks }: Props) => {
     <>
       <span className="flex-1 flex-row gap-4 hidden sm:flex">
         <NavigationMenu className="">
-          <NavigationMenuList className={className}>
+          <NavigationMenuList className={""}>
             <RenderNav />
           </NavigationMenuList>
         </NavigationMenu>
