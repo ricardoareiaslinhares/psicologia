@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 export const metadata: Metadata = {
   metadataBase: new URL("https://ricardolinhares.pt"),
   title: "Ricardo Linhares Consultas de Psicologia Barcelos",
-  description: "Psicologia Clínica / Psicoterapia em Barcelos",
+  description: "Psicologia Clínica / Psicoterapia em Barcelos. Não precisa de sofrer com depressão, ansiedade, pânico ou outros problemas. Há formas de lidar com eles, utilize a psicologia para viver com maiis vitalidade.",
 
 };
 
