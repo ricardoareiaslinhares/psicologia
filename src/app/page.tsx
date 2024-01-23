@@ -7,6 +7,7 @@ import Footer from "@/components/footer/Footer";
 import ModalContacts2 from "@/components/modals/ModalContacts2";
 import { Metadata } from "next";
 
+
 export const metadata:Metadata = {
   robots:{
     index:true,
@@ -25,6 +26,7 @@ export default function Home() {
 
   return (
     <>
+
       <ModalContacts2  />
 
       <main className="flex min-h-screen flex-col items-center justify-between  w-screen z-0 ">
