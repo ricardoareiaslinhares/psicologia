@@ -11,7 +11,8 @@ const Hero = ({}: Props) => {
         <Image
          width={0}
         height={0}
-        loading='lazy'
+        //loading='lazy'
+      	priority={true}
         sizes='100vw' src="/Consultas_Psicologia_Barcelos_Ricardo_Linhares_Psicologo.jpg" alt="hero"
         
         className='bg-cover bg-center bg-no-repeat absolute -z-1 object-cover w-full h-full opacity-40'
