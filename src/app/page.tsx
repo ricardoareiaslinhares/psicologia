@@ -6,6 +6,7 @@ import CardMain from "@/components/cards/CardMain";
 import Footer from "@/components/footer/Footer";
 import ModalContacts2 from "@/components/modals/ModalContacts2";
 import { Metadata } from "next";
+import Head from "next/head";
 
 
 export const metadata:Metadata = {
@@ -26,7 +27,9 @@ export default function Home() {
 
   return (
     <>
-
+  <Head>
+  <meta name="robots" content="all" />
+  </Head>
       <ModalContacts2  />
 
       <main className="flex min-h-screen flex-col items-center justify-between  w-screen z-0 ">
