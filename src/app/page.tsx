@@ -31,10 +31,10 @@ export default function Home() {
   <meta name="robots" content="all" />
   <meta name="robots" content="index, follow"/>
   </Head>
-      <ModalContacts2  />
+  {/*     <ModalContacts2  /> */}
 
       <main className="flex min-h-screen flex-col items-center justify-between  w-screen z-0 ">
-        <Hero />
+      {/*   <Hero /> */}
         <section className="flex flex-1 w-full max-w-screen-2xl  px-8 md:px-24 pt-8 flex-col">
           <SectionText isH="h1" title={text[language].section1Title} />
           <div className="flex flex-1 gap-x-10 items-center justify-center gap-y-4 flex-row flex-wrap ">
@@ -51,7 +51,7 @@ export default function Home() {
             <div className="mb-8">
               <SectionText isH="h2" title={"Serviços"} />
             </div>
-{/*             <span className="flex flex-1 flex-wrap lg:flex-nowrap gap-16 justify-center items-center px-3 sm:px-12  ">
+            <span className="flex flex-1 flex-wrap lg:flex-nowrap gap-16 justify-center items-center px-3 sm:px-12  ">
               <CardMain
                 title={text[language].card1Title}
                 desc={text[language].card1Desc}
@@ -65,7 +65,7 @@ export default function Home() {
                 link="servicos/preparacao"
                 imageUrl="/rh.png"
               />
-            </span> */}
+            </span>
           </div>
         </section>
         <section className="flex flex-1  max-w-screen-2xl  px-8 pb-4 md:px-24 gap-x-8 gap-y-2 items-start justify-start flex-col sm:flex-row">
