@@ -78,7 +78,7 @@ export default function Home() {
         </section>
         <div className="flex items-center justify-center w-full  bg-muted mt-8 py-8">
           <div className=" max-w-screen-2xl px-2  sm:px-8 md:px-24   ">
-            <Footer />
+           {/* ß */}
           </div>
         </div>
 
