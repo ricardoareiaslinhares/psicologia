@@ -31,10 +31,10 @@ export default function Home() {
   <meta name="robots" content="all" />
   <meta name="robots" content="index, follow"/>
   </Head>
-  {/*     <ModalContacts2  /> */}
+{/*       <ModalContacts2  /> */}
 
       <main className="flex min-h-screen flex-col items-center justify-between  w-screen z-0 ">
-      {/*   <Hero /> */}
+        <Hero />
         <section className="flex flex-1 w-full max-w-screen-2xl  px-8 md:px-24 pt-8 flex-col">
           <SectionText isH="h1" title={text[language].section1Title} />
           <div className="flex flex-1 gap-x-10 items-center justify-center gap-y-4 flex-row flex-wrap ">
