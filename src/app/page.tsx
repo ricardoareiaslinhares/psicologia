@@ -13,6 +13,9 @@ export const metadata:Metadata = {
   robots:{
     index:true,
     follow:true,
+    googleBot: {
+      index: true,
+    },
     
 
   }
@@ -31,7 +34,7 @@ export default function Home() {
   <meta name="robots" content="all" />
   <meta name="robots" content="index, follow"/>
   </Head>
-{/*       <ModalContacts2  /> */}
+     <ModalContacts2  /> 
 
       <main className="flex min-h-screen flex-col items-center justify-between  w-screen z-0 ">
         <Hero />

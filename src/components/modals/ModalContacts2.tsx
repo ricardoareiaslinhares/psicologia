@@ -10,11 +10,17 @@ type Props = {
   message?: string;
 
 };
+
+const searchParamsNew = new URLSearchParams(
+  typeof window !== 'undefined' ? window.location.search : '',
+);
+
 function ModalContacts2({ handleModal, message,  }: Props) {
   const router = useRouter();
   const searchParams = useSearchParams();
   const modalRef = useRef<HTMLDialogElement>(null);
-  const showMessage = searchParams.get("showMessage");
+  const showMessage = searchParams.get("showMessage")
+  console.log(showMessage, "heeee")
 
   useEffect(() => {
     if (showMessage === "y") {
