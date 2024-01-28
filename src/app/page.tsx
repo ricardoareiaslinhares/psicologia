@@ -29,6 +29,7 @@ export default function Home() {
     <>
   <Head>
   <meta name="robots" content="all" />
+  <meta name="robots" content="index, follow"/>
   </Head>
       <ModalContacts2  />
 
