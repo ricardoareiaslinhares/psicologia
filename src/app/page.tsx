@@ -51,7 +51,7 @@ export default function Home() {
             <div className="mb-8">
               <SectionText isH="h2" title={"Serviços"} />
             </div>
-            <span className="flex flex-1 flex-wrap lg:flex-nowrap gap-16 justify-center items-center px-3 sm:px-12  ">
+{/*             <span className="flex flex-1 flex-wrap lg:flex-nowrap gap-16 justify-center items-center px-3 sm:px-12  ">
               <CardMain
                 title={text[language].card1Title}
                 desc={text[language].card1Desc}
@@ -65,7 +65,7 @@ export default function Home() {
                 link="servicos/preparacao"
                 imageUrl="/rh.png"
               />
-            </span>
+            </span> */}
           </div>
         </section>
         <section className="flex flex-1  max-w-screen-2xl  px-8 pb-4 md:px-24 gap-x-8 gap-y-2 items-start justify-start flex-col sm:flex-row">
@@ -78,7 +78,7 @@ export default function Home() {
         </section>
         <div className="flex items-center justify-center w-full  bg-muted mt-8 py-8">
           <div className=" max-w-screen-2xl px-2  sm:px-8 md:px-24   ">
-           {/* ß */}
+            <Footer />
           </div>
         </div>
 
