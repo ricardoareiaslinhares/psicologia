@@ -2,15 +2,16 @@
 import React, { useRef, useEffect } from "react";
 import text from "@/data/text.json";
 import { language } from "@/utils/language";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { on } from "events";
+import useGetMessageParams from "@/utils/searchParams";
 
 type Props = {
   handleModal?: () => void;
   message?: string;
 
 };
-export const dynamic = 'force-dynamic'
+
 
 const searchParamsNew = new URLSearchParams(
   typeof window !== 'undefined' ? window.location.search : '',
@@ -18,18 +19,19 @@ const searchParamsNew = new URLSearchParams(
 
 function ModalContacts2({ handleModal, message,  }: Props) {
   const router = useRouter();
-  const searchParams = useSearchParams();
+
   const modalRef = useRef<HTMLDialogElement>(null);
-  const showMessage = searchParams.get("showMessage");
-  console.log(searchParamsNew.get("showMessage"), "heeee")
+
+  const [showModalState, setSearchState] = useGetMessageParams()
+
 
   useEffect(() => {
-    if (showMessage === "y") {
+    if (showModalState) {
       modalRef.current?.showModal();
     } else {
       modalRef.current?.close();
     }
-  }, [showMessage]);
+  }, [showModalState]);
 
   const closeModal = () => {
     modalRef.current?.close();
@@ -39,7 +41,7 @@ function ModalContacts2({ handleModal, message,  }: Props) {
   };
 
   const modal: JSX.Element | null =
-    showMessage === "y" ? (
+  showModalState ? (
       <dialog
         ref={modalRef}
         onClick={closeModal}
