@@ -32,7 +32,7 @@ const Psicologo = ({}: Props) => {
     </Link>
   );
   return (
-    <main className="flex   flex-col items-sart justify-start max-w-screen-2xl w-fit   z-0 overflow-hidden  ">
+    <main className="flex   flex-col items-sart justify-start min-h-screen max-w-screen-2xl w-fit   z-0 overflow-hidden  ">
  <div className="flex  w-full  px-8 md:px-24 pt-8">
         <p className="text-left leading-8 ">
           <cite>

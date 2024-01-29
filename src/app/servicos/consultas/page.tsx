@@ -9,7 +9,7 @@ type Props = {};
 
 const Consultas = ({}: Props) => {
   return (
-    <main className="flex flex-col items-center justify-start  w-full z-0 overflow-hidden ">
+    <main className="flex flex-col min-h-screen  items-center justify-start  w-full z-0 overflow-hidden ">
            <div className="flex  w-full  px-8 md:px-24 pt-8">
         <p className="text-left leading-8 ">
           <cite>
