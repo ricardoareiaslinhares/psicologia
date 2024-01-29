@@ -1,10 +1,10 @@
 "use client";
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useContext } from "react";
 import text from "@/data/text.json";
 import { language } from "@/utils/language";
 import { useRouter } from "next/navigation";
-import { on } from "events";
-import useGetMessageParams from "@/utils/searchParams";
+import { MessageContext } from "@/context/message";
+
 
 type Props = {
   handleModal?: () => void;
@@ -13,35 +13,34 @@ type Props = {
 };
 
 
-const searchParamsNew = new URLSearchParams(
-  typeof window !== 'undefined' ? window.location.search : '',
-);
+
 
 function ModalContacts2({ handleModal, message,  }: Props) {
   const router = useRouter();
 
   const modalRef = useRef<HTMLDialogElement>(null);
 
-  const [showModalState, setSearchState] = useGetMessageParams()
+  const {showMessageModal, setShowMessageModal} = useContext(MessageContext)
 
 
   useEffect(() => {
-    if (showModalState) {
+    if (showMessageModal) {
       modalRef.current?.showModal();
     } else {
       modalRef.current?.close();
     }
-  }, [showModalState]);
+  }, [showMessageModal]);
 
   const closeModal = () => {
     modalRef.current?.close();
+    setShowMessageModal(false)
  
    router.push("/", {scroll: false});
 
   };
 
   const modal: JSX.Element | null =
-  showModalState ? (
+  showMessageModal ? (
       <dialog
         ref={modalRef}
         onClick={closeModal}

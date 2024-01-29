@@ -1,7 +1,9 @@
 import { FormData } from "@/components/contact/Form";
 
+
 export function sendEmail(data: FormData, handleModal: () => void) {
   const apiEndpoint = "/api/email";
+
 
   fetch(apiEndpoint, {
     method: "POST",

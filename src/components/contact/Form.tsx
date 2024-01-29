@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useContext, useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { sendEmail } from "@/utils/sendEmail";
 import text from "@/data/text.json";
@@ -12,6 +12,7 @@ import { Button } from "../ui/button";
 import { Input } from "../ui/input";
 import { Textarea } from "../ui/textarea";
 import { IoMdMail } from "react-icons/io";
+import { MessageContext } from "@/context/message";
 
 
 
@@ -28,6 +29,7 @@ type Props = {
 
 const Contact = ({  }: Props) => {
 const router = useRouter()
+const {showMessageModal, setShowMessageModal} = useContext(MessageContext)
 
 
   const { register, handleSubmit } = useForm<FormData>();
@@ -37,6 +39,7 @@ const router = useRouter()
 
 
   const closeModal = () => {
+    setShowMessageModal(true)
     router.push("/?showMessage=y");
   }
 

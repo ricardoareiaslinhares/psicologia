@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import FooterCredits from "@/components/footer/FooterCredits";
 import { Separator } from "@/components/ui/separator";
 import { GoogleAnalytics } from '@next/third-parties/google'
+import { MessageContextProvider } from "@/context/message";
 
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -48,6 +49,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <MessageContextProvider>
    
           <FullNavbar />
           <div className="flex items-center justify-center flex-col">
@@ -61,7 +63,7 @@ export default function RootLayout({
           </div>
 
           <div id="overlays"></div>
- 
+          </MessageContextProvider>
       </ThemeProvider>
       </body>
       <GoogleAnalytics gaId="G-9PRFLD7EHF" />

@@ -21,4 +21,27 @@ useEffect(() => {
 }, [showMessage]);
 
 return [showModalState, setSearchState]
+
+}
+export function getParams(){
+    const [showModalState, setSearchState] = useState(false);
+    
+    useEffect(()=>{
+        const searchParamsNew = new URLSearchParams(
+            typeof window !== 'undefined' ? window.location.search : '',
+          );
+
+          let showMessage = searchParamsNew.get("showMessage")
+
+          if (showMessage === "y") {
+            setSearchState(true)
+           } else {
+             setSearchState(false)
+           }
+        
+      }, [])
+
+      return showModalState
+
+
 }
