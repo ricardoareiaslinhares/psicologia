@@ -44,8 +44,8 @@ const {showMessageModal, setShowMessageModal} = useContext(MessageContext)
   }
 
   const onSubmit = (data: FormData) => {
-    console.log("here")
-    console.log("DATA", data)
+    //console.log("here")
+    //console.log("DATA", data)
    sendEmail(data, closeModal);
     setNextSubmission(false);
 
@@ -105,15 +105,15 @@ const {showMessageModal, setShowMessageModal} = useContext(MessageContext)
           <div className="mb-5">
             <label
 
-              htmlFor="textarea"
+              htmlFor="message"
               className="mb-3 block text-base font-medium text-foreground"
             >
               {text[language].c.mensagem}
             </label>
             <Textarea
                    {...register("message")}
-              id="textarea"
-              name="textarea"
+              id="message"
+              name="message"
               rows={4}
               placeholder={text[language].c.menplace}
               className="w-full font-sans text-sm border     border-gray-300 focus:border-opacity-0 bg-muted-muted2"
