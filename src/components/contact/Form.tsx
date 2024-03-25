@@ -44,6 +44,8 @@ const {showMessageModal, setShowMessageModal} = useContext(MessageContext)
   }
 
   const onSubmit = (data: FormData) => {
+    console.log("here")
+    console.log("DATA", data)
    sendEmail(data, closeModal);
     setNextSubmission(false);
 
@@ -69,6 +71,7 @@ const {showMessageModal, setShowMessageModal} = useContext(MessageContext)
                 {text[language].c.nome}
               </label>
               <Input
+              {...register("name")}
               name="name"
                   id="name"
                 type="text"
@@ -88,6 +91,7 @@ const {showMessageModal, setShowMessageModal} = useContext(MessageContext)
                 Email
               </label>
               <Input
+                     {...register("email")}
                id="email"
                name="email"
                 type="email"
@@ -107,6 +111,7 @@ const {showMessageModal, setShowMessageModal} = useContext(MessageContext)
               {text[language].c.mensagem}
             </label>
             <Textarea
+                   {...register("message")}
               id="textarea"
               name="textarea"
               rows={4}
