@@ -9,12 +9,13 @@ const get = async () => {
  //@ts-ignore
 export default async function sitemap(): MetadataRoute.Sitemap {
     const posts: any = await get()
-    console.log(posts)
-    const baseURL = "https://ricardolinhares.pt"
+   
+
+    const baseURL = "https://ricardolinhares.pt/"
 
     const postsURL = posts.map((post:any) => {
         return     {
-            url: `${baseURL}/blog/${post.sys.id}`,
+            url: `${baseURL}blog/${post.fields.slug}`,
             lastModified: new Date(),
             changeFrequency: 'yearly',
             priority: 1,
@@ -29,37 +30,37 @@ export default async function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${baseURL}/sobre/psicologo`,
+      url: `${baseURL}sobre/psicologo`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: `${baseURL}/sobre/psicologia`,
+      url: `${baseURL}sobre/psicologia`,
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 0.9,
     },
     {
-        url: `${baseURL}/servicos/consultas`,
+        url: `${baseURL}servicos/consultas`,
         lastModified: new Date(),
         changeFrequency: 'yearly',
         priority: 0.5,
       },
       {
-        url: `${baseURL}/servicos/preparacao`,
+        url: `${baseURL}servicos/preparacao`,
         lastModified: new Date(),
         changeFrequency: 'yearly',
         priority: 0.5,
       },
       {
-        url: `${baseURL}/blog`,
+        url: `${baseURL}blog`,
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.5,
       },
       {
-        url: `${baseURL}/referencias`,
+        url: `${baseURL}referencias`,
         lastModified: new Date(),
         changeFrequency: 'yearly',
         priority: 0.2,
