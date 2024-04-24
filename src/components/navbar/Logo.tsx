@@ -12,11 +12,6 @@ const Logo = ({}: Props) => {
         <h1 className="text-lg hidden md:block">Consultas de Psicologia Barcelos</h1>
         <h1 className="text-lg hidden sm:block md:hidden">Psicologia Barcelos</h1>
       </Link>
-    
-        
-
-   
- 
   )
 }
 

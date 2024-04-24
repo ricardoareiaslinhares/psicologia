@@ -11,8 +11,13 @@ export const dynamic = "auto",
   preferredRegion = "auto";
 
 const getPost = async (id: string) => {
-  const res = await client.getEntry(id);
-  const posts = res.fields as BlogPost;
+  const getSlug = await client.getEntries({
+    content_type: "blogPost",
+    "fields.slug":id,
+    limit: 1,
+  });
+  const posts = getSlug.items[0].fields as BlogPost
+
   return posts;
 };
 
@@ -22,6 +27,7 @@ type Props = {
 
 export async function generateMetadata({ params }: Props) {
   let id = params.id;
+  //console.log("id is",id)
 
   try {
     const post = await getPost(id);
@@ -71,7 +77,7 @@ export async function generateMetadata({ params }: Props) {
 const Blog = async ({ params }: Props) => {
   let id = params.id;
   const post = await getPost(id);
-  //console.log(post);
+  //console.log("post ",post);
 
   return (
     <main

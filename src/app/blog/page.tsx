@@ -1,9 +1,8 @@
 import React from 'react'
 import {client} from "@/lib/contentful"
-import { cache } from 'react'
 import { BlogPost } from '@/types'
 import CardMain from '@/components/cards/CardMain'
-import RichText from '@/components/richText/RichText'
+
 
  
 export const dynamic = "auto",
@@ -24,6 +23,8 @@ const get = async () => {
 
 const Blogs = async ({}) => {
   const blogPosts: any = await get();
+
+
   //console.log(blogPosts[0])
   return (
     <main className="flex min-h-screen flex-col items-center justify-center  w-full z-0 overflow-hidden py-12 bg-muted  ">
@@ -36,8 +37,11 @@ const Blogs = async ({}) => {
 
           {blogPosts.map((post:any, index:number) => {
             const poster = post.fields as BlogPost;
+
             const imageLink = poster.media.fields.file.url as string
+            //console.log(imageLink)
             const modifiedI = "https:" + imageLink
+            const slug = poster.slug
           
             
             return (
@@ -45,10 +49,11 @@ const Blogs = async ({}) => {
 
            
                 <CardMain
-         key={`${post.sys.id}-${index}`}
+                  key={`${post.sys.id}-${index}`}
                   title={poster.titulo}
                   desc={poster.shortDesc}
-                  link={`/blog/${post.sys.id}`}
+                  link={`/blog/${slug}`}
+                  //link={`/blog/${post.sys.id}`}
                   imageUrl={modifiedI}
                   imageName={poster.media.fields.title}
                   isVerticalOnly={true}
