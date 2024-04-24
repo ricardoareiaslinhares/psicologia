@@ -88,7 +88,7 @@ const Footer = ({}: Props) => {
                 }`}
                 onClick={() => setButtonShow((prev) => (prev = 2))}
               >
-                Ver Consultório
+                Ver o Espaço
               </Button>
               <Button
                  id="ShowInfo"

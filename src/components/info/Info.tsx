@@ -25,7 +25,7 @@ const Info = ({}: Props) => {
         <SectionText
           titleSpace="mb-2"
           title="Destinatários:"
-          desc1="Destinam-se a adultos(as) e jovens a partir dos 16 anos"
+          desc1="Destinam-se a pessoas adultas, jovens e crianças a partir dos 10 anos"
         />
 
         <SectionText
