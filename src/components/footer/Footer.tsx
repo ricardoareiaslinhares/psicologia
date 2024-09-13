@@ -55,6 +55,7 @@ const Footer = ({}: Props) => {
             >
               {buttonShow === 1 ? (
                 <MapGoogle />
+                /* fazer um mapa*/
               ) : buttonShow === 2 ? (
                 <Player
                   playing={true}
@@ -62,6 +63,7 @@ const Footer = ({}: Props) => {
                 />
               ) : (
                 <Info />
+                /* mudar informaçoes*/
               )}
             </div>
           </div>
