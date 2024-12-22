@@ -8,7 +8,6 @@ import Info from "../info/Info";
 import { Separator } from "../ui/separator";
 
 import TogetherAction from "../actionCall/Together";
-import InfoLima from "../info/InfoLima";
 
 type Props = {};
 
@@ -56,18 +55,15 @@ const Footer = ({}: Props) => {
             >
               {buttonShow === 1 ? (
                 <MapGoogle />
+                /* fazer um mapa*/
               ) : buttonShow === 2 ? (
-                /*
                 <Player
                   playing={true}
                   url={"https://www.youtube.com/watch?v=14QkzMWrEqE&t=4s"}
                 />
-                */
-                <div className="w-[320px] h-[256px]    sm:w-[500px] sm:h-[400px] flex items-center justify-center overflow-hidden ">
-                <img src="/lima.jpg" alt="" />
-                  </div>
               ) : (
                 <Info />
+                /* mudar informaçoes*/
               )}
             </div>
           </div>
@@ -86,7 +82,6 @@ const Footer = ({}: Props) => {
               >
                 Localização
               </Button>
-              {/*
               <Button
                       id="ShowConsultorio"
                       aria-label="Carregar para ver consultorio"
@@ -97,7 +92,6 @@ const Footer = ({}: Props) => {
               >
                 Ver o Espaço
               </Button>
-               */}
               <Button
                  id="ShowInfo"
                  aria-label="Carregar para ver informaçoes de horário e preço"
@@ -106,10 +100,7 @@ const Footer = ({}: Props) => {
                 }`}
                 onClick={() => setButtonShow((prev) => (prev = 3))}
               >
-               {/*
-               Horário e Preçário
-               */} 
-               Informações
+                Horário e Preçário
               </Button>
             </div>
           </div>
