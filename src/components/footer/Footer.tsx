@@ -56,7 +56,6 @@ const Footer = ({}: Props) => {
             >
               {buttonShow === 1 ? (
                 <MapGoogle />
-                /* fazer um mapa*/
               ) : buttonShow === 2 ? (
                 /*
                 <Player
@@ -68,8 +67,12 @@ const Footer = ({}: Props) => {
                 <img src="/lima.jpg" alt="" />
                   </div>
               ) : (
+<<<<<<< HEAD
                 <InfoLima />
                 /* mudar informaçoes*/
+=======
+                <Info />
+>>>>>>> parent of 63b5688 (original)
               )}
             </div>
           </div>
