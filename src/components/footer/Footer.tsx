@@ -67,12 +67,7 @@ const Footer = ({}: Props) => {
                 <img src="/lima.jpg" alt="" />
                   </div>
               ) : (
-<<<<<<< HEAD
-                <InfoLima />
-                /* mudar informaçoes*/
-=======
                 <Info />
->>>>>>> parent of 63b5688 (original)
               )}
             </div>
           </div>
