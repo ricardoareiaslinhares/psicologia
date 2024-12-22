@@ -10,14 +10,14 @@ const Info = ({}: Props) => {
         <SectionText
           titleSpace="mb-2"
           title="Horário de Funcionamento:"
-          desc1="Segunda a Sexta-feira: 11:00h às 20:30h"
-          desc2="(Encerrado aos fins de semana e feriados)"
+          desc1="Quarta a Sexta-feira: 11:00h às 20:30h"
+          desc2="(Encerrado aos feriados)"
           desc2Small={true}
         />
         <SectionText
           titleSpace="mb-2"
           title="Preçário:"
-          desc1="Consulta de Psicologia: 30€ / consulta"
+          desc1="Consulta de Psicologia: 35€ / consulta"
           desc2="(Numerário, transferência ou MBWay)"
           desc2Small={true}
         />
@@ -25,7 +25,7 @@ const Info = ({}: Props) => {
         <SectionText
           titleSpace="mb-2"
           title="Destinatários:"
-          desc1="Destinam-se a pessoas adultas, jovens e crianças a partir dos 10 anos"
+          desc1="Pessoas adultas e jovens a partir dos 16 anos"
         />
 
         <SectionText

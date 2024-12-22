@@ -22,7 +22,8 @@ function FooterCredits({}: Props) {
             src="/Instagram_Ricardo_Linhares_Psicologo_Barcelos.png"
           />
         </Link>
-        <Link
+        
+ {/*        <Link
           className="h-16 w-auto "
           href={"https://www.linkedin.com/in/ricardolinharespsicologo/"}
           target="_blank"
@@ -35,7 +36,7 @@ function FooterCredits({}: Props) {
             className=" object-cover h-16 w-auto  cursor-pointer "
             src="/Linkedin_Ricardo_Linhares_Psicologo_Barcelos.png"
           />
-        </Link>
+        </Link> */}
         <Link
           className="h-16 w-auto "
           href={

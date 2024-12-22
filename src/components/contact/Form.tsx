@@ -77,8 +77,8 @@ const {showMessageModal, setShowMessageModal} = useContext(MessageContext)
                 type="text"
                 placeholder={text[language].c.nomeplace}
                 className="font-sans text-sm w-full border border-gray-300 focus:border-none py-3 px-6   outline-none  focus:shadow-md bg-muted-muted2"
-             required={true}
-             autoComplete="name"
+                required={true}
+                autoComplete="name"
 
               />
             </div>
