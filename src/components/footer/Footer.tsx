@@ -95,7 +95,7 @@ const Footer = ({}: Props) => {
               <Button
                  id="ShowInfo"
                  aria-label="Carregar para ver informaçoes de horário e preço"
-                className={`w-36 ${
+                 className={`w-36 ${
                   buttonShow === 3 ? "bg-primary/70" : "bg-primary"
                 }`}
                 onClick={() => setButtonShow((prev) => (prev = 3))}
