@@ -83,13 +83,13 @@ return (
             label={{
               color: "orange",
               text: "Ricardo Linhares Psicologia",
-              text: "Clínica Lima Saúde",
+            //  text: "Clínica Lima Saúde",
               fontWeight: "900",
               fontSize: "16px",
               className: "labelText",
             }}
             title="Ricardo Linhares Consultas de Psicologia"
-            title="Clínica Lima Saúde"
+          //  title="Clínica Lima Saúde"
             onClick={handleExternalLinkClick}
           />
         </GoogleMap>  
