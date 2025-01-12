@@ -16,11 +16,8 @@ const Phone = (props: Props) => {
         className="sm:px-4  sm:py-6 py-10 flex flex-row items-center justify-center gap-x-3"
       >
         <FaPhoneAlt />
-        {/*
         <a href="tel:+351918562032">
-          <p className="text-lg font-medium ">918562032</p> */}
-        <a href="tel:+351933116874">
-          <p className="text-lg font-medium ">933116874</p>
+          <p className="text-lg font-medium ">918562032</p> 
         </a>
       </Button>
 
