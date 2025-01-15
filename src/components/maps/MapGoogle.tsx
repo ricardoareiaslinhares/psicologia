@@ -22,8 +22,10 @@ const MapGoogle: FC<MapProps> = ({}) => {
   const lat = consultotio.lat;
   const lng = consultotio.lng;
 
+  const MAPS_API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY as string
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey:      "AIzaSyDDt8v-PmUjYPDUXSkJ4xqtUNJamXcRxNo",
+    googleMapsApiKey: MAPS_API_KEY,
+    
   });
 
 

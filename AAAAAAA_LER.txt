@@ -1,3 +1,0 @@
-git log
-e dpois chatgtp para roll back
-para voltar a minha versãop
