@@ -13,7 +13,7 @@ import { MessageContextProvider } from "@/context/message";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ricardolinhares.pt"),
+  metadataBase: new URL("https://ricardolinharespsicologo.pt"),
   
   title: "Ricardo Linhares Consultas de Psicologia Barcelos",
   robots:{
@@ -57,7 +57,7 @@ export default function RootLayout({
             <Separator className="bg-foreground/10" />
             <div className="w-full  bg-muted  flex items-center justify-center">
               <div className="max-w-screen-2xl flex items-center justify-center ">
-                <FooterCredits />
+                <FooterCredits  />
               </div>
             </div>
           </div>

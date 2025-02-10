@@ -2,4 +2,4 @@ User-Agent: *
 Allow: /
 
 
-Sitemap: https://ricardolinhares.pt/sitemap.xml
+Sitemap: https://ricardolinharespsicologo.pt/sitemap.xml

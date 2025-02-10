@@ -17,7 +17,7 @@ const Info = ({}: Props) => {
         <SectionText
           titleSpace="mb-2"
           title="Preçário:"
-          desc1="Consulta de Psicologia: Apartir de 35€ / consulta"
+          desc1="Consulta de Psicologia: A partir de 35€"
           desc2="(Numerário, transferência ou MBWay)"
           desc2Small={true}
         />

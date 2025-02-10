@@ -8,6 +8,7 @@ import TogetherAction from "@/components/actionCall/Together";
 type Props = {};
 
 const Consultas = ({}: Props) => {
+  
   return (
     <main className="flex flex-col min-h-screen  items-center justify-start  w-full z-0 overflow-hidden ">
            <div className="flex  w-full  px-8 md:px-24 pt-8">

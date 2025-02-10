@@ -11,7 +11,7 @@ export default async function sitemap(): MetadataRoute.Sitemap {
     const posts: any = await get()
    
 
-    const baseURL = "https://ricardolinhares.pt/"
+    const baseURL = "https://ricardolinharespsicologo.pt/"
 
     const postsURL = posts.map((post:any) => {
         return     {
