@@ -4,7 +4,8 @@ import FullNavbar from "@/components/navbar/FullNavbar";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import FooterCredits from "@/components/footer/FooterCredits";
 import { Separator } from "@/components/ui/separator";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import CookieConsent from "@/components/CookieConsent";
+import AnalyticsProvider from "@/components/AnalyticsProvider";
 import { MessageContextProvider } from "@/context/message";
 import { Locale, locales } from "@/i18n/config";
 import text from "@/data/text.json";
@@ -94,9 +95,10 @@ export default async function LocaleLayout({
               </div>
             </div>
             <div id="overlays"></div>
+            <CookieConsent locale={validLocale} />
           </MessageContextProvider>
         </ThemeProvider>
-        <GoogleAnalytics gaId="G-9PRFLD7EHF" />
+        <AnalyticsProvider />
       </body>
     </html>
   );

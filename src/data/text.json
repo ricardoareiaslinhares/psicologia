@@ -142,6 +142,11 @@
       "desc5": "Estas consultas preparam-no(a) para diversos aspetos da Avalia\u00e7\u00e3o Psicol\u00f3gica, incluindo avalia\u00e7\u00f5es cognitivas (psicot\u00e9cnicos), invent\u00e1rios de personalidade e outros testes mais espec\u00edficos. ",
       "desc6": "Este \u00e9 um servi\u00e7o confidencial e adaptado \u00e0s suas necessidades espec\u00edficas. Baseia-se num ambiente de apoio e sem julgamentos, onde pode falar abertamente sobre as suas preocupa\u00e7\u00f5es e trabalhar para ultrapassar quaisquer obst\u00e1culos que possam impedir o seu sucesso.",
       "desc7": ""
+    },
+    "cookies": {
+      "message": "Este site utiliza cookies para an\u00e1lise de tr\u00e1fego e melhoria da experi\u00eancia. Ao aceitar, consente a utiliza\u00e7\u00e3o de cookies anal\u00edticos.",
+      "accept": "Aceitar",
+      "decline": "Recusar"
     }
   },
   "en": {
@@ -287,6 +292,11 @@
       "desc5": "These consultations prepare you for various aspects of the Psychological Assessment, including cognitive assessments (psychometric tests), personality inventories and other more specific tests.",
       "desc6": "This is a confidential service tailored to your specific needs. It is based on a supportive, non-judgemental environment where you can speak openly about your concerns and work to overcome any obstacles that may prevent your success.",
       "desc7": ""
+    },
+    "cookies": {
+      "message": "This site uses cookies for traffic analysis and to improve your experience. By accepting, you consent to the use of analytical cookies.",
+      "accept": "Accept",
+      "decline": "Decline"
     }
   }
 }
