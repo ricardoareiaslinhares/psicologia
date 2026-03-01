@@ -57,7 +57,13 @@ const NavbarShad = ({ className, myLinks }: Props) => {
           if (link.link) {
             return (
               <NavigationMenuItem   key={link.name} className=""  >
-                <NavigationMenuTrigger  className="">{link.name}</NavigationMenuTrigger>
+                <NavigationMenuTrigger
+                  onPointerDown={(e) => e.preventDefault()}
+                  onClick={(e) => e.preventDefault()}
+                  className=""
+                >
+                  {link.name}
+                </NavigationMenuTrigger>
                 <NavigationMenuContent className="fixed overflow-y-auto  ">
                   <ul
                     className={
