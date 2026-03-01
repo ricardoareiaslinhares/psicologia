@@ -23,7 +23,7 @@ const RenderTitle = () => {
   if (isH === "h3") return <h3 className={`text-xl font-bold text-center sm:text-left ${titleSpace ? titleSpace : "mb-4"} `}>{title}</h3>
   if (isH === "h4") return <h4 className={`text-xl font-bold text-center sm:text-left ${titleSpace ? titleSpace : "mb-4"} `}>{title}</h4>
   if (isH === "h5") return <h5 className={`text-xl font-bold text-center sm:text-left ${titleSpace ? titleSpace : "mb-4"} `}>{title}</h5>
-  else return <h1 className={`text-xl font-bold text-center sm:text-left ${titleSpace ? titleSpace : "mb-4"} `}>{title}</h1>
+  else return <h2 className={`text-xl font-bold text-center sm:text-left ${titleSpace ? titleSpace : "mb-4"} `}>{title}</h2>
 }
 
   return (
@@ -33,14 +33,14 @@ const RenderTitle = () => {
 
        
     
-        <p className="text-md text-secondary leading-7">{desc1}</p>
+        <p className="text-base text-secondary leading-7">{desc1}</p>
     
-        {desc2 ? <p className={` text-secondary leading-7 ${desc2Small ? "text-sm mt-1" : "text-md mt-2"} `}>{desc2}</p> : null}
-        {desc3 ? <p className="text-md mt-2 text-secondary leading-7">{desc3}</p> : null}
-        {desc4 ? <p className="text-md mt-2 text-secondary leading-7">{desc4}</p> : null}
-        {desc5 ? <p className="text-md mt-2 text-secondary leading-7">{desc5}</p> : null}
-        {desc6 ? <p className="text-md mt-2 text-secondary leading-7">{desc6}</p> : null}
-        {desc7 ? <p className="text-md mt-2 text-secondary leading-7">{desc7}</p> : null}
+        {desc2 ? <p className={` text-secondary leading-7 ${desc2Small ? "text-sm mt-1" : "text-base mt-2"} `}>{desc2}</p> : null}
+        {desc3 ? <p className="text-base mt-2 text-secondary leading-7">{desc3}</p> : null}
+        {desc4 ? <p className="text-base mt-2 text-secondary leading-7">{desc4}</p> : null}
+        {desc5 ? <p className="text-base mt-2 text-secondary leading-7">{desc5}</p> : null}
+        {desc6 ? <p className="text-base mt-2 text-secondary leading-7">{desc6}</p> : null}
+        {desc7 ? <p className="text-base mt-2 text-secondary leading-7">{desc7}</p> : null}
       </div>
     </div>
   );

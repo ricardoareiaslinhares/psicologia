@@ -3,6 +3,12 @@ import { language } from "@/utils/language";
 import text from "@/data/text.json";
 import Link from "next/link";
 import Carrosel from "@/components/carrosel/Carrosel";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Psicólogo Ricardo Linhares - Psicologia Barcelos",
+  description: "Conheça o Psicólogo Ricardo Linhares. Psicologia Clínica e Psicoterapia em Barcelos com formação em Terapia de Aceitação e Compromisso e Protocolo Unificado.",
+};
 
 type Props = {};
 
@@ -17,7 +23,7 @@ const Psicologo = ({}: Props) => {
     <Link
       className="cursor-pointer underline"
       href="https://congreso-xvgp.asocip.com/images/programa/Libro_resumenes_Simposios.pdf#page=89"
-      target='_blank"'
+      target="_blank"
     >
       (como o burnout)
     </Link>
@@ -26,7 +32,7 @@ const Psicologo = ({}: Props) => {
     <Link
       className="cursor-pointer underline"
       href="/sobre/psicologia"
-      target='_blank"'
+      target="_blank"
     >
       Terapia de Aceitação e Compromisso e o Protocolo Unificado
     </Link>
@@ -36,7 +42,7 @@ const Psicologo = ({}: Props) => {
  <div className="flex  w-full  px-8 md:px-24 pt-8">
         <p className="text-left leading-8 ">
           <cite>
-          &ldquo;As pequenas coisas? O pequenos momentos? - Não são pequenos&ldquo; </cite>
+          &ldquo;As pequenas coisas? O pequenos momentos? - Não são pequenos&rdquo; </cite>
           - Jon Kabat-Zinn.
         </p>
       </div>

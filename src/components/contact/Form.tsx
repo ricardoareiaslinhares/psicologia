@@ -76,7 +76,7 @@ const {showMessageModal, setShowMessageModal} = useContext(MessageContext)
                   id="name"
                 type="text"
                 placeholder={text[language].c.nomeplace}
-                className="font-sans text-sm w-full border border-gray-300 focus:border-none py-3 px-6   outline-none  focus:shadow-md bg-muted-muted2"
+                className="font-sans text-sm w-full border border-gray-300 focus:border-none py-3 px-6   outline-none  focus:shadow-md bg-muted-mutedDois"
                 required={true}
                 autoComplete="name"
 
@@ -96,7 +96,7 @@ const {showMessageModal, setShowMessageModal} = useContext(MessageContext)
                name="email"
                 type="email"
                 placeholder={text[language].c.mailplace}
-                className="w-full font-sans text-sm border border-gray-300 focus:border-none py-3 px-6 outline-none  focus:shadow-md bg-muted-muted2"
+                className="w-full font-sans text-sm border border-gray-300 focus:border-none py-3 px-6 outline-none  focus:shadow-md bg-muted-mutedDois"
                 required={true}
                 autoComplete="Email"
               />
@@ -116,7 +116,7 @@ const {showMessageModal, setShowMessageModal} = useContext(MessageContext)
               name="message"
               rows={4}
               placeholder={text[language].c.menplace}
-              className="w-full font-sans text-sm border     border-gray-300 focus:border-opacity-0 bg-muted-muted2"
+              className="w-full font-sans text-sm border     border-gray-300 focus:border-opacity-0 bg-muted-mutedDois"
               required={true}
             ></Textarea>
           </div>

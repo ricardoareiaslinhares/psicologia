@@ -48,7 +48,7 @@ const InfoLima = ({}: Props) => {
         />
         <div className="flex flex-row items-center">
             <h4 className="text-lg font-bold justify-center">Tel:</h4>
-            <p className="text-md text-secondary ml-2 translate-y-[0.5px]">933116874</p>
+            <p className="text-base text-secondary ml-2 translate-y-[0.5px]">933116874</p>
         </div>
       </div>
     </div>

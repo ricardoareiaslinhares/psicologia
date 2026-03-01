@@ -13,7 +13,6 @@ export function ThemeToggle() {
   const handleTheme = () => {
     if (theme === "light") setTheme("dark")
     if (theme === "dark") setTheme("light")
-    console.log(theme, "tema")
   }
 
 

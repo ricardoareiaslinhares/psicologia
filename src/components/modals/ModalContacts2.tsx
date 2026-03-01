@@ -72,7 +72,7 @@ function ModalContacts2({ handleModal, message,  }: Props) {
               </button>
             </div>
             <div className="mb-10 mt-4 mx-8">
-              <h2 className="px-5 font-bold  text-md">
+              <h2 className="px-5 font-bold  text-base">
                 {text[language].c.feedback}{" "}
               </h2>
               <p>{message && message}</p>

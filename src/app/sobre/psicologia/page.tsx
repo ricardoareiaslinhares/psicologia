@@ -2,10 +2,14 @@ import SectionText from "@/components/sections/SectionText";
 import { language } from "@/utils/language";
 import text from "@/data/text.json";
 import Link from "next/link";
-import Carrosel from "@/components/carrosel/Carrosel";
 import Image from "next/image";
-import Player from "@/components/videoPlayer/Player";
 import dynamic from "next/dynamic";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Psicologia Clínica e Psicoterapia - Barcelos",
+  description: "Saiba mais sobre Psicologia Clínica, Terapia de Aceitação e Compromisso (ACT) e Protocolo Unificado (UP). Abordagens baseadas em evidência científica.",
+};
 
 type Props = {};
 const ComponentVideoACT = dynamic(
@@ -30,7 +34,7 @@ const Psicologia = ({}: Props) => {
     <Link
       className="cursor-pointer underline"
       href="/referencias"
-      target='_blank"'
+      target="_blank"
     >
       {text[language].sobrePsicologia.refs}
     </Link>
@@ -43,7 +47,7 @@ const Psicologia = ({}: Props) => {
     <main className="flex min-h-screen flex-col items-start justify-start  w-fit max-w-screen-2xl z-0 ">
       <div className="flex  w-full  px-8 md:px-24 pt-8">
 
-      <p className="text-left leading-8  "><cite>&ldquo;Recomeça… Se puderes. Sem angústia e sem pressa. E os passos que deres, nesse caminho duro do futuro, dá-os em liberdade. Enquanto não alcances, não descanses. De nenhum fruto queiras só metade.&ldquo; </cite>-  Miguel Torga.</p>
+      <p className="text-left leading-8  "><cite>&ldquo;Recomeça… Se puderes. Sem angústia e sem pressa. E os passos que deres, nesse caminho duro do futuro, dá-os em liberdade. Enquanto não alcances, não descanses. De nenhum fruto queiras só metade.&rdquo; </cite>-  Miguel Torga.</p>
       </div>
       <section className="flex  w-full  px-8 md:px-24 pt-8 flex-col gap-6  ">
         <div className="flex flex-1 flex-col md:flex-row gap-6 mb-6">

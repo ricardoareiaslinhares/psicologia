@@ -19,7 +19,7 @@ export default function Referencias({}: Props) {
     return (
       <div className="flex flex-col gap-y-3 px-4 ">
         {renderedReferences.map((item, index) => {
-          return <p className="text-md mt-2 text-secondary -indent-9 whitespace-normal break-words" key={index}>{item}</p>;
+          return <p className="text-base mt-2 text-secondary -indent-9 whitespace-normal break-words" key={index}>{item}</p>;
         })}
       </div>
     );
@@ -32,12 +32,11 @@ export default function Referencias({}: Props) {
       const iString = i.toString();
       renderedReferences.push(referencesPersonalidade[iString]);
     }
-    console.log(renderedReferences)
     return (
       <div className="flex flex-col gap-y-3 px-4 ">
         {renderedReferences.map((item, index) => {
      
-          return <p className="text-md mt-2 text-secondary -indent-9 whitespace-normal break-words" key={index}>{item}</p>;
+          return <p className="text-base mt-2 text-secondary -indent-9 whitespace-normal break-words" key={index}>{item}</p>;
         })}
       </div>
     );
@@ -51,7 +50,7 @@ export default function Referencias({}: Props) {
         <RenderReferences />
       </section>
       <section className="flex  w-full max-w-screen-xl px-8 md:px-24 pt-8 flex-col gap-6">
-      <h1 className={`text-lg font-bold text-center sm:text-left `}>{refs.tituloBlogPersonalidade}</h1> 
+      <h2 className={`text-lg font-bold text-center sm:text-left `}>{refs.tituloBlogPersonalidade}</h2> 
         <RenderReferencesPersonalidade />
       </section>
     </main>

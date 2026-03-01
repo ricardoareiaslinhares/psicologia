@@ -16,7 +16,6 @@ import {
 import Link from "next/link";
 import { LinkType } from "@/types";
 import { ThemeToggle } from "../ThemeToggle";
-import { useRouter } from "next/router";
 
 type Props = {
   className?: string;

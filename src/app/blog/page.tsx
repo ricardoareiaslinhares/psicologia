@@ -2,12 +2,18 @@ import React from 'react'
 import {client} from "@/lib/contentful"
 import { BlogPost } from '@/types'
 import CardMain from '@/components/cards/CardMain'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "Blog de Psicologia - Ricardo Linhares",
+  description: "Artigos sobre psicologia, psicoterapia e saúde mental. Livro Aberto de Psicologia por Ricardo Linhares.",
+};
 
 
  
 export const dynamic = "auto",
 dynamicParams = true,
-revalidate = 0,
+revalidate = 3600,
 fetchCache = "auto",
 runtime = "nodejs",
 preferredRegion = "auto"

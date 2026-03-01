@@ -28,10 +28,6 @@ const FullNavbar = ({}: Props) => {
           name: text[language].navbar.servicos.link1,
           href: "/servicos/consultas",
         },
-        {
-          name: text[language].navbar.servicos.link2,
-          href: "/servicos/preparacao",
-        },
       ],
     },
 

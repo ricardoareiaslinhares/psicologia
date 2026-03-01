@@ -11,7 +11,6 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import NavbarShad from "./NavbarShad";
 import { LinkType } from "@/types";
 import { NavigationMenuTrigger } from "../ui/navigation-menu";
 import Link from "next/link";
@@ -103,7 +102,7 @@ export function Drawer({ myLinks }: Props) {
   return (
     <Sheet onOpenChange={() => setShowDropDown(null)}>
       <SheetTrigger asChild>
-        <Button className="flex items-center justify-center sm:hidden" variant="ghost">
+        <Button className="flex items-center justify-center sm:hidden" variant="ghost" aria-label="Abrir menu">
           <svg
             width="30"
             height="30"

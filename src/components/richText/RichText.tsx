@@ -32,7 +32,7 @@ const RichText = ({ content }: Props) => {
         return <h3 className="my-8 text-xl font-bold italic">{children}</h3>
       },
       [BLOCKS.HEADING_6] : (node, children) => {
-        return <p className="mb-3 text-md underline text-blue-600 focus:text:blue-400">{children}</p>
+        return <p className="mb-3 text-base underline text-blue-600 focus:text:blue-400">{children}</p>
       },
       [BLOCKS.EMBEDDED_ENTRY] : (node, children) => {
         return <h3 className="underline">{children}</h3>

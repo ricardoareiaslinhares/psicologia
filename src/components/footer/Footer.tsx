@@ -37,7 +37,7 @@ const Footer = ({}: Props) => {
           </div>
           */}
           <h3 className="sm:text-left text-center text-2xl font-bold  mb-20 underline">Consultório temporariamente encerrado</h3>
-          <h4 className="text-md font-bold mb-3 px-2 sm:px-0 italic">
+          <h4 className="text-base font-bold mb-3 px-2 sm:px-0 italic">
             Deixar mensagem...
           </h4>
           <Form />

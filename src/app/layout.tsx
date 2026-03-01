@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "Tratamento ansiedade",
     "Tratamento depressão"
   ],
-  description: "Psicologia Clínica / Psicoterapia em Barcelos. Não precisa de sofrer com depressão, ansiedade, pânico ou outros problemas. Há formas de lidar com eles, utilize a psicologia para viver com maiis vitalidade.",
+  description: "Psicologia Clínica / Psicoterapia em Barcelos. Não precisa de sofrer com depressão, ansiedade, pânico ou outros problemas. Há formas de lidar com eles, utilize a psicologia para viver com mais vitalidade.",
 
 };
 
@@ -40,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="pt">
     
       <body className={inter.className}>
            <ThemeProvider
@@ -50,7 +50,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <MessageContextProvider>
-   
+          <div className="w-full bg-destructive text-destructive-foreground text-center py-2 px-4 text-sm font-semibold">
+            Consultório temporariamente encerrado
+          </div>
           <FullNavbar />
           <div className="flex items-center justify-center flex-col">
             {children}
@@ -65,8 +67,8 @@ export default function RootLayout({
           <div id="overlays"></div>
           </MessageContextProvider>
       </ThemeProvider>
-      </body>
       <GoogleAnalytics gaId="G-9PRFLD7EHF" />
+      </body>
     </html>
   );
 }

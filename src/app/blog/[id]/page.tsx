@@ -5,7 +5,7 @@ import React, { cache } from "react";
 
 export const dynamic = "auto",
   dynamicParams = true,
-  revalidate = 0,
+  revalidate = 3600,
   fetchCache = "auto",
   runtime = "nodejs",
   preferredRegion = "auto";

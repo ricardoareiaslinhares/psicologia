@@ -36,7 +36,7 @@ function ModalContacts({ handleModal, open }: Props) {
               </button>
             </div>
             <div className="mb-6 mt-2">
-              <h2 className="px-5 font-bold  text-md">{text[language].c.feedback}</h2>
+              <h2 className="px-5 font-bold  text-base">{text[language].c.feedback}</h2>
             </div>
           </div>
         </div>

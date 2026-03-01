@@ -3,10 +3,10 @@ import Hero from "@/components/hero/Hero";
 import SectionText from "@/components/sections/SectionText";
 import text from "@/data/text.json";
 import CardMain from "@/components/cards/CardMain";
+import ServiceFeature from "@/components/cards/ServiceFeature";
 import Footer from "@/components/footer/Footer";
 import ModalContacts2 from "@/components/modals/ModalContacts2";
 import { Metadata } from "next";
-import Head from "next/head";
 
 
 export const metadata:Metadata = {
@@ -30,10 +30,6 @@ export default function Home() {
 
   return (
     <>
-  <Head>
-  <meta name="robots" content="all" />
-  <meta name="robots" content="index, follow"/>
-  </Head>
      <ModalContacts2  /> 
 
       <main className="flex min-h-screen flex-col items-center justify-between  w-screen z-0 ">
@@ -49,26 +45,28 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="flex flex-1 flex-row w-full pt-8 max-w-screen-2xl   ">
-          <div className="flex flex-1  py-8 pb-16 px-8 md:px-24 flex-col ">
+        <section className="flex flex-1 flex-row w-full pt-8 max-w-screen-2xl">
+          <div className="flex flex-1 py-8 pb-16 px-8 md:px-24 flex-col">
             <div className="mb-8">
               <SectionText isH="h2" title={"Serviços"} />
             </div>
-            <span className="flex flex-1 flex-wrap lg:flex-nowrap gap-16 justify-center items-center px-3 sm:px-12  ">
+            <ServiceFeature
+              title={text[language].card1Title}
+              desc={text[language].card1Desc}
+              link="/servicos/consultas"
+              imageUrl="/saude.png"
+              highlights={["Depressão", "Ansiedade", "Pânico", "Stresse", "Burnout", "OCD"]}
+            />
+            {/* Old card layout — kept for when multiple services return
+            <span className="flex flex-1 flex-wrap lg:flex-nowrap gap-16 justify-center items-center px-3 sm:px-12">
               <CardMain
                 title={text[language].card1Title}
                 desc={text[language].card1Desc}
                 link="/servicos/consultas"
                 imageUrl="/saude.png"
               />
-
-              <CardMain
-                title={text[language].card2Title}
-                desc={text[language].card2Desc}
-                link="servicos/preparacao"
-                imageUrl="/rh.png"
-              />
             </span>
+            */}
           </div>
         </section>
         <section className="flex flex-1  max-w-screen-2xl  px-8 pb-4 md:px-24 gap-x-8 gap-y-2 items-start justify-start flex-col sm:flex-row">

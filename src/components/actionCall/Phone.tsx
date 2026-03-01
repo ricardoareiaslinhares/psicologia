@@ -8,7 +8,7 @@ type Props = {};
 const Phone = (props: Props) => {
   return (
     <div className="flex  items-center justify-center  sm:self-start flex-row gap-4">
-    {/*   <h4 className="text-md font-bold mb-3 italic">
+    {/*   <h4 className="text-base font-bold mb-3 italic">
         Telefonar e Marcar Consulta...
       </h4> */}
       <Button
