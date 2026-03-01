@@ -71,12 +71,12 @@
     "sobrePsicologo": {
       "titulo": "Sobre o Psic\u00f3logo",
       "quote": "\u201cAs pequenas coisas? O pequenos momentos? - N\u00e3o s\u00e3o pequenos\u201d - Jon Kabat-Zinn.",
-      "desc1": "Ol\u00e1, chamo-me Ricardo Linhares, sou psic\u00f3logo e membro efetivo da Ordem dos Psic\u00f3logos Portugueses (n\u00ba: 27338).",
-      "desc2": "Tenho licenciatura em Psicologia, mestrado em Psicologia do Trabalho e das Organiza\u00e7\u00f5es e especializa\u00e7\u00e3o avan\u00e7ada em Psicologia Cl\u00ednica e da Sa\u00fade.",
-      "desc3": "Iniciei a minha carreira na \u00e1rea das Organiza\u00e7\u00f5es, onde efetuei diversas entrevistas de recrutamento e sele\u00e7\u00e3o, an\u00e1lises de perfis profissionais e estudei o impacto de riscos psicossociais (como o burnout) na vida pessoal e profissional das pessoas.",
-      "desc4": "Em 2020, tive interesse em explorar outras \u00e1reas da psicologia. Ent\u00e3o, fundei 'Ricardo Linhares Consultas de Psicologia', como forma de poder atuar na sa\u00fade psicol\u00f3gica em geral e poder contribuir nas \u00e1reas de investiga\u00e7\u00e3o e publica\u00e7\u00e3o de conhecimento sobre psicologia.",
-      "desc5": "Ao n\u00edvel das Consultas de Psicologia, foco o meu trabalho nas denominadas perturba\u00e7\u00f5es emocionais, isto \u00e9, estados em que as emo\u00e7\u00f5es se encontram perturbadas, tais como depress\u00e3o, burnout, stresse, ansiedade, obsess\u00f5es-compuls\u00f5es e ataques de p\u00e2nico.",
-      "desc6": "Como m\u00e9todo de interven\u00e7\u00e3o psicol\u00f3gica utilizo dois dos modelos psicol\u00f3gicos mais atuais e mais importantes nos \u00faltimos anos: Terapia de Aceita\u00e7\u00e3o e Compromisso e o Protocolo Unificado (a unifica\u00e7\u00e3o de diferentes variantes da Terapia Cognitiva-Comportamental), tendo extensa forma\u00e7\u00e3o espec\u00edfica nestas abordagens."
+      "desc1": "Ol\u00e1, chamo-me Ricardo Linhares. Sou psic\u00f3logo e membro efetivo da Ordem dos Psic\u00f3logos Portugueses (n\u00ba 27338).",
+      "desc2": "Iniciei a minha carreira em Psicologia das Organiza\u00e7\u00f5es \u2014 a realizar entrevistas de recrutamento, a construir perfis profissionais e a estudar como quest\u00f5es como o burnout corroem silenciosamente a vida pessoal e profissional das pessoas. Esse trabalho levava-me sempre ao mesmo lugar: a pessoa por detr\u00e1s do cargo, e aquilo que realmente estava a atravessar.",
+      "desc3": "Foi isso que me puxou para o trabalho cl\u00ednico. Fundei o Ricardo Linhares Consultas de Psicologia para trabalhar diretamente com pessoas que navegam as dificuldades emocionais que surgem quando a vida pesa \u2014 depress\u00e3o, ansiedade, burnout, stresse, padr\u00f5es obsessivos e p\u00e2nico.",
+      "desc4": "A minha abordagem assenta na Terapia de Aceita\u00e7\u00e3o e Compromisso (ACT) \u2014 um modelo moderno baseado numa ideia simples: as emo\u00e7\u00f5es n\u00e3o s\u00e3o o inimigo. Combater pensamentos e sentimentos dif\u00edceis muitas vezes torna-os mais intensos. O verdadeiro trabalho \u00e9 aprender a carregar o que \u00e9 dif\u00edcil enquanto continuamos a caminhar em dire\u00e7\u00e3o ao que nos importa. Tamb\u00e9m utilizo o Protocolo Unificado, que re\u00fane as ferramentas mais eficazes da terapia cognitivo-comportamental numa abordagem \u00fanica e flex\u00edvel.",
+      "desc5": "Tenho licenciatura em Psicologia, mestrado em Psicologia do Trabalho e das Organiza\u00e7\u00f5es e especializa\u00e7\u00e3o avan\u00e7ada em Psicologia Cl\u00ednica e da Sa\u00fade.",
+      "desc6": ""
     },
     "sobrePsicologia": {
       "titulo": "Sobre as Consultas de Psicologia",
@@ -208,12 +208,12 @@
     "sobrePsicologo": {
       "titulo": "About the Psychologist",
       "quote": "\u201cThe little things? The little moments? \u2014 They aren\u2019t little\u201d \u2014 Jon Kabat-Zinn.",
-      "desc1": "Hello, my name is Ricardo Linhares. I am a psychologist and a full member of the Portuguese Order of Psychologists (no. 27338).",
-      "desc2": "I hold a degree in Psychology, a master\u2019s in Work and Organizational Psychology, and an advanced specialization in Clinical and Health Psychology.",
-      "desc3": "I began my career in the Organizational field, where I conducted numerous recruitment and selection interviews, professional profile analyses, and studied the impact of psychosocial risks (such as burnout) on people\u2019s personal and professional lives.",
-      "desc4": "In 2020, I became interested in exploring other areas of psychology. I then founded \u2018Ricardo Linhares Psychology Practice\u2019 as a way to work in psychological health in general and to contribute to research and the publication of knowledge about psychology.",
-      "desc5": "In my Psychology Practice, I focus my work on what are called emotional disorders \u2014 that is, states in which emotions are disturbed, such as depression, burnout, stress, anxiety, obsessive-compulsive patterns and panic attacks.",
-      "desc6": "As a method of psychological intervention, I use two of the most current and important psychological models in recent years: Acceptance and Commitment Therapy and the Unified Protocol (the unification of different variants of Cognitive-Behavioural Therapy), with extensive specific training in these approaches."
+      "desc1": "Hello, my name is Ricardo Linhares. I\u2019m a psychologist and full member of the Portuguese Order of Psychologists (no. 27338).",
+      "desc2": "I started my career in Organizational Psychology \u2014 conducting recruitment interviews, building professional profiles, and studying how things like burnout quietly erode people\u2019s personal and professional lives. That work kept leading me to the same place: the individual behind the job title, and what they were actually going through.",
+      "desc3": "That\u2019s what pulled me into clinical work. I founded Ricardo Linhares Psychology Practice to work directly with people navigating the emotional difficulties that show up when life gets heavy \u2014 depression, anxiety, burnout, stress, obsessive patterns, and panic.",
+      "desc4": "My approach is built on Acceptance and Commitment Therapy (ACT) \u2014 a modern framework based on a simple idea: emotions aren\u2019t the enemy. Fighting against difficult thoughts and feelings often makes them louder. The real work is learning to carry what\u2019s hard while still moving toward what matters to you. I also draw from the Unified Protocol, which brings together the most effective tools from cognitive-behavioural therapy into a single, flexible approach.",
+      "desc5": "I hold a degree in Psychology, a master\u2019s in Work and Organizational Psychology, and an advanced specialisation in Clinical and Health Psychology.",
+      "desc6": ""
     },
     "sobrePsicologia": {
       "titulo": "About Psychology Consultations",

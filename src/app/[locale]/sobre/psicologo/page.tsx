@@ -43,59 +43,65 @@ export default async function Psicologo({
     "/Ricardo_Linhares_Psicologo.png",
   ];
 
-  const aTag = (
+  const burnoutLink = (
     <Link
       className="cursor-pointer underline"
       href="https://congreso-xvgp.asocip.com/images/programa/Libro_resumenes_Simposios.pdf#page=89"
       target="_blank"
     >
-      {lang === "en" ? "(such as burnout)" : "(como o burnout)"}
+      burnout
     </Link>
   );
-  const aTag2 = (
+  const actLink = (
     <Link
       className="cursor-pointer underline"
       href={getLocalePath(lang, "/sobre/psicologia")}
       target="_blank"
     >
       {lang === "en"
-        ? "Acceptance and Commitment Therapy and the Unified Protocol"
-        : "Terapia de Aceitação e Compromisso e o Protocolo Unificado"}
+        ? "Acceptance and Commitment Therapy (ACT)"
+        : "Terapia de Aceitação e Compromisso (ACT)"}
     </Link>
   );
 
-  const desc3Content =
+  const desc2Content =
     lang === "en" ? (
       <>
-        I began my career in the Organizational field, where I conducted
-        numerous recruitment and selection interviews, professional profile
-        analyses, and studied the impact of psychosocial risks {aTag} on
-        people&apos;s personal and professional lives.
+        I started my career in Organizational Psychology — conducting recruitment
+        interviews, building professional profiles, and studying how things like{" "}
+        {burnoutLink} quietly erode people&apos;s personal and professional lives.
+        That work kept leading me to the same place: the individual behind the job
+        title, and what they were actually going through.
       </>
     ) : (
       <>
-        Iniciei a minha carreira na área das Organizações, onde efetuei diversas
-        entrevistas de recrutamento e seleção, análises de perfis profissionais e
-        estudei o impacto de riscos psicossociais {aTag} na vida pessoal e
-        profissional das pessoas.
+        Iniciei a minha carreira em Psicologia das Organizações — a realizar
+        entrevistas de recrutamento, a construir perfis profissionais e a estudar
+        como questões como o {burnoutLink} corroem silenciosamente a vida pessoal
+        e profissional das pessoas. Esse trabalho levava-me sempre ao mesmo lugar:
+        a pessoa por detrás do cargo, e aquilo que realmente estava a atravessar.
       </>
     );
 
-  const desc6Content =
+  const desc4Content =
     lang === "en" ? (
       <>
-        As a method of psychological intervention, I use two of the most current
-        and important psychological models in recent years: {aTag2} (the
-        unification of different variants of Cognitive-Behavioural Therapy), with
-        extensive specific training in these approaches.
+        My approach is built on {actLink} — a modern framework based on a simple
+        idea: emotions aren&apos;t the enemy. Fighting against difficult thoughts
+        and feelings often makes them louder. The real work is learning to carry
+        what&apos;s hard while still moving toward what matters to you. I also draw
+        from the Unified Protocol, which brings together the most effective tools
+        from cognitive-behavioural therapy into a single, flexible approach.
       </>
     ) : (
       <>
-        Como método de intervenção psicológica utilizo dois dos modelos
-        psicológicos mais atuais e mais importantes nos últimos anos: {aTag2} (a
-        unificação de diferentes variantes da Terapia
-        Cognitiva-Comportamental), tendo extensa formação específica nestas
-        abordagens.
+        A minha abordagem assenta na {actLink} — um modelo moderno baseado numa
+        ideia simples: as emoções não são o inimigo. Combater pensamentos e sentimentos
+        difíceis muitas vezes torna-os mais intensos. O verdadeiro trabalho é
+        aprender a carregar o que é difícil enquanto continuamos a caminhar em
+        direção ao que nos importa. Também utilizo o Protocolo Unificado, que
+        reúne as ferramentas mais eficazes da terapia cognitivo-comportamental
+        numa abordagem única e flexível.
       </>
     );
 
@@ -112,11 +118,10 @@ export default async function Psicologo({
             <SectionText
               title={t.sobrePsicologo.titulo}
               desc1={t.sobrePsicologo.desc1}
-              desc2={t.sobrePsicologo.desc2}
-              desc3={desc3Content}
-              desc4={t.sobrePsicologo.desc4}
+              desc2={desc2Content}
+              desc3={t.sobrePsicologo.desc3}
+              desc4={desc4Content}
               desc5={t.sobrePsicologo.desc5}
-              desc6={desc6Content}
             />
           </div>
           <div className="sm:mx-0 sm:ml-6 sm:mt-12 flex items-center md:items-start justify-center">

@@ -1,0 +1,20 @@
+OLD "sobrePsicologo" TEXT (BACKUP)
+==================================
+
+PORTUGUESE:
+-----------
+desc1: Olá, chamo-me Ricardo Linhares, sou psicólogo e membro efetivo da Ordem dos Psicólogos Portugueses (nº: 27338).
+desc2: Tenho licenciatura em Psicologia, mestrado em Psicologia do Trabalho e das Organizações e especialização avançada em Psicologia Clínica e da Saúde.
+desc3: Iniciei a minha carreira na área das Organizações, onde efetuei diversas entrevistas de recrutamento e seleção, análises de perfis profissionais e estudei o impacto de riscos psicossociais (como o burnout) na vida pessoal e profissional das pessoas.
+desc4: Mais tarde, tive interesse em explorar outras áreas da psicologia. Então, fundei 'Ricardo Linhares Consultas de Psicologia', como forma de poder atuar na saúde psicológica em geral e poder contribuir nas áreas de investigação e publicação de conhecimento sobre psicologia.
+desc5: Ao nível das Consultas de Psicologia, foco o meu trabalho nas denominadas perturbações emocionais, isto é, estados em que as emoções se encontram perturbadas, tais como depressão, burnout, stresse, ansiedade, obsessões-compulsões e ataques de pânico.
+desc6: Como método de intervenção psicológica utilizo dois dos modelos psicológicos mais atuais e mais importantes nos últimos anos: Terapia de Aceitação e Compromisso e o Protocolo Unificado (a unificação de diferentes variantes da Terapia Cognitiva-Comportamental), tendo extensa formação específica nestas abordagens.
+
+ENGLISH:
+--------
+desc1: Hello, my name is Ricardo Linhares. I am a psychologist and a full member of the Portuguese Order of Psychologists (no. 27338).
+desc2: I hold a degree in Psychology, a master's in Work and Organizational Psychology, and an advanced specialization in Clinical and Health Psychology.
+desc3: I began my career in the Organizational field, where I conducted numerous recruitment and selection interviews, professional profile analyses, and studied the impact of psychosocial risks (such as burnout) on people's personal and professional lives.
+desc4: Later, I became interested in exploring other areas of psychology. I then founded 'Ricardo Linhares Psychology Practice' as a way to work in psychological health in general and to contribute to research and the publication of knowledge about psychology.
+desc5: In my Psychology Practice, I focus my work on what are called emotional disorders — that is, states in which emotions are disturbed, such as depression, burnout, stress, anxiety, obsessive-compulsive patterns and panic attacks.
+desc6: As a method of psychological intervention, I use two of the most current and important psychological models in recent years: Acceptance and Commitment Therapy and the Unified Protocol (the unification of different variants of Cognitive-Behavioural Therapy), with extensive specific training in these approaches.
