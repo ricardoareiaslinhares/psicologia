@@ -28,19 +28,19 @@ export default function CookieConsent({ locale }: Props) {
   if (!visible) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 p-4 sm:p-6">
-      <div className="mx-auto max-w-screen-md rounded-xl border border-foreground/10 bg-background/95 backdrop-blur-sm shadow-lg p-4 sm:p-6 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-        <p className="text-sm text-secondary flex-1">{t.message}</p>
-        <div className="flex gap-2 shrink-0">
+    <div className="fixed bottom-4 left-4 right-4 sm:left-auto sm:right-4 z-50 sm:max-w-xs">
+      <div className="rounded-xl border border-foreground/10 bg-background/95 backdrop-blur-sm shadow-lg p-4 flex flex-col gap-3">
+        <p className="text-xs text-secondary leading-relaxed">{t.message}</p>
+        <div className="flex gap-2">
           <button
             onClick={() => handleChoice("declined")}
-            className="rounded-full px-4 py-2 text-sm font-medium border border-foreground/15 text-foreground/70 hover:bg-muted transition-colors"
+            className="flex-1 rounded-full px-3 py-1.5 text-xs font-medium border border-foreground/15 text-foreground/70 hover:bg-muted transition-colors"
           >
             {t.decline}
           </button>
           <button
             onClick={() => handleChoice("accepted")}
-            className="rounded-full px-4 py-2 text-sm font-medium bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
+            className="flex-1 rounded-full px-3 py-1.5 text-xs font-medium bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
           >
             {t.accept}
           </button>
