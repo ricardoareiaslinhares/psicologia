@@ -35,11 +35,8 @@ const Hero = ({ locale }: Props) => {
             <li className="text-base sm:text-lg font-bold mb-3">
               {t.hero.service1}
             </li>
-            <li className="text-base sm:text-lg font-bold mb-3">
-              {t.hero.service2}
-            </li>
             <li className="text-base sm:text-lg font-bold">
-              {t.hero.service3}
+              {t.hero.service2}
             </li>
           </ul>
         </div>
