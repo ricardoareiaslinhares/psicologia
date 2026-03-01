@@ -1,15 +1,21 @@
 "use client";
-import React, { lazy, Suspense, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Form from "../contact/Form";
 import { Button } from "../ui/button";
 import MapGoogle from "../maps/MapGoogle";
 import Info from "../info/Info";
 import { Separator } from "../ui/separator";
 import TogetherAction from "../actionCall/Together";
+import dynamic from "next/dynamic";
 import text from "@/data/text.json";
 import { Locale } from "@/i18n/config";
 
-const Player = lazy(() => import("../videoPlayer/Player"));
+import Loading from "../videoPlayer/Loading";
+
+const Player = dynamic(() => import("../videoPlayer/Player"), {
+  ssr: false,
+  loading: () => <Loading />,
+});
 
 type Props = {
   locale: Locale;
@@ -18,7 +24,7 @@ type Props = {
 const Footer = ({ locale }: Props) => {
   const t = text[locale] || text.pt;
   const [buttonShow, setButtonShow] = useState<number>(2);
-  const [containerHeight, setContainerHeight] = useState(490);
+  const [containerHeight, setContainerHeight] = useState(260);
 
   useEffect(() => {
     if (buttonShow === 1) {
@@ -37,9 +43,7 @@ const Footer = ({ locale }: Props) => {
           <h3 className="sm:text-left text-center text-2xl font-bold mb-20 underline">
             {t.footer.closedNotice}
           </h3>
-          <h4 className="text-base font-bold mb-3 px-2 sm:px-0 italic">
-            {t.footer.leaveMessage}
-          </h4>
+          <h4 className="text-base font-bold mb-3 px-2 sm:px-0 italic">{t.footer.leaveMessage}</h4>
           <Form locale={locale} />
         </div>
         <div className="mt-6 flex md:hidden w-4/5 self-center">
@@ -57,12 +61,10 @@ const Footer = ({ locale }: Props) => {
               {buttonShow === 1 ? (
                 <MapGoogle />
               ) : buttonShow === 2 ? (
-                <Suspense fallback={<p></p>}>
-                  <Player
-                    playing={false}
-                    url={"https://www.youtube.com/watch?v=14QkzMWrEqE&t=4s"}
-                  />
-                </Suspense>
+                <Player
+                  playing={false}
+                  url={"https://www.youtube.com/watch?v=14QkzMWrEqE&t=4s"}
+                />
               ) : (
                 <Info />
               )}
