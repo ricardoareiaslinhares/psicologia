@@ -58,7 +58,7 @@ const ServiceFeature = ({ title, desc, link, imageUrl, highlights, learnMore = "
           )}
 
           {/* CTA */}
-          <div className="pt-2">
+          <div className="pt-2 text-center lg:text-left">
             <Button asChild className="gap-2 rounded-full px-6 py-5 text-base font-semibold shadow-sm transition-all duration-200 hover:shadow-md">
               <Link href={link}>
                 {learnMore}

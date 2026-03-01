@@ -50,9 +50,9 @@ const Footer = ({ locale }: Props) => {
           <Separator className="bg-foreground/10" />
         </div>
         <div className="flex items-center self-center justify-center flex-1 flex-row flex-wrap xl:flex-nowrap gap-4 w-full">
-          <div className="sm:pl-2 items-center flex md:basis-3/4 sm:pb-0 pb-4">
+          <div className="sm:pl-2 items-center justify-center flex w-full md:basis-3/4 sm:pb-0 pb-4">
             <div
-              className="flex items-center"
+              className="flex items-center justify-center w-full"
               style={{
                 height: `${containerHeight}px`,
                 transition: "height 0.3s ease-in-out",

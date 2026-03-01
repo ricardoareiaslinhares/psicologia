@@ -47,7 +47,7 @@ const AppPromo = ({ title, subtitle, desc, cta, badge, image }: Props) => {
           <p className="text-base text-secondary leading-relaxed">
             {desc}
           </p>
-          <div className="mt-2">
+          <div className="mt-2 text-center sm:text-left">
             <Link
               href={PLAY_STORE_URL}
               target="_blank"
