@@ -1,22 +1,20 @@
 import { FormData } from "@/components/contact/Form";
 
 
-export function sendEmail(data: FormData, handleModal: () => void) {
+export function sendEmail(data: FormData, handleModal: () => void): Promise<void>;
+export function sendEmail(data: FormData): Promise<void>;
+export function sendEmail(data: FormData, handleModal?: () => void) {
   const apiEndpoint = "/api/email";
 
-
-  fetch(apiEndpoint, {
+  return fetch(apiEndpoint, {
     method: "POST",
     body: JSON.stringify(data),
   })
-    .then((res) => res.json())
     .then((res) => {
-      //alert(res.message);
-      handleModal();
-   
+      if (!res.ok) throw new Error("Erro ao enviar");
+      return res.json();
     })
-    .catch((err) => {
-      alert(err);
-
+    .then(() => {
+      handleModal?.();
     });
 }
