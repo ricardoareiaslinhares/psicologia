@@ -32,24 +32,32 @@ export default async function Home({
   return (
     <>
       <ModalContacts2 locale={lang} />
-      <main className="flex min-h-screen flex-col items-center justify-between w-screen z-0">
+      <main className="flex min-h-screen flex-col items-center w-screen z-0">
         <Hero locale={lang} />
-        <section className="flex flex-1 w-full max-w-screen-2xl px-8 md:px-24 pt-8 flex-col">
-          <SectionText isH="h1" title={t.section1Title} />
-          <div className="flex flex-1 gap-x-10 items-center justify-center gap-y-4 flex-row flex-wrap">
-            <div>
-              <SectionText desc1={t.section1Desc1} />
-            </div>
-            <div>
-              <SectionText desc1={t.section1Desc2} />
+
+        {/* Section 1 — How sessions work */}
+        <section className="w-full bg-background">
+          <div className="max-w-screen-2xl mx-auto px-8 md:px-24 py-16">
+            <h1 className="text-2xl sm:text-3xl font-bold text-center mb-10">
+              {t.section1Title}
+            </h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+              <p className="text-base text-secondary leading-7">
+                {t.section1Desc1}
+              </p>
+              <p className="text-base text-secondary leading-7">
+                {t.section1Desc2}
+              </p>
             </div>
           </div>
         </section>
-        <section className="flex flex-1 flex-row w-full pt-8 max-w-screen-2xl">
-          <div className="flex flex-1 py-8 pb-16 px-8 md:px-24 flex-col">
-            <div className="mb-8">
-              <SectionText isH="h2" title={t.services} />
-            </div>
+
+        {/* Section 2 — Services */}
+        <section className="w-full bg-muted/50">
+          <div className="max-w-screen-2xl mx-auto px-8 md:px-24 py-16">
+            <h2 className="text-2xl sm:text-3xl font-bold text-center mb-10">
+              {t.services}
+            </h2>
             <ServiceFeature
               title={t.card1Title}
               desc={t.card1Desc}
@@ -60,15 +68,23 @@ export default async function Home({
             />
           </div>
         </section>
-        <section className="flex flex-1 max-w-screen-2xl px-8 pb-4 md:px-24 gap-x-8 gap-y-2 items-start justify-start flex-col sm:flex-row">
-          <div className="pt-2">
-            <SectionText desc1={t.section2Part1} />
-          </div>
-          <div>
-            <SectionText desc2={t.section2Part2} />
+
+        {/* Section 3 — Educational content */}
+        <section className="w-full bg-background">
+          <div className="max-w-screen-2xl mx-auto px-8 md:px-24 py-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+              <p className="text-base text-secondary leading-7">
+                {t.section2Part1}
+              </p>
+              <p className="text-base text-secondary leading-7">
+                {t.section2Part2}
+              </p>
+            </div>
           </div>
         </section>
-        <div className="flex items-center justify-center w-full bg-muted mt-8 py-8">
+
+        {/* Footer */}
+        <div className="flex items-center justify-center w-full bg-muted py-8">
           <div className="max-w-screen-2xl px-2 sm:px-8 md:px-24">
             <Footer locale={lang} />
           </div>
