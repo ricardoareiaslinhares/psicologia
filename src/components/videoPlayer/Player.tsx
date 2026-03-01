@@ -15,14 +15,13 @@ const Player = ({url, playing}: Props) => {
 
 
 
-    <ReactPlayer url={url}
+    <ReactPlayer url={url.replace('www.youtube.com', 'www.youtube-nocookie.com')}
     muted={playing ? playing : false}
     playing={playing ? playing : false}
     width="100%"
     height="70.81%"
     controls={true}
     fallback={<Loading/>}
-    
     />
  
     </div>
