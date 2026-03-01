@@ -60,7 +60,7 @@ function FooterCredits({}: Props) {
       <div className="flex justify-center items-center my-8 sm:my-0 gap-1 flex-col w-full xl:w-auto lg:mx-10 lg:min-w-[300px] ">
         <p className="text-center">Ricardo Linhares</p>
         <p className="text-center">Consultas de Psicologia</p>
-
+        <p className="text-center text-sm text-secondary">Barcelos, Portugal</p>
         <p className="text-center text-sm"> © 2021 - 2025</p>
       </div>
       <div className="flex justify-center lg:justify-start gap-x-8 items-center  w-full xl:w-auto lg:min-w-[300px]  ">

@@ -11,7 +11,7 @@ type Props = {
 
 const Player = ({url, playing}: Props) => {
   return (
-    <div className="w-[320px] h-[256px]    sm:w-[500px] sm:h-[400px] flex items-center justify-center overflow-hidden ">
+    <div className="w-[320px] h-[256px] sm:w-[500px] sm:h-[400px] flex items-center justify-center overflow-hidden rounded-lg">
 
 
 
@@ -22,6 +22,7 @@ const Player = ({url, playing}: Props) => {
     height="70.81%"
     controls={true}
     fallback={<Loading/>}
+    style={{ borderRadius: '0.5rem', overflow: 'hidden' }}
     />
  
     </div>
