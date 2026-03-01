@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 import { useForm } from "react-hook-form";
 import { sendEmail } from "@/utils/sendEmail";
 import text from "@/data/text.json";
-import { language } from "@/utils/language";
+import { Locale } from "@/i18n/config";
 
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
@@ -19,7 +19,12 @@ export type FormData = {
 
 type FeedbackState = null | "success" | "error";
 
-const Contact = () => {
+type Props = {
+  locale?: Locale;
+};
+
+const Contact = ({ locale = "pt" }: Props) => {
+  const t = text[locale] || text.pt;
   const { register, handleSubmit, reset } = useForm<FormData>();
   const [sending, setSending] = useState(false);
   const [feedback, setFeedback] = useState<FeedbackState>(null);
@@ -60,14 +65,14 @@ const Contact = () => {
               htmlFor="name"
               className="mb-3 block text-base font-medium text-foreground"
             >
-              {text[language].c.nome}
+              {t.c.nome}
             </label>
             <Input
               {...register("name")}
               name="name"
               id="name"
               type="text"
-              placeholder={text[language].c.nomeplace}
+              placeholder={t.c.nomeplace}
               className="font-sans text-sm w-full border border-gray-300 focus:border-none py-3 px-3 outline-none focus:shadow-md bg-muted-mutedDois"
               required={true}
               autoComplete="name"
@@ -85,7 +90,7 @@ const Contact = () => {
               id="email"
               name="email"
               type="email"
-              placeholder={text[language].c.mailplace}
+              placeholder={t.c.mailplace}
               className="w-full font-sans text-sm border border-gray-300 focus:border-none py-3 px-3 outline-none focus:shadow-md bg-muted-mutedDois"
               required={true}
               autoComplete="Email"
@@ -97,14 +102,14 @@ const Contact = () => {
             htmlFor="message"
             className="mb-3 block text-base font-medium text-foreground"
           >
-            {text[language].c.mensagem}
+            {t.c.mensagem}
           </label>
           <Textarea
             {...register("message")}
             id="message"
             name="message"
             rows={4}
-            placeholder={text[language].c.menplace}
+            placeholder={t.c.menplace}
             className="w-full font-sans text-sm border border-gray-300 focus:border-opacity-0 bg-muted-mutedDois"
             required={true}
           />
@@ -116,17 +121,17 @@ const Contact = () => {
             className="flex flex-row items-center justify-center gap-3"
           >
             <IoMdMail />
-            {sending ? text[language].c.sending : text[language].c.send}
+            {sending ? t.c.sending : t.c.send}
           </Button>
 
           {feedback === "success" && (
             <p className="text-sm font-medium text-green-600 dark:text-green-400 animate-in fade-in duration-300">
-              {text[language].c.feedback}
+              {t.c.feedback}
             </p>
           )}
           {feedback === "error" && (
             <p className="text-sm font-medium text-destructive animate-in fade-in duration-300">
-              Erro ao enviar, tente novamente.
+              {t.c.errorFeedback}
             </p>
           )}
         </div>

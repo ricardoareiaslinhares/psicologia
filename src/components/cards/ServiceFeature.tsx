@@ -8,9 +8,10 @@ type Props = {
   link: string;
   imageUrl: string;
   highlights?: string[];
+  learnMore?: string;
 };
 
-const ServiceFeature = ({ title, desc, link, imageUrl, highlights }: Props) => {
+const ServiceFeature = ({ title, desc, link, imageUrl, highlights, learnMore = "Saber mais" }: Props) => {
   return (
     <div className="group relative w-full overflow-hidden rounded-2xl border border-foreground/5 bg-card shadow-lg transition-shadow duration-300 hover:shadow-xl">
       {/* Decorative accent bar */}
@@ -60,7 +61,7 @@ const ServiceFeature = ({ title, desc, link, imageUrl, highlights }: Props) => {
           <div className="pt-2">
             <Button asChild className="gap-2 rounded-full px-6 py-5 text-base font-semibold shadow-sm transition-all duration-200 hover:shadow-md">
               <Link href={link}>
-                Saber mais
+                {learnMore}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"

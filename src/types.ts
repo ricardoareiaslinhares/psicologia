@@ -1,6 +1,3 @@
-import { language } from "@/utils/language";
-import text from "@/data/text.json";
-
 export type LinkType = {
   name: string;
   href?: string;

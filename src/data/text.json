@@ -1,18 +1,32 @@
 {
   "pt": {
-    "section1Title": "Como são as consultas de Psicologia...",
-    "section1Desc1": "As consultas de psicologia são um espaço onde duas pessoas sentam-se em igualdade. Há apenas uma diferença: enquanto o psicólogo é quem conhece a psicologia, o(a) cliente é quem conhece a sua vida. É desta união de conhecimentos e do trabalho em equipa, que se torna possível o autoconhecimento e a resolução dos problemas e dificuldades, que têm vindo a trazer angústia e sofrimento.",
-    "section1Desc2": "Neste encontro, exploram-se situações e momentos de dificuldade (quer pareçam ser muitos, poucos, pequenos ou grandes), visa-se expandir a capacidade de os reconhecer, conhecer e estar em contacto com o que está presente nessas alturas e, assim, conseguir tomar as decisões que lhe trazem maior satisfação e o(a) levam de encontro àquilo que valoriza.",
+    "hero": {
+      "title": "Psicologia Cl\u00ednica - Barcelos",
+      "quote": "At\u00e9 uma jornada de mil km come\u00e7a com um simples passo...",
+      "service1": "Psicoterapia / Terapia",
+      "service2": "Acompanhamento e Aconselhamento Psicol\u00f3gico",
+      "service3": "Consultoria em Psicologia do Trabalho e Organiza\u00e7\u00f5es"
+    },
+    "banner": "Consult\u00f3rio temporariamente encerrado",
+    "services": "Servi\u00e7os",
+    "learnMore": "Saber mais",
+    "logo": {
+      "full": "Consultas de Psicologia Barcelos",
+      "short": "Psicologia Barcelos"
+    },
+    "section1Title": "Como s\u00e3o as consultas de Psicologia...",
+    "section1Desc1": "As consultas de psicologia s\u00e3o um espa\u00e7o onde duas pessoas sentam-se em igualdade. H\u00e1 apenas uma diferen\u00e7a: enquanto o psic\u00f3logo \u00e9 quem conhece a psicologia, o(a) cliente \u00e9 quem conhece a sua vida. \u00c9 desta uni\u00e3o de conhecimentos e do trabalho em equipa, que se torna poss\u00edvel o autoconhecimento e a resolu\u00e7\u00e3o dos problemas e dificuldades, que t\u00eam vindo a trazer ang\u00fastia e sofrimento.",
+    "section1Desc2": "Neste encontro, exploram-se situa\u00e7\u00f5es e momentos de dificuldade (quer pare\u00e7am ser muitos, poucos, pequenos ou grandes), visa-se expandir a capacidade de os reconhecer, conhecer e estar em contacto com o que est\u00e1 presente nessas alturas e, assim, conseguir tomar as decis\u00f5es que lhe trazem maior satisfa\u00e7\u00e3o e o(a) levam de encontro \u00e0quilo que valoriza.",
     "section2Title": "",
-    "section2Desc1": "Há momentos em que os nossos próprios processos psicológicos (pensamentos, emoções, sentimentos, memórias, preocupações, sensações físicas e impulsos...) se parecem voltar contra nós. Sentimos uma esmagadora tristeza, ansiedade, preocupação, vergonha, pânico e muito mais.",
-    "section2Desc2": "Quando a experiência de alguma emoção ou pensamento se torna intolerável, há sempre um custo; e quem tem essas experiências sabe que esse custo torna-se cada vez maior e impede-nos de viver a vida que gostaríamos.",
-    "section2Desc3": "A psicologia oferece-nos o conhecimento e as ferramentas mais eficazes para mudar a experiência intolerável dos eventos psicológicos. Com trabalho e treino nestas ferramentas psicológicas o(a) cliente consegue ultrapassar as dificuldades, problemas e bloqueios que lhe estão a impedir de viver a vida que deseja.",
-    "section2Part1": "Há momentos em que os nossos próprios processos psicológicos (pensamentos, emoções, sentimentos, memórias, preocupações, sensações físicas e impulsos...) se parecem voltar contra nós. Sentimos uma esmagadora tristeza, ansiedade, preocupação, vergonha, pânico e muito mais. Quando a experiência de alguma emoção ou pensamento se torna intolerável, há sempre um custo;",
-    "section2Part2":"Quem tem essas experiências sabe que esse custo torna-se cada vez maior e impede-nos de viver a vida que gostaríamos. A psicologia oferece-nos as ferramentas mais eficazes para mudar a experiência dos eventos psicológicos. Com prática nestas ferramentas o(a) cliente consegue ultrapassar as dificuldades, problemas e bloqueios que lhe estão a impedir de viver a vida que deseja.",
-    "card1Title": "Consulta no âmbito da Saúde Psicológica",
-    "card1Desc": "Consultas direcionadas a superar estados internos angustiantes como depressão, ansiedade, pânico, OCD, irritabilidade e outros.",
-    "card2Title": "Preparação para processos de Avaliações Psicológica",
-    "card2Desc": "Destaque-se em processos de recrutamento e demonstre com confiança a sua aptidão psicológica para a função que pretende.",
+    "section2Desc1": "H\u00e1 momentos em que os nossos pr\u00f3prios processos psicol\u00f3gicos (pensamentos, emo\u00e7\u00f5es, sentimentos, mem\u00f3rias, preocupa\u00e7\u00f5es, sensa\u00e7\u00f5es f\u00edsicas e impulsos...) se parecem voltar contra n\u00f3s. Sentimos uma esmagadora tristeza, ansiedade, preocupa\u00e7\u00e3o, vergonha, p\u00e2nico e muito mais.",
+    "section2Desc2": "Quando a experi\u00eancia de alguma emo\u00e7\u00e3o ou pensamento se torna intoler\u00e1vel, h\u00e1 sempre um custo; e quem tem essas experi\u00eancias sabe que esse custo torna-se cada vez maior e impede-nos de viver a vida que gostar\u00edamos.",
+    "section2Desc3": "A psicologia oferece-nos o conhecimento e as ferramentas mais eficazes para mudar a experi\u00eancia intoler\u00e1vel dos eventos psicol\u00f3gicos. Com trabalho e treino nestas ferramentas psicol\u00f3gicas o(a) cliente consegue ultrapassar as dificuldades, problemas e bloqueios que lhe est\u00e3o a impedir de viver a vida que deseja.",
+    "section2Part1": "H\u00e1 momentos em que os nossos pr\u00f3prios processos psicol\u00f3gicos (pensamentos, emo\u00e7\u00f5es, sentimentos, mem\u00f3rias, preocupa\u00e7\u00f5es, sensa\u00e7\u00f5es f\u00edsicas e impulsos...) se parecem voltar contra n\u00f3s. Sentimos uma esmagadora tristeza, ansiedade, preocupa\u00e7\u00e3o, vergonha, p\u00e2nico e muito mais. Quando a experi\u00eancia de alguma emo\u00e7\u00e3o ou pensamento se torna intoler\u00e1vel, h\u00e1 sempre um custo;",
+    "section2Part2": "Quem tem essas experi\u00eancias sabe que esse custo torna-se cada vez maior e impede-nos de viver a vida que gostar\u00edamos. A psicologia oferece-nos as ferramentas mais eficazes para mudar a experi\u00eancia dos eventos psicol\u00f3gicos. Com pr\u00e1tica nestas ferramentas o(a) cliente consegue ultrapassar as dificuldades, problemas e bloqueios que lhe est\u00e3o a impedir de viver a vida que deseja.",
+    "card1Title": "Consulta no \u00e2mbito da Sa\u00fade Psicol\u00f3gica",
+    "card1Desc": "Consultas direcionadas a superar estados internos angustiantes como depress\u00e3o, ansiedade, p\u00e2nico, OCD, irritabilidade e outros.",
+    "card2Title": "Prepara\u00e7\u00e3o para processos de Avalia\u00e7\u00f5es Psicol\u00f3gica",
+    "card2Desc": "Destaque-se em processos de recrutamento e demonstre com confian\u00e7a a sua aptid\u00e3o psicol\u00f3gica para a fun\u00e7\u00e3o que pretende.",
     "button1": "Marcar Consulta",
     "c": {
       "nome": "Nome",
@@ -22,84 +36,241 @@
       "send": "Enviar email",
       "sending": "a enviar...",
       "mailplace": "O seu email",
-      "feedback": "Email enviado com sucesso"
+      "feedback": "Email enviado com sucesso",
+      "errorFeedback": "Erro ao enviar, tente novamente."
+    },
+    "navbar": {
+      "home": "Inicial",
+      "sobre": {
+        "title": "Sobre",
+        "link1": "Sobre o Psic\u00f3logo",
+        "link2": "Sobre a Psicologia"
+      },
+      "servicos": {
+        "title": "Servi\u00e7os",
+        "link1": "Consultas Psicologia",
+        "link2": "Prepara\u00e7\u00e3o R&S"
+      },
+      "blog": "Blog"
+    },
+    "drawer": {
+      "title": "Ricardo Linhares Consultas de Psicologia",
+      "openMenu": "Abrir menu"
+    },
+    "blog": {
+      "heading": "Livro Aberto de Psicologia",
+      "subheading": "Artigos sobre psicologia, psicoterapia e sa\u00fade mental",
+      "signoff1": "At\u00e9 \u00e0 pr\u00f3xima,",
+      "signoff2": "Ricardo Linhares",
+      "comingSoon": ""
+    },
+    "footer": {
+      "closedNotice": "Consult\u00f3rio temporariamente encerrado",
+      "leaveMessage": "Deixar mensagem..."
+    },
+    "sobrePsicologo": {
+      "titulo": "Sobre o Psic\u00f3logo",
+      "quote": "\u201cAs pequenas coisas? O pequenos momentos? - N\u00e3o s\u00e3o pequenos\u201d - Jon Kabat-Zinn.",
+      "desc1": "Ol\u00e1, chamo-me Ricardo Linhares, sou psic\u00f3logo e membro efetivo da Ordem dos Psic\u00f3logos Portugueses (n\u00ba: 27338).",
+      "desc2": "Tenho licenciatura em Psicologia, mestrado em Psicologia do Trabalho e das Organiza\u00e7\u00f5es e especializa\u00e7\u00e3o avan\u00e7ada em Psicologia Cl\u00ednica e da Sa\u00fade.",
+      "desc3": "Iniciei a minha carreira na \u00e1rea das Organiza\u00e7\u00f5es, onde efetuei diversas entrevistas de recrutamento e sele\u00e7\u00e3o, an\u00e1lises de perfis profissionais e estudei o impacto de riscos psicossociais (como o burnout) na vida pessoal e profissional das pessoas.",
+      "desc4": "Em 2020, tive interesse em explorar outras \u00e1reas da psicologia. Ent\u00e3o, fundei 'Ricardo Linhares Consultas de Psicologia', como forma de poder atuar na sa\u00fade psicol\u00f3gica em geral e poder contribuir nas \u00e1reas de investiga\u00e7\u00e3o e publica\u00e7\u00e3o de conhecimento sobre psicologia.",
+      "desc5": "Ao n\u00edvel das Consultas de Psicologia, foco o meu trabalho nas denominadas perturba\u00e7\u00f5es emocionais, isto \u00e9, estados em que as emo\u00e7\u00f5es se encontram perturbadas, tais como depress\u00e3o, burnout, stresse, ansiedade, obsess\u00f5es-compuls\u00f5es e ataques de p\u00e2nico.",
+      "desc6": "Como m\u00e9todo de interven\u00e7\u00e3o psicol\u00f3gica utilizo dois dos modelos psicol\u00f3gicos mais atuais e mais importantes nos \u00faltimos anos: Terapia de Aceita\u00e7\u00e3o e Compromisso e o Protocolo Unificado (a unifica\u00e7\u00e3o de diferentes variantes da Terapia Cognitiva-Comportamental), tendo extensa forma\u00e7\u00e3o espec\u00edfica nestas abordagens."
+    },
+    "sobrePsicologia": {
+      "titulo": "Sobre as Consultas de Psicologia",
+      "quote": "\u201cRecome\u00e7a\u2026 Se puderes. Sem ang\u00fastia e sem pressa. E os passos que deres, nesse caminho duro do futuro, d\u00e1-os em liberdade. Enquanto n\u00e3o alcances, n\u00e3o descanses. De nenhum fruto queiras s\u00f3 metade.\u201d - Miguel Torga.",
+      "desc1": "As Consultas de Psicologia enquadram-se num modelo denominado Flexibilidade Psicol\u00f3gica:",
+      "desc2": "a habilidade para responder de formas que facilitam viver uma vida com prop\u00f3sito e de acordo com o que \u00e9 importante para a pessoa, mesmo quando surgem desafios e dificuldades.",
+      "desc3": "Deste modo, psic\u00f3logo e cliente, trabalham no sentido de aumentar a Flexibilidade em pensamento, emo\u00e7\u00f5es e comportamento.",
+      "desc4": "Na data de dezembro de 2022, existiam 1014 ensaios cl\u00ednicos controlados, sobre a aplica\u00e7\u00e3o deste modelo\u2070. Sendo que em 2020 foi elaborada uma revis\u00e3o dos estudos realizados a esse ponto, real\u00e7ando a sua efic\u00e1cia numa s\u00e9rie de problemas, condi\u00e7\u00f5es e dificuldades\u00b9.",
+      "desc5": "Interven\u00e7\u00f5es com o objetivo de aumentar Flexibilidade Psicol\u00f3gica, foram aplicadas com sucesso a uma s\u00e9rie de contextos e problemas como sa\u00fade mental\u00b9\u22c5\u2074\u2074, performance desportiva\u00b2\u207b\u2074, desenvolvimento empresarial (como performance e burnout)\u2075\u207b\u2079, dor cr\u00f3nica\u00b9\u2070\u207b\u00b9\u00b9, obesidade\u00b9\u00b2\u207b\u00b9\u2074, consumo de subst\u00e2ncias (como tabaco)\u00b9\u2075\u207b\u00b9\u2076, gerir diabetes\u00b9\u2074\u22c5\u00b9\u2077 e outros.",
+      "desc6": "N\u00f3s sabemos que o seu oposto - Inflexibilidade Psicol\u00f3gica - \u00e9 respons\u00e1vel por diversas formas de sofrimento emocional e mental\u00b3\u2079. Est\u00e1 na base dos problemas a que chamamos depress\u00e3o\u00b9\u2078\u207b\u00b2\u00b9\u1d47, nas diversas formas de ansiedade\u00b2\u00b2\u207b\u00b2\u2075 e outros. ",
+      "desc7": "Por outro lado, tamb\u00e9m sabemos que pessoas com maior Flexibilidade Psicol\u00f3gica t\u00eam rela\u00e7\u00f5es interpessoais mais satisfat\u00f3rias (incluindo parentalidade)\u00b2\u2076\u207b\u00b2\u2078, est\u00e3o mais contentes com os seus empregos\u00b2\u2079\u207b\u00b3\u00b3 e t\u00eam sa\u00fade mental, mesmo quando coisas muito m\u00e1s acontecem\u00b3\u2074\u207b\u00b3\u2078.",
+      "desc8": "Flexibilidade Psicol\u00f3gica \u00e9 acima de tudo um modelo de qualidade de vida\u00b3\u2079\u207b\u2074\u00b9 e portanto \u00e9 aplic\u00e1vel a praticamente todo o tipo de problemas humanos. De facto, a Organiza\u00e7\u00e3o Mundial da Sa\u00fade (OMS; World Health Organization) utiliza interven\u00e7\u00f5es psicol\u00f3gicas baseadas neste modelo, indicando que \u00e9 \u00fatil 'para qualquer pessoa que experiencie stresse, independentemente de onde vive e das suas circunst\u00e2ncias'\u2074\u00b2\u207b\u2074\u00b3.",
+      "desc9": "Flexibilidade Psicol\u00f3gica pode ser promovida por diversos programas de interven\u00e7\u00e3o. Aqui, utilizamos uma abordagem combinada entre as psicoterapias de Treino / Terapia de Aceita\u00e7\u00e3o e Compromisso e do Protocolo Unificado de Terapia Cognitiva-Comportamental para o Tratamento de Perturba\u00e7\u00f5es Emocionais.",
+      "pu": "A abordagem psicol\u00f3gica do Protocolo Unificado (originado pelos psic\u00f3logos David H. Barlow, Shannon Sauer-Zavala e muitos outros) foca em como as pessoas experienciam e respondem \u00e0s suas emo\u00e7\u00f5es, revelando e atuando nos mecanismos psicol\u00f3gicos que est\u00e3o em funcionamento nas experi\u00eancias emocionais intensas e assoberbantes, como nos casos da depress\u00e3o, ansiedade, irritabilidade, raiva, p\u00e2nico...",
+      "act": "O Treino / Terapia de Aceita\u00e7\u00e3o e Compromisso (originado pelos psic\u00f3logos Steven Hayes, Kirk Strosahl e Kelly Wilson), proporciona valiosos insights sobre o sofrimento humano, sobre o funcionamento da mente e sobre como adotar uma postura de compreens\u00e3o e equanimidade com o nosso passado e com os nossos pensamentos e emo\u00e7\u00f5es. Tudo isto, em prol de viver uma vida digna de um ser humano.",
+      "refs": "Ver refer\u00eancias"
+    },
+    "servicosConsultas": {
+      "titulo": "Sobre as \u00c1reas trabalhadas nas Consultas de Psicologia para a Sa\u00fade",
+      "quote": "\u201c\u00c9 o seu caminho e apenas seu. Os outros podem acompanh\u00e1-lo(a), mas ningu\u00e9m pode andar por si\u201d - Rumi.",
+      "desc1": "Consultas de Psicologia no \u00e2mbito da Sa\u00fade Psicol\u00f3gica, para adultos, jovens e crian\u00e7as a partir dos 10 anos.",
+      "desc2": "As dificuldades e problemas da vida t\u00eam v\u00e1rias caras e o modo como estas nos impactam, pode manifestar-se de diferentes formas.",
+      "desc3": "Muitas vezes \u00e9 o pr\u00f3prio evento psicol\u00f3gico que \u00e9 o problema: pensamentos, mem\u00f3rias, impulsos, sensa\u00e7\u00f5es f\u00edsicas, sentimentos e emo\u00e7\u00f5es que nos afastam da vida que gostar\u00edamos. Outras vezes at\u00e9 s\u00e3o as formas que encontramos para gerir esses problemas que come\u00e7am a deixar de funcionar e d\u00e3o cada vez mais trabalho a manter.",
+      "desc4": "O trabalho deste consult\u00f3rio especializa-se na supera\u00e7\u00e3o do tipo de dificuldades e problemas que se seguem:",
+      "sintomas": {
+        "s1Titulo": "Alguns problemas de vida, que j\u00e1 podemos conhecer o nome:",
+        "s1desc1": "Stresse;",
+        "s1desc2": "Depress\u00e3o;",
+        "s1desc3": "Ansiedade:",
+        "s1desc4": "em rela\u00e7\u00e3o a diversas coisas;",
+        "s1desc5": "em rela\u00e7\u00e3o a coisas espec\u00edficas;",
+        "s1desc6": "obsess\u00f5es-compuls\u00f5es;",
+        "s1desc7": "ataques de p\u00e2nico;",
+        "s1desc8": "Burnout;",
+        "s1desc9": "Irritabilidade;",
+        "s1desc10": "Ins\u00f3nias.",
+        "s2Titulo": "Outros problemas, que s\u00e3o mais dif\u00edceis de detetar:",
+        "s2desc1": "Muita gente sofre constantemente de pensamentos de desvaloriza\u00e7\u00e3o pessoal, preocupa\u00e7\u00e3o constante sobre passado, futuro, ou em rela\u00e7\u00e3o a outras coisas;",
+        "s2desc2": "Pensamentos perturbadores que parecem surgir do nada, mas que deixam a sua marca;",
+        "s2desc3": "Outras dificuldade que podem surgir, como uma sensa\u00e7\u00e3o de estado de stresse permanente ou como se sentisse 'preso' / 'sem sa\u00edda' em diferentes \u00e1reas da vida (acad\u00e9mica, profissional, relacional)."
+      },
+      "desc5": "Pretendemos prestar servi\u00e7os de elevada qualidade, portanto em vez de fornecer uma ampla gama de servi\u00e7os para muitas situa\u00e7\u00f5es diferentes, optamos por fazer apenas aquilo que fazemos melhor e oferecer os servi\u00e7os relacionados a essas \u00e1reas.",
+      "desc6": "Se n\u00e3o tem a certeza se aquilo que sente e est\u00e1 a passar se enquadra nessas descri\u00e7\u00f5es, exprimente realizar o breve question\u00e1rio de avalia\u00e7\u00e3o de Depress\u00e3o, Ansiedade e Stresse.",
+      "desc7": "",
+      "desc8": "",
+      "desc9": ""
+    },
+    "ServicosPreparacao": {
+      "titulo": "Prepara\u00e7\u00e3o para a Avalia\u00e7\u00e3o Psicol\u00f3gica em processos de Recrutamento e Sele\u00e7\u00e3o",
+      "quote": "\u201cN\u00e3o se pode parar as ondas do mar, mas pode-se aprender a surfar\u201d - Jon Kabat-Zinn.",
+      "desc1": "No atual mercado de trabalho, muitas empresas e organiza\u00e7\u00f5es recorrem a Avalia\u00e7\u00f5es Psicol\u00f3gicas para selecionarem os(as) candidatos(as) que t\u00eam a resili\u00eancia psicol\u00f3gica, estabilidade emocional e os tra\u00e7os comportamentais necess\u00e1rios para a fun\u00e7\u00e3o em quest\u00e3o.",
+      "desc2": "Contudo, este tipo de avalia\u00e7\u00f5es podem ser intimidantes e dif\u00edceis para os(as) candidatos(as), levando a um aumento de stresse e ansiedade no momento da prova.",
+      "desc3": "Com Consultas de Prepara\u00e7\u00e3o para provas de Avalia\u00e7\u00e3o Psicol\u00f3gica, pretendemos ajud\u00e1-lo(a) a mostrar o seu verdadeiro potencial e a alcan\u00e7ar as oportunidades de emprego que merece.",
+      "desc4": "Este servi\u00e7o baseia-se em consultas individuais, nas quais identificamos as suas principais for\u00e7as e potenciais desafios e, consoante a fun\u00e7\u00e3o a que se candidata, desenvolvemos uma estrat\u00e9gia personalizada para maximizar o seu desempenho na Avalia\u00e7\u00e3o Psicol\u00f3gica.",
+      "desc5": "Estas consultas preparam-no(a) para diversos aspetos da Avalia\u00e7\u00e3o Psicol\u00f3gica, incluindo avalia\u00e7\u00f5es cognitivas (psicot\u00e9cnicos), invent\u00e1rios de personalidade e outros testes mais espec\u00edficos. ",
+      "desc6": "Este \u00e9 um servi\u00e7o confidencial e adaptado \u00e0s suas necessidades espec\u00edficas. Baseia-se num ambiente de apoio e sem julgamentos, onde pode falar abertamente sobre as suas preocupa\u00e7\u00f5es e trabalhar para ultrapassar quaisquer obst\u00e1culos que possam impedir o seu sucesso.",
+      "desc7": ""
+    }
+  },
+  "en": {
+    "hero": {
+      "title": "Clinical Psychology - Barcelos",
+      "quote": "Even a journey of a thousand miles begins with a single step...",
+      "service1": "Psychotherapy / Therapy",
+      "service2": "Psychological Counselling and Support",
+      "service3": "Work and Organizational Psychology Consulting"
+    },
+    "banner": "Practice temporarily closed",
+    "services": "Services",
+    "learnMore": "Learn more",
+    "logo": {
+      "full": "Psychology Practice Barcelos",
+      "short": "Psychology Barcelos"
+    },
+    "section1Title": "What psychology sessions look like...",
+    "section1Desc1": "Psychology sessions are a space where two people sit as equals. There is only one difference: while the psychologist is the one who understands psychology, the client is the one who knows their own life. It is from this union of knowledge and teamwork that self-awareness and the resolution of the problems and difficulties that have been causing distress and suffering become possible.",
+    "section1Desc2": "In this encounter, situations and moments of difficulty are explored (whether they seem many, few, small or large), aiming to expand the ability to recognise them, understand them and be in contact with what is present at those times and, thus, be able to make the decisions that bring greater satisfaction and lead towards what you value.",
+    "section2Title": "",
+    "section2Desc1": "There are times when our own psychological processes (thoughts, emotions, feelings, memories, worries, physical sensations and impulses...) seem to turn against us. We feel overwhelming sadness, anxiety, worry, shame, panic and much more.",
+    "section2Desc2": "When the experience of some emotion or thought becomes intolerable, there is always a cost; and those who have these experiences know that this cost becomes ever greater and prevents us from living the life we would like.",
+    "section2Desc3": "Psychology offers us the knowledge and the most effective tools to change the intolerable experience of psychological events. With work and practice in these psychological tools, the client can overcome the difficulties, problems and blockages that are preventing them from living the life they desire.",
+    "section2Part1": "There are times when our own psychological processes (thoughts, emotions, feelings, memories, worries, physical sensations and impulses...) seem to turn against us. We feel overwhelming sadness, anxiety, worry, shame, panic and much more. When the experience of some emotion or thought becomes intolerable, there is always a cost;",
+    "section2Part2": "Those who have these experiences know that this cost becomes ever greater and prevents us from living the life we would like. Psychology offers us the most effective tools to change the experience of psychological events. With practice in these tools, the client can overcome the difficulties, problems and blockages that are preventing them from living the life they desire.",
+    "card1Title": "Psychological Health Consultation",
+    "card1Desc": "Consultations aimed at overcoming distressing internal states such as depression, anxiety, panic, OCD, irritability and others.",
+    "card2Title": "Preparation for Psychological Assessment Processes",
+    "card2Desc": "Stand out in recruitment processes and confidently demonstrate your psychological aptitude for the position you seek.",
+    "button1": "Book a Session",
+    "c": {
+      "nome": "Name",
+      "nomeplace": "Your name",
+      "mensagem": "Message",
+      "menplace": "Write your message here...",
+      "send": "Send email",
+      "sending": "sending...",
+      "mailplace": "Your email",
+      "feedback": "Email sent successfully",
+      "errorFeedback": "Error sending, please try again."
     },
     "navbar": {
       "home": "Home",
       "sobre": {
-        "title": "Sobre",
-        "link1": "Sobre o Psicólogo",
-        "link2": "Sobre a Psicologia"
+        "title": "About",
+        "link1": "About the Psychologist",
+        "link2": "About Psychology"
       },
       "servicos": {
-        "title": "Serviços",
-        "link1": "Consultas Psicologia",
-        "link2": "Preparação R&S"
+        "title": "Services",
+        "link1": "Psychology Consultations",
+        "link2": "R&S Preparation"
       },
       "blog": "Blog"
     },
-    "sobrePsicologo":{
-      "titulo": "Sobre o Psicólogo",
-      "desc1":"Olá, chamo-me Ricardo Linhares, sou psicólogo e membro efetivo da Ordem dos Psicólogos Portugueses (nº: 27338).",
-      "desc2":"Tenho licenciatura em Psicologia, mestrado em Psicologia do Trabalho e das Organizações e especialização avançada em Psicologia Clínica e da Saúde.",
-      "desc3":"Iniciei a minha carreira na área das Organizações, onde efetuei diversas entrevistas de recrutamento e seleção, análises de perfis profissionais e estudei o impacto de riscos psicossociais (como o burnout) na vida pessoal e profissional das pessoas.",
-      "desc4":"Em 2020, tive interesse em explorar outras áreas da psicologia. Então, fundei 'Ricardo Linhares Consultas de Psicologia', como forma de poder atuar na saúde psicológica em geral e poder contribuir nas áreas de investigação e publicação de conhecimento sobre psicologia.",
-      "desc5":"Ao nível das Consultas de Psicologia, foco o meu trabalho nas denominadas perturbações emocionais, isto é, estados em que as emoções se encontram perturbadas, tais como depressão, burnout, stresse, ansiedade, obsessões-compulsões e ataques de pânico.",
-      "desc6":"Como método de intervenção psicológica utilizo dois dos modelos psicológicos mais atuais e mais importantes nos últimos anos: Terapia de Aceitação e Compromisso e o Protocolo Unificado (a unificação de diferentes variantes da Terapia Cognitiva-Comportamental), tendo extensa formação específica nestas abordagens."
+    "drawer": {
+      "title": "Ricardo Linhares Psychology Practice",
+      "openMenu": "Open menu"
     },
-    "sobrePsicologia":{
-      "titulo":"Sobre as Consultas de Psicologia",
-      "desc1":"As Consultas de Psicologia enquadram-se num modelo denominado Flexibilidade Psicológica:",
-      "desc2":"a habilidade para responder de formas que facilitam viver uma vida com propósito e de acordo com o que é importante para a pessoa, mesmo quando surgem desafios e dificuldades.",
-      "desc3":"Deste modo, psicólogo e cliente, trabalham no sentido de aumentar a Flexibilidade em pensamento, emoções e comportamento.",
-      "desc4":"Na data de dezembro de 2022, existiam 1014 ensaios clínicos controlados, sobre a aplicação deste modelo⁰. Sendo que em 2020 foi elaborada uma revisão dos estudos realizados a esse ponto, realçando a sua eficácia numa série de problemas, condições e dificuldades¹.",
-      "desc5":"Intervenções com o objetivo de aumentar Flexibilidade Psicológica, foram aplicadas com sucesso a uma série de contextos e problemas como saúde mental¹⋅⁴⁴, performance desportiva²⁻⁴, desenvolvimento empresarial (como performance e burnout)⁵⁻⁹, dor crónica¹⁰⁻¹¹, obesidade¹²⁻¹⁴, consumo de substâncias (como tabaco)¹⁵⁻¹⁶, gerir diabetes¹⁴⋅¹⁷ e outros.",
-      "desc6":"Nós sabemos que o seu oposto - Inflexibilidade Psicológica - é responsável por diversas formas de sofrimento emocional e mental³⁹. Está na base dos problemas a que chamamos depressão¹⁸⁻²¹ᵇ, nas diversas formas de ansiedade²²⁻²⁵ e outros. ",
-      "desc7":"Por outro lado, também sabemos que pessoas com maior Flexibilidade Psicológica têm relações interpessoais mais satisfatórias (incluindo parentalidade)²⁶⁻²⁸, estão mais contentes com os seus empregos²⁹⁻³³ e têm saúde mental, mesmo quando coisas muito más acontecem³⁴⁻³⁸.",
-      "desc8":"Flexibilidade Psicológica é acima de tudo um modelo de qualidade de vida³⁹⁻⁴¹ e portanto é aplicável a praticamente todo o tipo de problemas humanos. De facto, a Organização Mundial da Saúde (OMS; World Health Organization) utiliza intervenções psicológicas baseadas neste modelo, indicando que é útil 'para qualquer pessoa que experiencie stresse, independentemente de onde vive e das suas circunstâncias'⁴²⁻⁴³.",
-      "desc9":"Flexibilidade Psicológica pode ser promovida por diversos programas de intervenção. Aqui, utilizamos uma abordagem combinada entre as psicoterapias de Treino / Terapia de Aceitação e Compromisso e do Protocolo Unificado de Terapia Cognitiva-Comportamental para o Tratamento de Perturbações Emocionais.",
-      "pu":"A abordagem psicológica do Protocolo Unificado (originado pelos psicólogos David H. Barlow, Shannon Sauer-Zavala e muitos outros) foca em como as pessoas experienciam e respondem às suas emoções, revelando e atuando nos mecanismos psicológicos que estão em funcionamento nas experiências emocionais intensas e assoberbantes, como nos casos da depressão, ansiedade, irritabilidade, raiva, pânico...",
-      "act":"O Treino / Terapia de Aceitação e Compromisso (originado pelos psicólogos Steven Hayes, Kirk Strosahl e Kelly Wilson), proporciona valiosos insights sobre o sofrimento humano, sobre o funcionamento da mente e sobre como adotar uma postura de compreensão e equanimidade com o nosso passado e com os nossos pensamentos e emoções. Tudo isto, em prol de viver uma vida digna de um ser humano.",
-      "refs":"Ver referências"
+    "blog": {
+      "heading": "Open Book of Psychology",
+      "subheading": "Articles on psychology, psychotherapy and mental health",
+      "signoff1": "Until next time,",
+      "signoff2": "Ricardo Linhares",
+      "comingSoon": "These posts were originally written in Portuguese and automatically translated to English."
     },
-    "servicosConsultas":{
-      "titulo":"Sobre as Áreas trabalhadas nas Consultas de Psicologia para a Saúde",
-      "desc1":"Consultas de Psicologia no âmbito da Saúde Psicológica, para adultos, jovens e crianças a partir dos 10 anos.",
-      "desc2":"As dificuldades e problemas da vida têm várias caras e o modo como estas nos impactam, pode manifestar-se de diferentes formas.",
-      "desc3":"Muitas vezes é o próprio evento psicológico que é o problema: pensamentos, memórias, impulsos, sensações físicas, sentimentos e emoções que nos afastam da vida que gostaríamos. Outras vezes até são as formas que encontramos para gerir esses problemas que começam a deixar de funcionar e dão cada vez mais trabalho a manter.",
-      "desc4":"O trabalho deste consultório especializa-se na superação do tipo de dificuldades e problemas que se seguem:",
-      "sintomas":{
-        "s1Titulo":"Alguns problemas de vida, que já podemos conhecer o nome:",
-        "s1desc1":"Stresse;",
-        "s1desc2":"Depressão;",
-        "s1desc3":"Ansiedade:",
-        "s1desc4":"em relação a diversas coisas;",
-        "s1desc5":"em relação a coisas específicas;",
-        "s1desc6":"obsessões-compulsões;",
-        "s1desc7":"ataques de pânico;",
-        "s1desc8":"Burnout;",
-        "s1desc9":"Irritabilidade;",
-        "s1desc10":"Insónias.",
-        "s2Titulo":"Outros problemas, que são mais difíceis de detetar:",
-        "s2desc1":"Muita gente sofre constantemente de pensamentos de desvalorização pessoal, preocupação constante sobre passado, futuro, ou em relação a outras coisas;",
-        "s2desc2":"Pensamentos perturbadores que parecem surgir do nada, mas que deixam a sua marca;",
-        "s2desc3":"Outras dificuldade que podem surgir, como uma sensação de estado de stresse permanente ou como se sentisse 'preso' / 'sem saída' em diferentes áreas da vida (académica, profissional, relacional)."
+    "footer": {
+      "closedNotice": "Practice temporarily closed",
+      "leaveMessage": "Leave a message..."
+    },
+    "sobrePsicologo": {
+      "titulo": "About the Psychologist",
+      "quote": "\u201cThe little things? The little moments? \u2014 They aren\u2019t little\u201d \u2014 Jon Kabat-Zinn.",
+      "desc1": "Hello, my name is Ricardo Linhares. I am a psychologist and a full member of the Portuguese Order of Psychologists (no. 27338).",
+      "desc2": "I hold a degree in Psychology, a master\u2019s in Work and Organizational Psychology, and an advanced specialization in Clinical and Health Psychology.",
+      "desc3": "I began my career in the Organizational field, where I conducted numerous recruitment and selection interviews, professional profile analyses, and studied the impact of psychosocial risks (such as burnout) on people\u2019s personal and professional lives.",
+      "desc4": "In 2020, I became interested in exploring other areas of psychology. I then founded \u2018Ricardo Linhares Psychology Practice\u2019 as a way to work in psychological health in general and to contribute to research and the publication of knowledge about psychology.",
+      "desc5": "In my Psychology Practice, I focus my work on what are called emotional disorders \u2014 that is, states in which emotions are disturbed, such as depression, burnout, stress, anxiety, obsessive-compulsive patterns and panic attacks.",
+      "desc6": "As a method of psychological intervention, I use two of the most current and important psychological models in recent years: Acceptance and Commitment Therapy and the Unified Protocol (the unification of different variants of Cognitive-Behavioural Therapy), with extensive specific training in these approaches."
+    },
+    "sobrePsicologia": {
+      "titulo": "About Psychology Consultations",
+      "quote": "\u201cBegin again\u2026 If you can. Without anguish and without haste. And the steps you take on that hard road of the future, take them in freedom. Until you reach it, do not rest. Of no fruit desire only half.\u201d \u2014 Miguel Torga.",
+      "desc1": "Psychology Consultations are framed within a model called Psychological Flexibility:",
+      "desc2": "the ability to respond in ways that facilitate living a purposeful life in accordance with what matters to the person, even when challenges and difficulties arise.",
+      "desc3": "In this way, psychologist and client work together to increase Flexibility in thought, emotions and behaviour.",
+      "desc4": "As of December 2022, there were 1,014 controlled clinical trials on the application of this model\u2070. In 2020, a review of the studies carried out up to that point was produced, highlighting its efficacy across a range of problems, conditions and difficulties\u00b9.",
+      "desc5": "Interventions aimed at increasing Psychological Flexibility have been successfully applied to a range of contexts and problems such as mental health\u00b9\u22c5\u2074\u2074, sports performance\u00b2\u207b\u2074, business development (such as performance and burnout)\u2075\u207b\u2079, chronic pain\u00b9\u2070\u207b\u00b9\u00b9, obesity\u00b9\u00b2\u207b\u00b9\u2074, substance use (such as tobacco)\u00b9\u2075\u207b\u00b9\u2076, managing diabetes\u00b9\u2074\u22c5\u00b9\u2077 and others.",
+      "desc6": "We know that its opposite \u2014 Psychological Inflexibility \u2014 is responsible for various forms of emotional and mental suffering\u00b3\u2079. It lies at the root of the problems we call depression\u00b9\u2078\u207b\u00b2\u00b9\u1d47, the various forms of anxiety\u00b2\u00b2\u207b\u00b2\u2075 and others.",
+      "desc7": "On the other hand, we also know that people with greater Psychological Flexibility have more satisfying interpersonal relationships (including parenting)\u00b2\u2076\u207b\u00b2\u2078, are more satisfied with their jobs\u00b2\u2079\u207b\u00b3\u00b3 and have mental health, even when very bad things happen\u00b3\u2074\u207b\u00b3\u2078.",
+      "desc8": "Psychological Flexibility is above all a model of quality of life\u00b3\u2079\u207b\u2074\u00b9 and therefore applicable to virtually all types of human problems. In fact, the World Health Organization (WHO) uses psychological interventions based on this model, stating that it is useful \u2018for anyone who experiences stress, regardless of where they live and their circumstances\u2019\u2074\u00b2\u207b\u2074\u00b3.",
+      "desc9": "Psychological Flexibility can be promoted through various intervention programmes. Here, we use a combined approach between Acceptance and Commitment Training / Therapy and the Unified Protocol of Cognitive-Behavioural Therapy for the Treatment of Emotional Disorders.",
+      "pu": "The psychological approach of the Unified Protocol (originated by psychologists David H. Barlow, Shannon Sauer-Zavala and many others) focuses on how people experience and respond to their emotions, revealing and acting on the psychological mechanisms at work in intense and overwhelming emotional experiences, such as in cases of depression, anxiety, irritability, anger, panic...",
+      "act": "Acceptance and Commitment Training / Therapy (originated by psychologists Steven Hayes, Kirk Strosahl and Kelly Wilson) provides valuable insights into human suffering, how the mind works, and how to adopt a stance of understanding and equanimity with our past and with our thoughts and emotions. All of this in the service of living a life worthy of a human being.",
+      "refs": "See references"
+    },
+    "servicosConsultas": {
+      "titulo": "Areas Covered in Health Psychology Consultations",
+      "quote": "\u201cIt is your road and yours alone. Others may walk it with you, but no one can walk it for you\u201d \u2014 Rumi.",
+      "desc1": "Psychology Consultations in the field of Psychological Health, for adults, young people and children from the age of 10.",
+      "desc2": "Life\u2019s difficulties and problems have many faces and the way they impact us can manifest in different forms.",
+      "desc3": "Often it is the psychological event itself that is the problem: thoughts, memories, impulses, physical sensations, feelings and emotions that push us away from the life we would like. Other times it is the ways we have found to manage these problems that stop working and become increasingly hard to maintain.",
+      "desc4": "This practice specialises in overcoming the following types of difficulties and problems:",
+      "sintomas": {
+        "s1Titulo": "Some life problems we may already know by name:",
+        "s1desc1": "Stress;",
+        "s1desc2": "Depression;",
+        "s1desc3": "Anxiety:",
+        "s1desc4": "about various things;",
+        "s1desc5": "about specific things;",
+        "s1desc6": "obsessive-compulsive patterns;",
+        "s1desc7": "panic attacks;",
+        "s1desc8": "Burnout;",
+        "s1desc9": "Irritability;",
+        "s1desc10": "Insomnia.",
+        "s2Titulo": "Other problems that are harder to detect:",
+        "s2desc1": "Many people constantly suffer from thoughts of personal devaluation, constant worry about the past, future, or about other things;",
+        "s2desc2": "Disturbing thoughts that seem to come from nowhere but leave their mark;",
+        "s2desc3": "Other difficulties that may arise, such as a feeling of permanent stress or feeling \u2018stuck\u2019 / \u2018trapped\u2019 in different areas of life (academic, professional, relational)."
       },
-      "desc5":"Pretendemos prestar serviços de elevada qualidade, portanto em vez de fornecer uma ampla gama de serviços para muitas situações diferentes, optamos por fazer apenas aquilo que fazemos melhor e oferecer os serviços relacionados a essas áreas.",
-      "desc6":"Se não tem a certeza se aquilo que sente e está a passar se enquadra nessas descrições, exprimente realizar o breve questionário de avaliação de Depressão, Ansiedade e Stresse.",
-      "desc7":"",
-      "desc8":"",
-      "desc9":""
+      "desc5": "We aim to provide high-quality services, so rather than offering a wide range of services for many different situations, we choose to do only what we do best and offer services related to those areas.",
+      "desc6": "If you are not sure whether what you feel and are going through fits these descriptions, try taking the brief Depression, Anxiety and Stress assessment questionnaire.",
+      "desc7": "",
+      "desc8": "",
+      "desc9": ""
     },
     "ServicosPreparacao": {
-      "titulo":"Preparação para a Avaliação Psicológica em processos de Recrutamento e Seleção",
-      "desc1":"No atual mercado de trabalho, muitas empresas e organizações recorrem a Avaliações Psicológicas para selecionarem os(as) candidatos(as) que têm a resiliência psicológica, estabilidade emocional e os traços comportamentais necessários para a função em questão.",
-      "desc2":"Contudo, este tipo de avaliações podem ser intimidantes e difíceis para os(as) candidatos(as), levando a um aumento de stresse e ansiedade no momento da prova.",
-      "desc3":"Com Consultas de Preparação para provas de Avaliação Psicológica, pretendemos ajudá-lo(a) a mostrar o seu verdadeiro potencial e a alcançar as oportunidades de emprego que merece.",
-      "desc4":"Este serviço baseia-se em consultas individuais, nas quais identificamos as suas principais forças e potenciais desafios e, consoante a função a que se candidata, desenvolvemos uma estratégia personalizada para maximizar o seu desempenho na Avaliação Psicológica.",
-      "desc5":"Estas consultas preparam-no(a) para diversos aspetos da Avaliação Psicológica, incluindo avaliações cognitivas (psicotécnicos), inventários de personalidade e outros testes mais específicos. ",
-      "desc6":"Este é um serviço confidencial e adaptado às suas necessidades específicas. Baseia-se num ambiente de apoio e sem julgamentos, onde pode falar abertamente sobre as suas preocupações e trabalhar para ultrapassar quaisquer obstáculos que possam impedir o seu sucesso.",
-      "desc7":""
+      "titulo": "Preparation for Psychological Assessment in Recruitment and Selection Processes",
+      "quote": "\u201cYou can\u2019t stop the waves, but you can learn to surf\u201d \u2014 Jon Kabat-Zinn.",
+      "desc1": "In today\u2019s job market, many companies and organisations use Psychological Assessments to select candidates who have the psychological resilience, emotional stability and behavioural traits required for the role in question.",
+      "desc2": "However, these assessments can be intimidating and difficult for candidates, leading to increased stress and anxiety at the time of the test.",
+      "desc3": "With Preparation Consultations for Psychological Assessment tests, we aim to help you show your true potential and reach the employment opportunities you deserve.",
+      "desc4": "This service is based on individual consultations in which we identify your main strengths and potential challenges and, depending on the role you are applying for, develop a personalised strategy to maximise your performance in the Psychological Assessment.",
+      "desc5": "These consultations prepare you for various aspects of the Psychological Assessment, including cognitive assessments (psychometric tests), personality inventories and other more specific tests.",
+      "desc6": "This is a confidential service tailored to your specific needs. It is based on a supportive, non-judgemental environment where you can speak openly about your concerns and work to overcome any obstacles that may prevent your success.",
+      "desc7": ""
     }
   }
 }

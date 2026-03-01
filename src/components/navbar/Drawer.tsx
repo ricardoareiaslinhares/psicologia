@@ -5,34 +5,32 @@ import {
   Sheet,
   SheetClose,
   SheetContent,
-  SheetDescription,
   SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { LinkType } from "@/types";
-import { NavigationMenuTrigger } from "../ui/navigation-menu";
 import Link from "next/link";
-import { Fragment, useEffect, useState } from "react";
+import { useState } from "react";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
 import { ThemeToggle } from "../ThemeToggle";
 import { useTheme } from "next-themes";
+import text from "@/data/text.json";
+import { Locale } from "@/i18n/config";
 
 type Props = {
   myLinks: LinkType[];
+  locale: Locale;
 };
 
-export function Drawer({ myLinks }: Props) {
+export function Drawer({ myLinks, locale }: Props) {
   const [showDropDown, setShowDropDown] = useState<number | null>();
-
-  const { theme, setTheme } = useTheme();
-
-
+  const { theme } = useTheme();
+  const t = text[locale] || text.pt;
 
   const RenderNav = (): JSX.Element => {
     const handleDropdownClick = (index: number) => {
-      //console.log(index);
       setShowDropDown((prev) => (prev === index ? null : index));
     };
     return (
@@ -42,9 +40,6 @@ export function Drawer({ myLinks }: Props) {
             return (
               <div key={indexLink}>
                 <span className="flex flex-row items-center">
-
-                
-                  
                   <Button
                     onClick={() => handleDropdownClick(indexLink)}
                     variant={"ghost"}
@@ -52,31 +47,31 @@ export function Drawer({ myLinks }: Props) {
                   >
                     {link.name}
                     <ChevronDownIcon
-                      className={`relative top-[1px] ml-2 h-3 w-3  ${
+                      className={`relative top-[1px] ml-2 h-3 w-3 ${
                         showDropDown === indexLink ? "rotate-180 " : ""
                       } `}
                       aria-hidden="true"
                     />
                   </Button>
-               
                 </span>
 
                 <span
                   className={`${
                     showDropDown === indexLink ? "flex  " : " hidden"
-                  } flex-col items-start pl-4 mt-3 gap-3 animate-in fade-in  duration-300 slide-in-from-left-20`}
+                  } flex-col items-start pl-4 mt-3 gap-3 animate-in fade-in duration-300 slide-in-from-left-20`}
                 >
                   {link.link.map((subLink, indexSubLink) => {
                     return (
                       <span key={indexSubLink}>
-
-                             
-                        <Button  variant={"ghost"}>
-                             <SheetClose asChild>
-                          <Link href={subLink.href ?? ""} className="italic text-lg">
-                            {subLink.name}
-                          </Link>
-                        </SheetClose>
+                        <Button variant={"ghost"}>
+                          <SheetClose asChild>
+                            <Link
+                              href={subLink.href ?? ""}
+                              className="italic text-lg"
+                            >
+                              {subLink.name}
+                            </Link>
+                          </SheetClose>
                         </Button>
                       </span>
                     );
@@ -87,10 +82,11 @@ export function Drawer({ myLinks }: Props) {
           } else {
             return (
               <Button key={indexLink} variant={"ghost"}>
-                  <SheetClose asChild>
-
-                <Link href={link.href ?? ""} className="text-lg" >{link.name}</Link>
-                  </SheetClose>
+                <SheetClose asChild>
+                  <Link href={link.href ?? ""} className="text-lg">
+                    {link.name}
+                  </Link>
+                </SheetClose>
               </Button>
             );
           }
@@ -102,7 +98,11 @@ export function Drawer({ myLinks }: Props) {
   return (
     <Sheet onOpenChange={() => setShowDropDown(null)}>
       <SheetTrigger asChild>
-        <Button className="flex items-center justify-center sm:hidden" variant="ghost" aria-label="Abrir menu">
+        <Button
+          className="flex items-center justify-center sm:hidden"
+          variant="ghost"
+          aria-label={t.drawer.openMenu}
+        >
           <svg
             width="30"
             height="30"
@@ -127,12 +127,14 @@ export function Drawer({ myLinks }: Props) {
         }`}
       >
         <SheetHeader>
-          <SheetTitle className="pr-8 text-left">Ricardo Linhares Consultas de Psicologia </SheetTitle>
+          <SheetTitle className="pr-8 text-left">
+            {t.drawer.title}
+          </SheetTitle>
         </SheetHeader>
-        <nav className="flex flex-1 flex-col mt-8  gap-6 p-4 items-start mb-8 ">
+        <nav className="flex flex-1 flex-col mt-8 gap-6 p-4 items-start mb-8">
           <RenderNav />
         </nav>
-        <span className="flex flex-1 flex-row justify-center  items-center">
+        <span className="flex flex-1 flex-row justify-center items-center">
           <ThemeToggle />
         </span>
         <SheetFooter></SheetFooter>

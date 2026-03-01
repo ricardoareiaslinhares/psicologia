@@ -1,12 +1,14 @@
 import React from "react";
 import text from "@/data/text.json";
-import { language } from "@/utils/language";
+import { Locale } from "@/i18n/config";
 
 type Props = {
   open: boolean;
   handleModal: () => void;
+  locale?: Locale;
 };
-function ModalContacts({ handleModal, open }: Props) {
+function ModalContacts({ handleModal, open, locale = "pt" }: Props) {
+  const language = locale;
 
 //  if (!open) return null;
 
