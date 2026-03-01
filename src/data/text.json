@@ -23,6 +23,14 @@
     "section2Desc3": "A psicologia oferece-nos o conhecimento e as ferramentas mais eficazes para mudar a experi\u00eancia intoler\u00e1vel dos eventos psicol\u00f3gicos. Com trabalho e treino nestas ferramentas psicol\u00f3gicas o(a) cliente consegue ultrapassar as dificuldades, problemas e bloqueios que lhe est\u00e3o a impedir de viver a vida que deseja.",
     "section2Part1": "H\u00e1 momentos em que os nossos pr\u00f3prios processos psicol\u00f3gicos (pensamentos, emo\u00e7\u00f5es, sentimentos, mem\u00f3rias, preocupa\u00e7\u00f5es, sensa\u00e7\u00f5es f\u00edsicas e impulsos...) se parecem voltar contra n\u00f3s. Sentimos uma esmagadora tristeza, ansiedade, preocupa\u00e7\u00e3o, vergonha, p\u00e2nico e muito mais. Quando a experi\u00eancia de alguma emo\u00e7\u00e3o ou pensamento se torna intoler\u00e1vel, h\u00e1 sempre um custo;",
     "section2Part2": "Quem tem essas experi\u00eancias sabe que esse custo torna-se cada vez maior e impede-nos de viver a vida que gostar\u00edamos. A psicologia oferece-nos as ferramentas mais eficazes para mudar a experi\u00eancia dos eventos psicol\u00f3gicos. Com pr\u00e1tica nestas ferramentas o(a) cliente consegue ultrapassar as dificuldades, problemas e bloqueios que lhe est\u00e3o a impedir de viver a vida que deseja.",
+    "app": {
+      "title": "Level-up",
+      "subtitle": "App de Desenvolvimento Pessoal",
+      "desc": "Desenvolvi a aplicação Level-up Personal Development como uma ferramenta para quem pretende trabalhar o seu bem-estar de forma aut\u00f3noma. Recorre a mec\u00e2nicas de videojogos para tornar o desenvolvimento pessoal mais envolvente e acess\u00edvel.",
+      "cta": "Obter no Google Play",
+      "badge": "Gratuita",
+      "image": "/levelup-banner-pt.png"
+    },
     "card1Title": "Consulta no \u00e2mbito da Sa\u00fade Psicol\u00f3gica",
     "card1Desc": "Consultas direcionadas a superar estados internos angustiantes como depress\u00e3o, ansiedade, p\u00e2nico, OCD, irritabilidade e outros.",
     "card2Title": "Prepara\u00e7\u00e3o para processos de Avalia\u00e7\u00f5es Psicol\u00f3gica",
@@ -160,6 +168,14 @@
     "section2Desc3": "Psychology offers us the knowledge and the most effective tools to change the intolerable experience of psychological events. With work and practice in these psychological tools, the client can overcome the difficulties, problems and blockages that are preventing them from living the life they desire.",
     "section2Part1": "There are times when our own psychological processes (thoughts, emotions, feelings, memories, worries, physical sensations and impulses...) seem to turn against us. We feel overwhelming sadness, anxiety, worry, shame, panic and much more. When the experience of some emotion or thought becomes intolerable, there is always a cost;",
     "section2Part2": "Those who have these experiences know that this cost becomes ever greater and prevents us from living the life we would like. Psychology offers us the most effective tools to change the experience of psychological events. With practice in these tools, the client can overcome the difficulties, problems and blockages that are preventing them from living the life they desire.",
+    "app": {
+      "title": "Level-up",
+      "subtitle": "Personal Development",
+      "desc": "I created Level-up as a tool for anyone looking to work on their well-being independently. It uses video game mechanics to make personal development more engaging and accessible.",
+      "cta": "Get it on Google Play",
+      "badge": "Free",
+      "image": "/levelup-banner-en.png"
+    },
     "card1Title": "Psychological Health Consultation",
     "card1Desc": "Consultations aimed at overcoming distressing internal states such as depression, anxiety, panic, OCD, irritability and others.",
     "card2Title": "Preparation for Psychological Assessment Processes",

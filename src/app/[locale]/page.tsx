@@ -2,6 +2,7 @@ import Hero from "@/components/hero/Hero";
 import SectionText from "@/components/sections/SectionText";
 import text from "@/data/text.json";
 import ServiceFeature from "@/components/cards/ServiceFeature";
+import AppPromo from "@/components/cards/AppPromo";
 import Footer from "@/components/footer/Footer";
 import ModalContacts2 from "@/components/modals/ModalContacts2";
 import { Metadata } from "next";
@@ -65,6 +66,20 @@ export default async function Home({
               imageUrl="/saude.png"
               highlights={highlights}
               learnMore={t.learnMore}
+            />
+          </div>
+        </section>
+
+        {/* Section — App promo */}
+        <section className="w-full bg-background">
+          <div className="max-w-screen-2xl mx-auto px-8 md:px-24 py-16">
+            <AppPromo
+              title={t.app.title}
+              subtitle={t.app.subtitle}
+              desc={t.app.desc}
+              cta={t.app.cta}
+              badge={t.app.badge}
+              image={t.app.image}
             />
           </div>
         </section>
