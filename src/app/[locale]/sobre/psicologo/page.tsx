@@ -40,7 +40,6 @@ export default async function Psicologo({
   const imagensCorrossel = [
     "/Ricardo_Linhares_Psicologo3.png",
     "/Ricardo_Linhares_Psicologo_2.png",
-    "/Ricardo_Linhares_Psicologo.png",
   ];
 
   const burnoutLink = (
