@@ -40,7 +40,7 @@ function FooterCredits({}: Props) {
             src="/Linkedin_Ricardo_Linhares_Psicologo_Barcelos.png"
           />
         </Link> */}
-        <Link
+        {/* <Link
           className="h-16 w-auto "
           href={
             "https://www.google.com/maps/place/Ricardo+Linhares+Consultas+de+Psicologia+em+Barcelos+e+Online/@41.5470376,-8.6187725,15z/data=!4m2!3m1!1s0x0:0x21cda5f4855abfbb?sa=X&ved=2ahUKEwjj97uy2bWDAxU0SKQEHZZmCOYQ_BJ6BAhMEAA&cshid=1703889121089404"
@@ -55,7 +55,7 @@ function FooterCredits({}: Props) {
             className=" object-cover  h-16 w-auto  cursor-pointer "
             src="/logo.png"
           />
-        </Link>
+        </Link> */}
       </div>
       <div className="flex justify-center items-center my-8 sm:my-0 gap-1 flex-col w-full xl:w-auto lg:mx-10 lg:min-w-[300px] ">
         <p className="text-center">Ricardo Linhares</p>
